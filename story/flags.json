@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "flags": {
+    "meds_choice": {
+      "type": "enum",
+      "values": [
+        "anna_fee_lost",
+        "half_dose",
+        "loan_5_6"
+      ],
+      "default": null
+    },
+    "ramil_offer": {
+      "type": "enum",
+      "values": [
+        "took",
+        "declined",
+        "peeked_took",
+        "peeked_declined"
+      ],
+      "default": null
+    },
+    "saw_envelope": {
+      "type": "bool",
+      "default": false
+    },
+    "caca_phone": {
+      "type": "enum",
+      "values": [
+        "confronted",
+        "calm",
+        "ignored"
+      ],
+      "default": null
+    },
+    "mk_met": {
+      "type": "bool",
+      "default": false
+    },
+    "m_tulay": {
+      "type": "int",
+      "min": 0,
+      "max": 3,
+      "default": 0
+    },
+    "m_debt": {
+      "type": "int",
+      "min": 0,
+      "max": 3,
+      "default": 0
+    },
+    "m_trust": {
+      "type": "int",
+      "min": -3,
+      "max": 3,
+      "default": 0
+    }
+  },
+  "test_fixture_flags": {
+    "test_choice": {
+      "type": "enum",
+      "values": [
+        "a",
+        "b"
+      ],
+      "default": null,
+      "test_only": true
+    }
+  },
+  "derived": {},
+  "migrations": {
+    "flag_renames": {}
+  }
+}

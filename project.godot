@@ -1,34 +1,24 @@
-; Engine configuration file.
-; It's best edited using the editor UI and not directly,
-; since the parameters that go here are not all obvious.
-;
-; Format:
-;   [section] ; section goes between []
-;   param=value ; assign values to parameters
-
+; Godot 4.7 typed GDScript narrative pipeline prototype.
 config_version=5
 
 [application]
-
-config/name="k"
+config/name="KAPOS Narrative Pipeline"
 config/features=PackedStringArray("4.7", "GL Compatibility")
+run/main_scene="res://stages/main.tscn"
 config/icon="res://icon.svg"
 
-[display]
+[autoload]
+StoryDB="*res://scripts/story/story_db.gd"
+StoryState="*res://scripts/story/story_state.gd"
+SaveSystem="*res://scripts/story/save_system.gd"
 
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=720
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 
-[dotnet]
-
-project/assembly_name="k"
-
-[physics]
-
-3d/physics_engine="Jolt Physics"
-
 [rendering]
-
 rendering_device/driver.windows="d3d12"
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"

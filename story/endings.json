@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "story_data_version": 1,
+  "mario": [],
+  "kaloy": [{"id":"K-E","schema_only":true,"when":{"all":[{"eq":["k_dado","fought"]},{"eq":["k_strike","led"]}]},"card_key":"END-K-E"}],
+  "perlita": [],
+  "civic": []
+}

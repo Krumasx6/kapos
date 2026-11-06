@@ -1,0 +1,20 @@
+{
+  "id":"TEST",
+  "test_only":true,
+  "start_node":"TEST-S01",
+  "nodes":[
+    {"id":"TEST-S01","type":"dialogue","stage":"test_stage","portrait":"test_portrait","lines":[{"speaker":"test_speaker","text_key":"TEST-S01-L01"}],"next":"TEST-D1"},
+    {"id":"TEST-D1","type":"decision","prompt_key":"TEST-D1-PROMPT","timer_seconds":10,"default_option":"A","options":[
+      {"id":"A","label_key":"TEST-D1-A","next":"TEST-S02A","effects":[{"set":"test_choice","to":"a"}]},
+      {"id":"B","label_key":"TEST-D1-B","next":"TEST-S02B","effects":[{"set":"test_choice","to":"b"}]},
+      {"id":"C","label_key":"TEST-D1-C","requires":{"flag":"test_choice"},"locked_hint_key":"TEST-D1-C-LOCKED","next":"TEST-S02B","effects":[{"set":"test_choice","to":"b"}]}
+    ]},
+    {"id":"TEST-S02A","type":"dialogue","stage":"test_stage","portrait":"test_portrait","lines":[{"speaker":"test_speaker","text_key":"TEST-S02A-L01"}],"next":"TEST-S03"},
+    {"id":"TEST-S02B","type":"dialogue","stage":"test_stage","portrait":"test_portrait","lines":[{"speaker":"test_speaker","text_key":"TEST-S02B-L01"}],"next":"TEST-S03"},
+    {"id":"TEST-S03","type":"hub","stage":"test_stage","portrait":"test_portrait","variants":[
+      {"when":{"eq":["test_choice","a"]},"lines":[{"speaker":"test_speaker","text_key":"TEST-S03-A"}]},
+      {"when":{"eq":["test_choice","b"]},"lines":[{"speaker":"test_speaker","text_key":"TEST-S03-B"}]}
+    ],"next":"FLOW-TEST"},
+    {"id":"FLOW-TEST","type":"flowchart"}
+  ]
+}

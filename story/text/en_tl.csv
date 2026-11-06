@@ -1,0 +1,154 @@
+﻿key,en_tl
+UI-TEST-SPEAKER,TEST CONTENT
+UI-TEST-ASSET-BG,TEST CONTENT — flat background rectangle
+UI-TEST-ASSET-PORTRAIT,TEST CONTENT — portrait rectangle
+UI-TEST-CONTINUE,TEST CONTENT — Continue
+UI-TEST-NEXT-LINE,TEST CONTENT — Next line
+UI-TEST-DIALOGUE-LINE,%s: %s
+UI-TEST-LOCKED,TEST CONTENT — LOCKED
+UI-TEST-UNTIMED,TEST CONTENT — untimed
+UI-TEST-COUNTDOWN,TEST CONTENT — {prompt} ({seconds})
+UI-TEST-STATUS,TEST CONTENT — %s
+UI-TEST-STATUS-SEEN,seen
+UI-TEST-STATUS-CHOSEN,chosen
+UI-TEST-STATUS-ALTERNATIVE,alternative
+UI-TEST-STATUS-UNEXPLORED,unexplored
+UI-TEST-STATUS-LOCKED,locked
+UI-TEST-FLOWCHART,TEST CONTENT — Decision Flowchart
+UI-TEST-FLOWCHART-LEGEND,TEST CONTENT — Filled: seen | Gold: chosen | Outline: alternative | Grey: unexplored | Dashed: locked
+UI-TEST-REPLAY,TEST CONTENT — Replay chapter
+UI-TEST-RESUME,TEST CONTENT — Return to scene
+UI-TEST-NODE-STATUS,TEST CONTENT — {node} ({status})
+UI-TEST-HUB-FIRST-MATCH,TEST CONTENT — Hub plays its first matching variant.
+UI-TEST-SAVE,TEST CONTENT — Save slot %d
+UI-TEST-LOAD,TEST CONTENT — Load slot %d
+UI-TEST-STAGE,TEST CONTENT — Stage: %s
+UI-TEST-PORTRAIT,TEST CONTENT — Portrait: %s
+TEST-S01-L01,TEST CONTENT — Neutral placeholder dialogue.
+TEST-D1-PROMPT,TEST CONTENT — Choose a placeholder option.
+TEST-D1-A,TEST CONTENT — Option A (timed default)
+TEST-D1-B,TEST CONTENT — Option B
+TEST-D1-C,TEST CONTENT — Option C (gated)
+TEST-D1-C-LOCKED,TEST CONTENT — This option unlocks when test_choice already has a value.
+TEST-S02A-L01,TEST CONTENT — Placeholder scene A.
+TEST-S02B-L01,TEST CONTENT — Placeholder scene B.
+TEST-S03-A,TEST CONTENT — The first matching hub variant is A.
+TEST-S03-B,TEST CONTENT — The first matching hub variant is B.
+C1-TITLE,Biyahe
+C1-S01-L01,The house is one room split by a curtain. Through the back window the gray wall of Dike Section 7 stands two meters from the step. A dark water stain runs down it from top to bottom. A rooster crows two houses away.
+C1-S01-L02,Mario... 'yung gamot ko. Tatlong piraso na lang.
+C1-S01-L03,Alam ko. Ako na ang bahala.
+C1-S01-L04,Palagi mong sinasabi 'yan.
+C1-S01-L05,She smiles. The smile costs her breath.
+C1-S01-L06,"Mario takes down the Milo can from the shelf. Inside: ₱ 2,500 in coins and small bills. Luz's two-week refill costs ₱ 1,900. Anna walks in holding a form."
+C1-S01-L07,"Tay, pirma po. Project Katatagan, ₱ 1,500. Bukas na po ang deadline."
+C1-S01-L08,Tay! Drawing ko 'yung malaking pader! Umiiyak po siya kapag umuulan.
+C1-S01-L09,Umiiyak? Bakit naman?
+C1-S01-L10,Kasi po may butas sa loob.
+C1-S01-L11,Mario laughs and rubs Migo's head. He does not look at the stain on the wall. Cacá's bed behind the curtain is still made. It has not been slept in.
+C1-D1-PROMPT,The Milo can
+C1-D1-A,Buy Luz's full refill with the school money
+C1-D1-B,Pay Anna's fee and buy Luz only a one-week supply. She will take half doses.
+C1-D1-C,"Borrow ₱ 5,000 from Aling Susan's ""five-six"""
+C1-S02A-L01,"Anna looks at the form for a long time. ""Okay lang po, Tay,"" she says, in the voice she learned from him."
+C1-S02A-L02,"Mario, 'wag mo nang ibigay sa akin 'yan. May pasok si Anna."
+C1-S02A-L03,Gamot muna.
+C1-S02B-L01,Anna hugs him.
+C1-S02B-L02,"Luz holds up the small bottle and says, ""Kalahati lang ang iinumin ko. Tipid."""
+C1-S02B-L03,Sigurado ka?
+C1-S02B-L04,Mas matigas pa ako sa pader na 'yan.
+C1-S02B-L05,The camera lingers on the stain.
+C1-S02C-L01,"At Aling Susan's store, a ledger notebook, a ballpen on a string."
+C1-S02C-L02,"Lima, anim. Sa labinlimang araw, anim na libo. Mabait ako, Mario. Si Turing, hindi."
+C1-S02C-L03,Mario signs with a shaking pen.
+C1-S03-L01,"The BiyaheX rider lounge sits beside Bay 1 of the VLW Cargo Hub: plastic chairs, a broken fan, and a TV playing a political ad for Mayor Lacson (""Isidro, Umaabante!""). The app has pushed a notice: base pay drops from ₱ 65 to ₱ 49 per drop, effective today."
+C1-S03-L02,"Forty-nine! Pare, ang preno mo pa, nagko-concert na sa kalsada!"
+C1-S03-L03,(he mimics a screeching sound)
+C1-S03-L04,"Preno ko? Ikaw nga, ang gulong mo, parang pancake."
+C1-S03-L05,"Platinum rider na ako, Kuya Mario!"
+C1-S03-L06,"Platinum ka na, wala ka pa ring pang-gas."
+C1-S03-L07,"Good morning, mga pogi! Libre ang kape. Huwag n'yo lang sabihin kay boss."
+C1-S03-L08,The room laughs. This is the last time in the chapter that it will feel light.
+C1-S04-L01,"A condo guard keeps Mario at the lobby for twenty minutes. A customer cancels after Mario arrives, so he eats the cold lugaw on a curb and gives half to a boy selling sampaguita. The last customer, Tita Lourdes, tips him ₱ 50 and says:"
+C1-S05-L01,The canteen is almost empty. Ramil sits across from Mario and slides his coffee over.
+C1-S05-L02,"Pare, mukhang pagod ka."
+C1-S05-L03,Sino ba'ng hindi?
+C1-S05-L04,"May special delivery ako. Hindi 'to sa app. Sealed box, kukunin sa Bay 4, ihahatid sa Maniquis Hardware. Back door. Tatlong libo isang takbo."
+C1-S05-L05,Tatlong libo? Para sa isang box?
+C1-S05-L06,"Sa app, forty-nine. Sa akin, tatlong libo. Walang tanong, walang problema. Pili ka."
+C1-D2-PROMPT,The special delivery
+C1-D2-A,“Sige.”
+C1-D2-B,"“Hindi, salamat.”"
+C1-D2-C,"""Ano'ng laman?"""
+C1-S06A-L01,"Bay 4 is a corrugated steel dock with a rolling shutter. A young loader, Kaloy, hands over a taped box. No waybill, no barcode."
+C1-S06A-L02,"Pirma po dito, sir."
+C1-S06A-L03,(a blank form)
+C1-S06A-L04,Wala namang pangalan 'to.
+C1-S06A-L05,'Wag n'yo nang basahin.
+C1-S06A-L06,"Behind the office glass, a man in a gray polo watches without moving. This is Dado, though Mario does not know his name."
+C1-S06A-L07,"At Maniquis Hardware, the back door opens before he knocks."
+C1-S06A-L08,"Ikaw na pala ang bagong rider ni Ramil. Mario, tama?"
+C1-S06A-L09,"Mario has never told anyone here his name. Ilagan hands him a sealed envelope. ₱ 3,000. Mario counts it twice at a red light with hands that will not stay still. He buys a small cake for Anna."
+C1-S06B-L01,"Mario finishes with ₱ 640. As he leaves, Tonyo walks out of Bay 4 carrying a taped box, grinning."
+C1-S06B-L02,"Sorry, pare. Sayang ang tatlong libo!"
+C1-S06B-L03,"If saw_envelope is true, Mario watches the box until Tonyo is out of sight."
+C1-S06C-L01,Ramil slides a plain envelope across the table. It is the width of a brick.
+C1-S06C-L02,"Papel. Papel at pasalubong. Hindi ko sasabihin, Mario. Pero fair ako. Pwede kang humindi."
+C1-D2B-PROMPT,After the envelope
+C1-D2B-A,Take it anyway
+C1-D2B-B,Walk away
+C1-S07-L01,Mario gets home at 11:40 PM. Cacá comes in at midnight. A new phone glows in his hand.
+C1-D3-PROMPT,The phone
+C1-D3-A,"""Saan galing 'yan?!"""
+C1-D3-B,Sit down and ask calmly
+C1-D3-C,Pretend not to notice
+C1-S07A-L01,Magnanakaw ka na ba?!
+C1-S07A-L02,"Ikaw, Tay? Palagi kang wala. Wala kang alam sa akin!"
+C1-S07A-L03,The door slams.
+C1-S07A-L04,"At 'yang pera mo, saan galing 'yan?"
+C1-S07B-L01,"Bago 'yan, 'di ba?"
+C1-S07B-L02,Pinahiram ni Jericho.
+C1-S07B-L03,Kung may problema ka...
+C1-S07B-L04,"Wala, Tay. Okay lang ako."
+C1-S07B-L05,Mario hears his own voice and has nothing to say.
+C1-S07C-L01,The phone glows in the dark. Mario turns to the wall. Minsan mas madali ang katahimikan.
+C1-S08-H1-L01,Saan ka galing?
+C1-S08-H1-L02,Nakautang ako kay Aling Susan. Pang-bayad na 'yung overtime.
+C1-S08-H1-L03,He slides the envelope into the Milo can.
+C1-S08-H1-L04,"Luz is angry for one second, then holds his hand. She also heard the can open, and says nothing about it."
+C1-S08-H2-L01,Saan ka galing?
+C1-S08-H2-L02,Overtime.
+C1-S08-H2-L03,He slides the envelope into the Milo can.
+C1-S08-H2-L04,Luz says nothing. She heard the can open.
+C1-S08-H3-L01,Saan ka galing?
+C1-S08-H3-L02,Nakautang ako kay Aling Susan.
+C1-S08-H3-L03,"Luz is angry for one second, then holds his hand."
+C1-S08-H4-L01,Saan ka galing?
+C1-S08-H4-L02,Pagod lang.
+C1-S08-H4-L03,She puts a hand on his back.
+C1-FLOW-HEADING,Decision Flowchart
+UI-C1-CHAR-MARIO,Mario
+UI-C1-CHAR-LUZ,Luz
+UI-C1-CHAR-ANNA,Anna
+UI-C1-CHAR-MIGO,Migo
+UI-C1-CHAR-SUSAN,Aling Susan
+UI-C1-CHAR-TONYO,Tonyo
+UI-C1-CHAR-DINDO,Dindo
+UI-C1-CHAR-RAMIL,Ramil
+UI-C1-CHAR-LOURDES,Tita Lourdes
+UI-C1-CHAR-KALOY,Kaloy
+UI-C1-CHAR-DADO,Dado
+UI-C1-CHAR-ILAGAN,Atty. Dennis Ilagan
+UI-C1-CHAR-CACA,Cacá
+UI-C1-CHAR-NARRATOR,Narration
+UI-C1-PROMPT,TEST CONTENT — Chapter 1 choices
+UI-C1-LOCKED,TEST CONTENT — Locked option
+UI-C1-FLOW,TEST CONTENT — Decision Flowchart
+UI-C1-ASSET-BG,TEST CONTENT — Chapter 1 placeholder background
+C1-D2B-LOCK-HINT,TEST CONTENT — Unlocked by choosing C at C1-D2.
+C1-S04-L02,"Mag-ingat ka, iho. May bagyo raw sa susunod na buwan."
+C1-S07A-L05,Mario cannot answer.
+C1-S03-L07-DIR,walking in with three cups of coffee
+C1-S01-L02-DIR,"from the bed, eyes closed"
+C1-S03-L05-DIR,"DINDO (20, proud)"
+C1-S06A-L05-DIR,glancing at the office window

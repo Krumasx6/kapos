@@ -1,0 +1,519 @@
+{
+  "entry_node": "C1-S01",
+  "nodes": [
+    {
+      "id": "C1-S01",
+      "type": "dialogue",
+      "chapter": "C1",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C1-D1",
+      "type": "decision",
+      "chapter": "C1",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C1-D1/A",
+      "type": "option",
+      "chapter": "C1",
+      "decision_id": "C1-D1",
+      "option_id": "A"
+    },
+    {
+      "id": "C1-D1/B",
+      "type": "option",
+      "chapter": "C1",
+      "decision_id": "C1-D1",
+      "option_id": "B"
+    },
+    {
+      "id": "C1-D1/C",
+      "type": "option",
+      "chapter": "C1",
+      "decision_id": "C1-D1",
+      "option_id": "C"
+    },
+    {
+      "id": "C1-S02A",
+      "type": "dialogue",
+      "chapter": "C1",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C1-S02B",
+      "type": "dialogue",
+      "chapter": "C1",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C1-S02C",
+      "type": "dialogue",
+      "chapter": "C1",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C1-S03",
+      "type": "dialogue",
+      "chapter": "C1",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C1-S04",
+      "type": "dialogue",
+      "chapter": "C1",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C1-S05",
+      "type": "dialogue",
+      "chapter": "C1",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C1-D2",
+      "type": "decision",
+      "chapter": "C1",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C1-D2/A",
+      "type": "option",
+      "chapter": "C1",
+      "decision_id": "C1-D2",
+      "option_id": "A"
+    },
+    {
+      "id": "C1-D2/B",
+      "type": "option",
+      "chapter": "C1",
+      "decision_id": "C1-D2",
+      "option_id": "B"
+    },
+    {
+      "id": "C1-D2/C",
+      "type": "option",
+      "chapter": "C1",
+      "decision_id": "C1-D2",
+      "option_id": "C"
+    },
+    {
+      "id": "C1-S06A",
+      "type": "dialogue",
+      "chapter": "C1",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C1-S06B",
+      "type": "dialogue",
+      "chapter": "C1",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C1-S06C",
+      "type": "dialogue",
+      "chapter": "C1",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C1-D2b",
+      "type": "decision",
+      "chapter": "C1",
+      "flowchart_lock": {
+        "decision_id": "C1-D2",
+        "option_id": "C",
+        "hint_key": "C1-D2B-LOCK-HINT"
+      }
+    },
+    {
+      "id": "C1-D2b/A",
+      "type": "option",
+      "chapter": "C1",
+      "decision_id": "C1-D2b",
+      "option_id": "A"
+    },
+    {
+      "id": "C1-D2b/B",
+      "type": "option",
+      "chapter": "C1",
+      "decision_id": "C1-D2b",
+      "option_id": "B"
+    },
+    {
+      "id": "C1-S07",
+      "type": "dialogue",
+      "chapter": "C1",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C1-D3",
+      "type": "decision",
+      "chapter": "C1",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C1-D3/A",
+      "type": "option",
+      "chapter": "C1",
+      "decision_id": "C1-D3",
+      "option_id": "A"
+    },
+    {
+      "id": "C1-D3/B",
+      "type": "option",
+      "chapter": "C1",
+      "decision_id": "C1-D3",
+      "option_id": "B"
+    },
+    {
+      "id": "C1-D3/C",
+      "type": "option",
+      "chapter": "C1",
+      "decision_id": "C1-D3",
+      "option_id": "C"
+    },
+    {
+      "id": "C1-S07A",
+      "type": "dialogue",
+      "chapter": "C1",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C1-S07B",
+      "type": "dialogue",
+      "chapter": "C1",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C1-S07C",
+      "type": "dialogue",
+      "chapter": "C1",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C1-S08",
+      "type": "hub",
+      "chapter": "C1",
+      "flowchart_lock": null
+    },
+    {
+      "id": "FLOW-C1",
+      "type": "flowchart",
+      "chapter": "C1",
+      "flowchart_lock": null
+    }
+  ],
+  "edges": [
+    {
+      "from": "C1-S01",
+      "to": "C1-D1",
+      "option_id": ""
+    },
+    {
+      "from": "C1-D1",
+      "to": "C1-D1/A",
+      "option_id": "A"
+    },
+    {
+      "from": "C1-D1/A",
+      "to": "C1-S02A",
+      "option_id": ""
+    },
+    {
+      "from": "C1-D1",
+      "to": "C1-D1/B",
+      "option_id": "B"
+    },
+    {
+      "from": "C1-D1/B",
+      "to": "C1-S02B",
+      "option_id": ""
+    },
+    {
+      "from": "C1-D1",
+      "to": "C1-D1/C",
+      "option_id": "C"
+    },
+    {
+      "from": "C1-D1/C",
+      "to": "C1-S02C",
+      "option_id": ""
+    },
+    {
+      "from": "C1-S02A",
+      "to": "C1-S03",
+      "option_id": ""
+    },
+    {
+      "from": "C1-S02B",
+      "to": "C1-S03",
+      "option_id": ""
+    },
+    {
+      "from": "C1-S02C",
+      "to": "C1-S03",
+      "option_id": ""
+    },
+    {
+      "from": "C1-S03",
+      "to": "C1-S04",
+      "option_id": ""
+    },
+    {
+      "from": "C1-S04",
+      "to": "C1-S05",
+      "option_id": ""
+    },
+    {
+      "from": "C1-S05",
+      "to": "C1-D2",
+      "option_id": ""
+    },
+    {
+      "from": "C1-D2",
+      "to": "C1-D2/A",
+      "option_id": "A"
+    },
+    {
+      "from": "C1-D2/A",
+      "to": "C1-S06A",
+      "option_id": ""
+    },
+    {
+      "from": "C1-D2",
+      "to": "C1-D2/B",
+      "option_id": "B"
+    },
+    {
+      "from": "C1-D2/B",
+      "to": "C1-S06B",
+      "option_id": ""
+    },
+    {
+      "from": "C1-D2",
+      "to": "C1-D2/C",
+      "option_id": "C"
+    },
+    {
+      "from": "C1-D2/C",
+      "to": "C1-S06C",
+      "option_id": ""
+    },
+    {
+      "from": "C1-S06A",
+      "to": "C1-S07",
+      "option_id": ""
+    },
+    {
+      "from": "C1-S06B",
+      "to": "C1-S07",
+      "option_id": ""
+    },
+    {
+      "from": "C1-S06C",
+      "to": "C1-D2b",
+      "option_id": ""
+    },
+    {
+      "from": "C1-D2b",
+      "to": "C1-D2b/A",
+      "option_id": "A"
+    },
+    {
+      "from": "C1-D2b/A",
+      "to": "C1-S06A",
+      "option_id": ""
+    },
+    {
+      "from": "C1-D2b",
+      "to": "C1-D2b/B",
+      "option_id": "B"
+    },
+    {
+      "from": "C1-D2b/B",
+      "to": "C1-S06B",
+      "option_id": ""
+    },
+    {
+      "from": "C1-S07",
+      "to": "C1-D3",
+      "option_id": ""
+    },
+    {
+      "from": "C1-D3",
+      "to": "C1-D3/A",
+      "option_id": "A"
+    },
+    {
+      "from": "C1-D3/A",
+      "to": "C1-S07A",
+      "option_id": ""
+    },
+    {
+      "from": "C1-D3",
+      "to": "C1-D3/B",
+      "option_id": "B"
+    },
+    {
+      "from": "C1-D3/B",
+      "to": "C1-S07B",
+      "option_id": ""
+    },
+    {
+      "from": "C1-D3",
+      "to": "C1-D3/C",
+      "option_id": "C"
+    },
+    {
+      "from": "C1-D3/C",
+      "to": "C1-S07C",
+      "option_id": ""
+    },
+    {
+      "from": "C1-S07A",
+      "to": "C1-S08",
+      "option_id": ""
+    },
+    {
+      "from": "C1-S07B",
+      "to": "C1-S08",
+      "option_id": ""
+    },
+    {
+      "from": "C1-S07C",
+      "to": "C1-S08",
+      "option_id": ""
+    },
+    {
+      "from": "C1-S08",
+      "to": "FLOW-C1",
+      "option_id": ""
+    }
+  ],
+  "positions": {
+    "C1-S01": [
+      80,
+      130
+    ],
+    "C1-D1": [
+      80,
+      240
+    ],
+    "C1-D1/A": [
+      420,
+      240
+    ],
+    "C1-D1/B": [
+      420,
+      302
+    ],
+    "C1-D1/C": [
+      420,
+      364
+    ],
+    "C1-S02A": [
+      80,
+      350
+    ],
+    "C1-S02B": [
+      80,
+      460
+    ],
+    "C1-S02C": [
+      80,
+      570
+    ],
+    "C1-S03": [
+      80,
+      680
+    ],
+    "C1-S04": [
+      80,
+      790
+    ],
+    "C1-S05": [
+      80,
+      900
+    ],
+    "C1-D2": [
+      80,
+      1010
+    ],
+    "C1-D2/A": [
+      420,
+      1010
+    ],
+    "C1-D2/B": [
+      420,
+      1072
+    ],
+    "C1-D2/C": [
+      420,
+      1134
+    ],
+    "C1-S06A": [
+      80,
+      1120
+    ],
+    "C1-S06B": [
+      80,
+      1230
+    ],
+    "C1-S06C": [
+      80,
+      1340
+    ],
+    "C1-D2b": [
+      80,
+      1450
+    ],
+    "C1-D2b/A": [
+      420,
+      1450
+    ],
+    "C1-D2b/B": [
+      420,
+      1512
+    ],
+    "C1-S07": [
+      80,
+      1560
+    ],
+    "C1-D3": [
+      80,
+      1670
+    ],
+    "C1-D3/A": [
+      420,
+      1670
+    ],
+    "C1-D3/B": [
+      420,
+      1732
+    ],
+    "C1-D3/C": [
+      420,
+      1794
+    ],
+    "C1-S07A": [
+      80,
+      1780
+    ],
+    "C1-S07B": [
+      80,
+      1890
+    ],
+    "C1-S07C": [
+      80,
+      2000
+    ],
+    "C1-S08": [
+      80,
+      2110
+    ],
+    "FLOW-C1": [
+      80,
+      2220
+    ]
+  }
+}

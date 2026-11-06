@@ -1,0 +1,102 @@
+{
+  "characters": {
+    "mario": {
+      "name_key": "UI-C1-CHAR-MARIO",
+      "portrait_id": "c1_mario_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "luz": {
+      "name_key": "UI-C1-CHAR-LUZ",
+      "portrait_id": "c1_luz_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "anna": {
+      "name_key": "UI-C1-CHAR-ANNA",
+      "portrait_id": "c1_anna_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "migo": {
+      "name_key": "UI-C1-CHAR-MIGO",
+      "portrait_id": "c1_migo_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "alingsusan": {
+      "name_key": "UI-C1-CHAR-SUSAN",
+      "portrait_id": "c1_alingsusan_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "tonyo": {
+      "name_key": "UI-C1-CHAR-TONYO",
+      "portrait_id": "c1_tonyo_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "dindo": {
+      "name_key": "UI-C1-CHAR-DINDO",
+      "portrait_id": "c1_dindo_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "ramil": {
+      "name_key": "UI-C1-CHAR-RAMIL",
+      "portrait_id": "c1_ramil_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "titalourdes": {
+      "name_key": "UI-C1-CHAR-LOURDES",
+      "portrait_id": "c1_titalourdes_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "kaloy": {
+      "name_key": "UI-C1-CHAR-KALOY",
+      "portrait_id": "c1_kaloy_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "dado": {
+      "name_key": "UI-C1-CHAR-DADO",
+      "portrait_id": "c1_dado_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "ilagan": {
+      "name_key": "UI-C1-CHAR-ILAGAN",
+      "portrait_id": "c1_ilagan_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "caca": {
+      "name_key": "UI-C1-CHAR-CACA",
+      "portrait_id": "c1_caca_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "narrator": {
+      "name_key": "UI-C1-CHAR-NARRATOR",
+      "portrait_id": "c1_narrator_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    }
+  }
+}
