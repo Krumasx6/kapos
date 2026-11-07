@@ -85,7 +85,7 @@ func serialize() -> Dictionary:
 
 func restore(data: Dictionary) -> bool:
 	var target_node := str(data.get("node", StoryDB.graph.get("entry_node", "")))
-	if not StoryDB.nodes.has(target_node):
+	if not StoryDB.ensure_node_loaded(target_node):
 		push_error("StoryState: save points to unknown node '%s'" % target_node)
 		return false
 	var restored_flags: Dictionary = {}

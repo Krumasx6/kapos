@@ -17,12 +17,318 @@
       "label_key": "UI-C1-ASSET-BG",
       "placeholder_color": "#3A4249",
       "path": null
+    },
+    "dumalagan_home_dawn_bg": {
+      "kind": "background",
+      "label_key": "UI-C2-ASSET-BG",
+      "placeholder_color": "#584F45",
+      "path": null
+    },
+    "vlw_bodega_row_bg": {
+      "kind": "background",
+      "label_key": "UI-C2-ASSET-BG",
+      "placeholder_color": "#39464A",
+      "path": null
+    },
+    "vlw_payday_bg": {
+      "kind": "background",
+      "label_key": "UI-C2-ASSET-BG",
+      "placeholder_color": "#504B43",
+      "path": null
+    },
+    "bay4_afterhours_bg": {
+      "kind": "background",
+      "label_key": "UI-C2-ASSET-BG",
+      "placeholder_color": "#30393C",
+      "path": null
+    },
+    "bay7_afterhours_bg": {
+      "kind": "background",
+      "label_key": "UI-C2-ASSET-BG",
+      "placeholder_color": "#252D30",
+      "path": null
+    },
+    "river_road_night_bg": {
+      "kind": "background",
+      "label_key": "UI-C2-ASSET-BG",
+      "placeholder_color": "#26323C",
+      "path": null
+    },
+    "c3_flashback_bg": {
+      "kind": "background",
+      "label_key": "UI-C3-ASSET-BG",
+      "placeholder_color": "#070707",
+      "path": null
+    },
+    "salvador_gate_bg": {
+      "kind": "background",
+      "label_key": "UI-C3-ASSET-BG",
+      "placeholder_color": "#605448",
+      "path": null
+    },
+    "salvador_dinner_bg": {
+      "kind": "background",
+      "label_key": "UI-C3-ASSET-BG",
+      "placeholder_color": "#55483D",
+      "path": null
+    },
+    "salvador_night_bg": {
+      "kind": "background",
+      "label_key": "UI-C3-ASSET-BG",
+      "placeholder_color": "#25232D",
+      "path": null
+    },
+    "magsino_house_dawn": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/magsino_house_dawn.png"
+    },
+    "magsino_house_night": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/magsino_house_night.png"
+    },
+    "tambayan": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/tambayan.png"
+    },
+    "cargo_hub_bay4": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/cargo_hub_bay4.png"
+    },
+    "maniquis_back_door": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/maniquis_back_door.png"
+    },
+    "dumalagan_house": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/dumalagan_house.png"
+    },
+    "river_road_night": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/river_road_night.png"
+    },
+    "salvador_gate": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/salvador_gate.png"
+    },
+    "salvador_dining": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/salvador_dining.png"
+    },
+    "siis_gym": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/siis_gym.png"
+    },
+    "dike_steps_night": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/dike_steps_night.png"
+    },
+    "barangay_hall": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/barangay_hall.png"
+    },
+    "sidh_pharmacy": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/sidh_pharmacy.png"
+    },
+    "sidh_ward": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/sidh_ward.png"
+    },
+    "city_hall_corridor": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/city_hall_corridor.png"
+    },
+    "cargo_hub_bay7": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/cargo_hub_bay7.png"
+    },
+    "dado_office": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/dado_office.png"
+    },
+    "tito_boy_garage": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/tito_boy_garage.png"
+    },
+    "tanggol_manggagawa_office": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/tanggol_manggagawa_office.png"
+    },
+    "valdez_drawing_room": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/valdez_drawing_room.png"
+    },
+    "valdez_study_corridor": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/valdez_study_corridor.png"
+    },
+    "tita_baby_house": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/tita_baby_house.png"
+    },
+    "tabing_ilog_flooded": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/tabing_ilog_flooded.png"
+    },
+    "magsino_loft_flooded": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/magsino_loft_flooded.png"
+    },
+    "pumping_station_night": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/pumping_station_night.png"
+    },
+    "creek_overflow": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/creek_overflow.png"
+    },
+    "siis_gym_evacuation": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/siis_gym_evacuation.png"
+    },
+    "collapsed_dike": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/collapsed_dike.png"
+    },
+    "vlw_gate_picket": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/vlw_gate_picket.png"
+    },
+    "city_council_hall": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/city_council_hall.png"
+    },
+    "river_dawn_epilogue": {
+      "kind": "background",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#3A4249",
+      "path": "res://assets/backgrounds/river_dawn_epilogue.png"
+    },
+    "chb_wall_tileset": {
+      "kind": "tileset",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#584F45",
+      "path": "res://assets/props/chb_wall_tileset.png"
+    },
+    "gi_sheet_roof_tileset": {
+      "kind": "tileset",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#584F45",
+      "path": "res://assets/props/gi_sheet_roof_tileset.png"
+    },
+    "plywood_curtain_divider": {
+      "kind": "prop",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#584F45",
+      "path": "res://assets/props/plywood_curtain_divider.png"
+    },
+    "monobloc_chairs_two_colors": {
+      "kind": "prop",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#584F45",
+      "path": "res://assets/props/monobloc_chairs_two_colors.png"
+    },
+    "milo_can_shelf": {
+      "kind": "prop",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#584F45",
+      "path": "res://assets/props/milo_can_shelf.png"
+    },
+    "sari_sari_snack_shelf": {
+      "kind": "prop",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#584F45",
+      "path": "res://assets/props/sari_sari_snack_shelf.png"
+    },
+    "electric_fan": {
+      "kind": "prop",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#584F45",
+      "path": "res://assets/props/electric_fan.png"
+    },
+    "tarpaulin_election_poster": {
+      "kind": "prop",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#584F45",
+      "path": "res://assets/props/tarpaulin_election_poster.png"
+    },
+    "jeepney_side": {
+      "kind": "prop",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#584F45",
+      "path": "res://assets/props/jeepney_side.png"
+    },
+    "motorcycle_side": {
+      "kind": "prop",
+      "label_key": "UI-C1-ASSET-BG",
+      "placeholder_color": "#584F45",
+      "path": "res://assets/props/motorcycle_side.png"
     }
   },
   "lighting": {
     "test_neutral": {
       "color": "#FFFFFF",
-      "alpha": 0.0
+      "alpha": 0
     }
   },
   "stages": {
@@ -33,19 +339,19 @@
       "transition": "cut"
     },
     "magsino_house_dawn": {
-      "background": "c1_test_bg",
+      "background": "magsino_house_dawn",
       "lighting": "test_neutral",
       "placeholder_color": "#3A4249",
       "transition": "cut"
     },
     "susan_store": {
-      "background": "c1_test_bg",
+      "background": "maniquis_back_door",
       "lighting": "test_neutral",
       "placeholder_color": "#4B4338",
       "transition": "cut"
     },
     "rider_lounge": {
-      "background": "c1_test_bg",
+      "background": "tambayan",
       "lighting": "test_neutral",
       "placeholder_color": "#38444B",
       "transition": "cut"
@@ -63,22 +369,280 @@
       "transition": "cut"
     },
     "bay4_delivery": {
-      "background": "c1_test_bg",
+      "background": "cargo_hub_bay4",
       "lighting": "test_neutral",
       "placeholder_color": "#414A50",
       "transition": "cut"
     },
     "bay4_day": {
-      "background": "c1_test_bg",
+      "background": "cargo_hub_bay4",
       "lighting": "test_neutral",
       "placeholder_color": "#454D50",
       "transition": "cut"
     },
     "magsino_house_night": {
-      "background": "c1_test_bg",
+      "background": "magsino_house_night",
       "lighting": "test_neutral",
       "placeholder_color": "#202B38",
       "transition": "fade"
+    },
+    "dumalagan_home_dawn": {
+      "background": "dumalagan_house",
+      "lighting": "test_neutral",
+      "placeholder_color": "#584F45",
+      "transition": "cut"
+    },
+    "vlw_bodega_row": {
+      "background": "vlw_bodega_row_bg",
+      "lighting": "test_neutral",
+      "placeholder_color": "#39464A",
+      "transition": "cut"
+    },
+    "vlw_payday": {
+      "background": "vlw_payday_bg",
+      "lighting": "test_neutral",
+      "placeholder_color": "#504B43",
+      "transition": "cut"
+    },
+    "bay4_afterhours": {
+      "background": "cargo_hub_bay4",
+      "lighting": "test_neutral",
+      "placeholder_color": "#30393C",
+      "transition": "cut"
+    },
+    "bay7_afterhours": {
+      "background": "cargo_hub_bay7",
+      "lighting": "test_neutral",
+      "placeholder_color": "#252D30",
+      "transition": "cut"
+    },
+    "river_road_night": {
+      "background": "river_road_night",
+      "lighting": "test_neutral",
+      "placeholder_color": "#26323C",
+      "transition": "cut"
+    },
+    "c3_flashback": {
+      "background": "c3_flashback_bg",
+      "lighting": "test_neutral",
+      "placeholder_color": "#070707",
+      "transition": "fade"
+    },
+    "salvador_gate": {
+      "background": "salvador_gate",
+      "lighting": "test_neutral",
+      "placeholder_color": "#605448",
+      "transition": "cut"
+    },
+    "salvador_dinner": {
+      "background": "salvador_dining",
+      "lighting": "test_neutral",
+      "placeholder_color": "#55483D",
+      "transition": "cut"
+    },
+    "salvador_night": {
+      "background": "salvador_night_bg",
+      "lighting": "test_neutral",
+      "placeholder_color": "#25232D",
+      "transition": "cut"
+    },
+    "sidh_er": {
+      "background": "test_bg",
+      "lighting": "test_neutral",
+      "placeholder_color": "#526068",
+      "transition": "cut"
+    },
+    "dike_steps_night": {
+      "background": "dike_steps_night",
+      "lighting": "test_neutral",
+      "placeholder_color": "#303A43",
+      "transition": "fade"
+    },
+    "cargo_canteen": {
+      "background": "test_bg",
+      "lighting": "test_neutral",
+      "placeholder_color": "#4D443A",
+      "transition": "cut"
+    },
+    "city_hall_services": {
+      "background": "test_bg",
+      "lighting": "test_neutral",
+      "placeholder_color": "#56524A",
+      "transition": "cut"
+    },
+    "sidh_pharmacy": {
+      "background": "sidh_pharmacy",
+      "lighting": "test_neutral",
+      "placeholder_color": "#53665F",
+      "transition": "cut"
+    },
+    "barangay_hall": {
+      "background": "barangay_hall",
+      "lighting": "test_neutral",
+      "placeholder_color": "#5C5148",
+      "transition": "cut"
+    },
+    "magsino_window_midnight": {
+      "background": "test_bg",
+      "lighting": "test_neutral",
+      "placeholder_color": "#24313C",
+      "transition": "fade"
+    },
+    "dado_office": {
+      "background": "dado_office",
+      "lighting": "test_neutral",
+      "placeholder_color": "#4A4E48",
+      "transition": "cut"
+    },
+    "union_garage": {
+      "background": "tito_boy_garage",
+      "lighting": "test_neutral",
+      "placeholder_color": "#625547",
+      "transition": "cut"
+    },
+    "siis_science_fair": {
+      "background": "siis_gym",
+      "lighting": "test_neutral",
+      "placeholder_color": "#4B6264",
+      "transition": "fade"
+    },
+    "dumalagan_home_night": {
+      "background": "dumalagan_house",
+      "lighting": "test_neutral",
+      "placeholder_color": "#382F2E",
+      "transition": "fade"
+    },
+    "barangay_vaw_desk": {
+      "background": "test_bg",
+      "lighting": "test_neutral",
+      "placeholder_color": "#52666C",
+      "transition": "fade"
+    },
+    "tita_baby_home": {
+      "background": "tita_baby_house",
+      "lighting": "test_neutral",
+      "placeholder_color": "#61534A",
+      "transition": "fade"
+    },
+    "tanggol_manggagawa_office": {
+      "background": "tanggol_manggagawa_office",
+      "lighting": "test_neutral",
+      "placeholder_color": "#4F5E5D",
+      "transition": "cut"
+    },
+    "poblacion_store": {
+      "background": "test_bg",
+      "lighting": "test_neutral",
+      "placeholder_color": "#665648",
+      "transition": "cut"
+    },
+    "salvador_home": {
+      "background": "test_bg",
+      "lighting": "test_neutral",
+      "placeholder_color": "#5A4F45",
+      "transition": "cut"
+    },
+    "madam_fely_office": {
+      "background": "test_bg",
+      "lighting": "test_neutral",
+      "placeholder_color": "#695856",
+      "transition": "cut"
+    },
+    "valdez_drawing_room": {
+      "background": "valdez_drawing_room",
+      "lighting": "test_neutral",
+      "placeholder_color": "#70644F",
+      "transition": "fade"
+    },
+    "barangay_community_kitchen": {
+      "background": "test_bg",
+      "lighting": "test_neutral",
+      "placeholder_color": "#586A59",
+      "transition": "cut"
+    },
+    "salvador_stairs": {
+      "background": "test_bg",
+      "lighting": "test_neutral",
+      "placeholder_color": "#675A4D",
+      "transition": "cut"
+    },
+    "valdez_corridor": {
+      "background": "valdez_study_corridor",
+      "lighting": "test_neutral",
+      "placeholder_color": "#665E51",
+      "transition": "cut"
+    },
+    "salvador_kitchen": {
+      "background": "test_bg",
+      "lighting": "test_neutral",
+      "placeholder_color": "#625748",
+      "transition": "fade"
+    },
+    "sidh_ward": {
+      "background": "sidh_ward",
+      "lighting": "test_neutral",
+      "placeholder_color": "#3A4249",
+      "transition": "cut"
+    },
+    "city_hall_corridor": {
+      "background": "city_hall_corridor",
+      "lighting": "test_neutral",
+      "placeholder_color": "#3A4249",
+      "transition": "cut"
+    },
+    "tabing_ilog_flooded": {
+      "background": "tabing_ilog_flooded",
+      "lighting": "test_neutral",
+      "placeholder_color": "#3A4249",
+      "transition": "cut"
+    },
+    "magsino_loft_flooded": {
+      "background": "magsino_loft_flooded",
+      "lighting": "test_neutral",
+      "placeholder_color": "#3A4249",
+      "transition": "cut"
+    },
+    "pumping_station_night": {
+      "background": "pumping_station_night",
+      "lighting": "test_neutral",
+      "placeholder_color": "#3A4249",
+      "transition": "cut"
+    },
+    "creek_overflow": {
+      "background": "creek_overflow",
+      "lighting": "test_neutral",
+      "placeholder_color": "#3A4249",
+      "transition": "cut"
+    },
+    "siis_gym_evacuation": {
+      "background": "siis_gym_evacuation",
+      "lighting": "test_neutral",
+      "placeholder_color": "#3A4249",
+      "transition": "cut"
+    },
+    "collapsed_dike": {
+      "background": "collapsed_dike",
+      "lighting": "test_neutral",
+      "placeholder_color": "#3A4249",
+      "transition": "cut"
+    },
+    "vlw_gate_picket": {
+      "background": "vlw_gate_picket",
+      "lighting": "test_neutral",
+      "placeholder_color": "#3A4249",
+      "transition": "cut"
+    },
+    "city_council_hall": {
+      "background": "city_council_hall",
+      "lighting": "test_neutral",
+      "placeholder_color": "#3A4249",
+      "transition": "cut"
+    },
+    "river_dawn_epilogue": {
+      "background": "river_dawn_epilogue",
+      "lighting": "test_neutral",
+      "placeholder_color": "#3A4249",
+      "transition": "cut"
     }
   },
   "portraits": {
@@ -141,6 +705,146 @@
     "c1_narrator_portrait": {
       "asset_id": "test_portrait",
       "placeholder_color": "#736251"
+    },
+    "jomar_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#62564A"
+    },
+    "berto_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#645851"
+    },
+    "aling_nena_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#665A58"
+    },
+    "tito_boy_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#685C5F"
+    },
+    "dado_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#6A5E66"
+    },
+    "mang_cesar_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#6C606D"
+    },
+    "madam_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#6E6274"
+    },
+    "child_voice_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#70647B"
+    },
+    "owwa_officer_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#726682"
+    },
+    "aling_pacing_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#746889"
+    },
+    "jessa_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#766A90"
+    },
+    "bea_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#786C97"
+    },
+    "aiza_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#7A6E9E"
+    },
+    "dandan_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#7C70A5"
+    },
+    "cherry_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#7E72AC"
+    },
+    "rhea_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#8074B3"
+    },
+    "jun_jun_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#8276BA"
+    },
+    "paolo_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#8478C1"
+    },
+    "ate_nelia_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#867AC8"
+    },
+    "c2_dindo_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#74614F"
+    },
+    "perlita_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#7A6251"
+    },
+    "dr_lorna_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#72636A"
+    },
+    "dodong_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#65594D"
+    },
+    "jun_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#725A45"
+    },
+    "pharmacist_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#786C58"
+    },
+    "mrs_reyes_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#765F67"
+    },
+    "kap_lando_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#4E685D"
+    },
+    "officer_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#5E7080"
+    },
+    "tita_baby_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#8A6E75"
+    },
+    "benj_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#6A7580"
+    },
+    "ruben_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#796C5E"
+    },
+    "dona_cora_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#8A7C65"
+    },
+    "alma_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#667769"
+    },
+    "kap_rosing_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#65765E"
+    },
+    "lola_tindeng_portrait": {
+      "asset_id": "test_portrait",
+      "placeholder_color": "#82705C"
     }
   }
 }

@@ -32,36 +32,84 @@ func load_all() -> bool:
 	graph = _read_json(GRAPH_PATH)
 	story_index = _read_json("res://story/index.json")
 	_text_table.clear()
-	var csv := FileAccess.open("res://story/text/en_tl.csv", FileAccess.READ)
-	if csv != null:
-		csv.get_csv_line()
-		while not csv.eof_reached():
-			var row: PackedStringArray = csv.get_csv_line()
-			if row.size() >= 2 and not row[0].is_empty():
-				_text_table[row[0]] = row[1]
+	_load_text_for_chapter("")
 	flag_definitions = flags_data.get("flags", {}).duplicate(true)
 	flag_definitions.merge(flags_data.get("test_fixture_flags", {}), true)
 	derived_definitions = flags_data.get("derived", {})
 	nodes.clear()
 	node_chapters.clear()
 	chapters.clear()
-	for relative_path: String in story_index.get("chapter_files", []):
-		var chapter: Dictionary = _read_json("res://story/" + relative_path)
-		var chapter_id := str(chapter.get("id", ""))
-		if chapter_id.is_empty() or chapters.has(chapter_id):
-			_error("Chapter file %s has an empty or duplicate id" % relative_path)
-			continue
-		chapters[chapter_id] = chapter
-		for raw_node: Variant in chapter.get("nodes", []):
-			var node: Dictionary = raw_node
-			var node_id := str(node.get("id", ""))
-			if node_id.is_empty() or nodes.has(node_id):
-				_error("Node id '%s' is empty or duplicated" % node_id)
-			else:
-				nodes[node_id] = node
-				node_chapters[node_id] = chapter_id
+	var entry_chapter := str(story_index.get("entry_node", "")).get_slice("-", 0)
+	if not _load_chapter(entry_chapter):
+		return false
 	_validate_loaded_data()
 	return load_errors.is_empty()
+
+func ensure_node_loaded(node_id: String) -> bool:
+	if nodes.has(node_id):
+		return true
+	var chapter_id := node_id.get_slice("-", 0)
+	if not _load_chapter(chapter_id):
+		return false
+	_validate_loaded_data()
+	return nodes.has(node_id)
+
+func _load_chapter(chapter_id: String) -> bool:
+	if chapters.has(chapter_id):
+		return true
+	var chapter_map: Dictionary = story_index.get("chapter_map", {})
+	var requested_path := str(chapter_map.get(chapter_id, ""))
+	if requested_path.is_empty():
+		_error("No chapter file is mapped for '%s'" % chapter_id)
+		return false
+	var found := false
+	for relative_path: String in story_index.get("chapter_files", []):
+		var mapped_id := ""
+		for id: String in chapter_map:
+			if chapter_map[id] == relative_path:
+				mapped_id = id
+				break
+		if mapped_id.is_empty():
+			_error("Chapter file %s has no chapter_map entry" % relative_path)
+			return false
+		if not chapters.has(mapped_id) and not _load_single_chapter(mapped_id, relative_path):
+			return false
+		_load_text_for_chapter(mapped_id)
+		if relative_path == requested_path:
+			found = true
+			break
+	return found
+
+func _load_single_chapter(chapter_id: String, relative_path: String) -> bool:
+	var chapter := _read_json("res://story/" + relative_path)
+	if str(chapter.get("id", "")) != chapter_id:
+		_error("Chapter file %s does not declare id '%s'" % [relative_path, chapter_id])
+		return false
+	chapters[chapter_id] = chapter
+	for raw_node: Variant in chapter.get("nodes", []):
+		var node: Dictionary = raw_node
+		var node_id := str(node.get("id", ""))
+		if node_id.is_empty() or nodes.has(node_id):
+			_error("Node id '%s' is empty or duplicated" % node_id)
+		else:
+			nodes[node_id] = node
+			node_chapters[node_id] = chapter_id
+	return true
+
+func _load_text_for_chapter(chapter_id: String) -> void:
+	var csv := FileAccess.open("res://story/text/en_tl.csv", FileAccess.READ)
+	if csv == null:
+		_error("Missing res://story/text/en_tl.csv")
+		return
+	csv.get_csv_line()
+	while not csv.eof_reached():
+		var row: PackedStringArray = csv.get_csv_line()
+		if row.size() < 2 or row[0].is_empty():
+			continue
+		if chapter_id.is_empty() and row[0].begins_with("UI-"):
+			_text_table[row[0]] = row[1]
+		elif not chapter_id.is_empty() and row[0].begins_with(chapter_id + "-"):
+			_text_table[row[0]] = row[1]
 
 func text(key: String) -> String:
 	return str(_text_table.get(key, "[MISSING TEXT KEY: %s]" % key))
@@ -108,12 +156,18 @@ func _validate_loaded_data() -> void:
 			_error("Node %s references unknown portrait ID '%s'" % [node_id, node.portrait])
 		if node.has("next") and not _is_valid_target(str(node.next)):
 			_error("Node %s points to missing node '%s'" % [node_id, node.next])
+		for branch: Dictionary in node.get("next_if", []):
+			if not _valid_condition(branch.get("when", {})): _error("Node %s has an invalid next_if condition" % node_id)
+			_validate_references(branch.get("when", {}), node_id)
+			if branch.has("next") and not _is_valid_target(str(branch.next)): _error("Node %s has a missing conditional target" % node_id)
+			_validate_effects(branch.get("effects", []), "%s next_if" % node_id)
 		for line: Dictionary in node.get("lines", []):
 			if not _text_table.has(str(line.get("text_key", ""))): _error("Node %s uses a missing line text key" % node_id)
 			if not characters.get("characters", {}).has(str(line.get("speaker", ""))): _error("Node %s references an unknown speaker" % node_id)
 		for variant: Dictionary in node.get("variants", []):
 			if not _valid_condition(variant.get("when", {})): _error("Hub %s has an invalid condition" % node_id)
 			_validate_references(variant.get("when", {}), node_id)
+			_validate_effects(variant.get("effects", []), "%s variant" % node_id)
 			for line: Dictionary in variant.get("lines", []):
 				if not _text_table.has(str(line.get("text_key", ""))): _error("Hub %s uses a missing line text key" % node_id)
 				if not characters.get("characters", {}).has(str(line.get("speaker", ""))): _error("Hub %s references an unknown speaker" % node_id)
@@ -240,7 +294,12 @@ func _validate_effects(effects: Array, context: String) -> void:
 		elif operation == "add" and not (effect.get("by") is int or effect.get("by") is float):
 			_error("Add effect in %s requires a numeric 'by' value" % context)
 func _is_valid_target(target: String) -> bool:
-	return nodes.has(target)
+	if nodes.has(target):
+		return true
+	for graph_node: Dictionary in graph.get("nodes", []):
+		if graph_node.get("id") == target and graph_node.get("type") != "option":
+			return true
+	return false
 
 func _read_json(path: String) -> Dictionary:
 	if not FileAccess.file_exists(path):

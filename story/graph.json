@@ -5,120 +5,169 @@
       "id": "C1-S01",
       "type": "dialogue",
       "chapter": "C1",
+      "protagonist": "mario",
       "flowchart_lock": null
     },
     {
       "id": "C1-D1",
       "type": "decision",
       "chapter": "C1",
+      "protagonist": "mario",
       "flowchart_lock": null
     },
     {
       "id": "C1-D1/A",
       "type": "option",
       "chapter": "C1",
+      "protagonist": "mario",
       "decision_id": "C1-D1",
-      "option_id": "A"
+      "option_id": "A",
+      "label_key": "C1-D1-A",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
     },
     {
       "id": "C1-D1/B",
       "type": "option",
       "chapter": "C1",
+      "protagonist": "mario",
       "decision_id": "C1-D1",
-      "option_id": "B"
+      "option_id": "B",
+      "label_key": "C1-D1-B",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
     },
     {
       "id": "C1-D1/C",
       "type": "option",
       "chapter": "C1",
+      "protagonist": "mario",
       "decision_id": "C1-D1",
-      "option_id": "C"
+      "option_id": "C",
+      "label_key": "C1-D1-C",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
     },
     {
       "id": "C1-S02A",
       "type": "dialogue",
       "chapter": "C1",
+      "protagonist": "mario",
       "flowchart_lock": null
     },
     {
       "id": "C1-S02B",
       "type": "dialogue",
       "chapter": "C1",
+      "protagonist": "mario",
       "flowchart_lock": null
     },
     {
       "id": "C1-S02C",
       "type": "dialogue",
       "chapter": "C1",
+      "protagonist": "mario",
       "flowchart_lock": null
     },
     {
       "id": "C1-S03",
       "type": "dialogue",
       "chapter": "C1",
+      "protagonist": "mario",
       "flowchart_lock": null
     },
     {
       "id": "C1-S04",
       "type": "dialogue",
       "chapter": "C1",
+      "protagonist": "mario",
       "flowchart_lock": null
     },
     {
       "id": "C1-S05",
       "type": "dialogue",
       "chapter": "C1",
+      "protagonist": "mario",
       "flowchart_lock": null
     },
     {
       "id": "C1-D2",
       "type": "decision",
       "chapter": "C1",
+      "protagonist": "mario",
       "flowchart_lock": null
     },
     {
       "id": "C1-D2/A",
       "type": "option",
       "chapter": "C1",
+      "protagonist": "mario",
       "decision_id": "C1-D2",
-      "option_id": "A"
+      "option_id": "A",
+      "label_key": "C1-D2-A",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
     },
     {
       "id": "C1-D2/B",
       "type": "option",
       "chapter": "C1",
+      "protagonist": "mario",
       "decision_id": "C1-D2",
-      "option_id": "B"
+      "option_id": "B",
+      "label_key": "C1-D2-B",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
     },
     {
       "id": "C1-D2/C",
       "type": "option",
       "chapter": "C1",
+      "protagonist": "mario",
       "decision_id": "C1-D2",
-      "option_id": "C"
+      "option_id": "C",
+      "label_key": "C1-D2-C",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
     },
     {
       "id": "C1-S06A",
       "type": "dialogue",
       "chapter": "C1",
+      "protagonist": "mario",
       "flowchart_lock": null
     },
     {
       "id": "C1-S06B",
       "type": "dialogue",
       "chapter": "C1",
+      "protagonist": "mario",
       "flowchart_lock": null
     },
     {
       "id": "C1-S06C",
       "type": "dialogue",
       "chapter": "C1",
+      "protagonist": "mario",
       "flowchart_lock": null
     },
     {
       "id": "C1-D2b",
       "type": "decision",
       "chapter": "C1",
+      "protagonist": "mario",
       "flowchart_lock": {
         "decision_id": "C1-D2",
         "option_id": "C",
@@ -129,77 +178,1382 @@
       "id": "C1-D2b/A",
       "type": "option",
       "chapter": "C1",
+      "protagonist": "mario",
       "decision_id": "C1-D2b",
-      "option_id": "A"
+      "option_id": "A",
+      "label_key": "C1-D2B-A",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
     },
     {
       "id": "C1-D2b/B",
       "type": "option",
       "chapter": "C1",
+      "protagonist": "mario",
       "decision_id": "C1-D2b",
-      "option_id": "B"
+      "option_id": "B",
+      "label_key": "C1-D2B-B",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
     },
     {
       "id": "C1-S07",
       "type": "dialogue",
       "chapter": "C1",
+      "protagonist": "mario",
       "flowchart_lock": null
     },
     {
       "id": "C1-D3",
       "type": "decision",
       "chapter": "C1",
+      "protagonist": "mario",
       "flowchart_lock": null
     },
     {
       "id": "C1-D3/A",
       "type": "option",
       "chapter": "C1",
+      "protagonist": "mario",
       "decision_id": "C1-D3",
-      "option_id": "A"
+      "option_id": "A",
+      "label_key": "C1-D3-A",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
     },
     {
       "id": "C1-D3/B",
       "type": "option",
       "chapter": "C1",
+      "protagonist": "mario",
       "decision_id": "C1-D3",
-      "option_id": "B"
+      "option_id": "B",
+      "label_key": "C1-D3-B",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
     },
     {
       "id": "C1-D3/C",
       "type": "option",
       "chapter": "C1",
+      "protagonist": "mario",
       "decision_id": "C1-D3",
-      "option_id": "C"
+      "option_id": "C",
+      "label_key": "C1-D3-C",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
     },
     {
       "id": "C1-S07A",
       "type": "dialogue",
       "chapter": "C1",
+      "protagonist": "mario",
       "flowchart_lock": null
     },
     {
       "id": "C1-S07B",
       "type": "dialogue",
       "chapter": "C1",
+      "protagonist": "mario",
       "flowchart_lock": null
     },
     {
       "id": "C1-S07C",
       "type": "dialogue",
       "chapter": "C1",
+      "protagonist": "mario",
       "flowchart_lock": null
     },
     {
       "id": "C1-S08",
       "type": "hub",
       "chapter": "C1",
+      "protagonist": "mario",
       "flowchart_lock": null
     },
     {
       "id": "FLOW-C1",
       "type": "flowchart",
       "chapter": "C1",
+      "protagonist": "mario",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C2-S01",
+      "type": "dialogue",
+      "chapter": "C2",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C2-D1",
+      "type": "decision",
+      "chapter": "C2",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C2-D1/A",
+      "type": "option",
+      "chapter": "C2",
+      "protagonist": "kaloy",
+      "decision_id": "C2-D1",
+      "option_id": "A",
+      "label_key": "C2-D1-A",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C2-D1/B",
+      "type": "option",
+      "chapter": "C2",
+      "protagonist": "kaloy",
+      "decision_id": "C2-D1",
+      "option_id": "B",
+      "label_key": "C2-D1-B",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C2-D1/C",
+      "type": "option",
+      "chapter": "C2",
+      "protagonist": "kaloy",
+      "decision_id": "C2-D1",
+      "option_id": "C",
+      "label_key": "C2-D1-C",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C2-S02A",
+      "type": "dialogue",
+      "chapter": "C2",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C2-S02B",
+      "type": "dialogue",
+      "chapter": "C2",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C2-S02C",
+      "type": "dialogue",
+      "chapter": "C2",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C2-S03",
+      "type": "dialogue",
+      "chapter": "C2",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C2-S04",
+      "type": "dialogue",
+      "chapter": "C2",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C2-D2",
+      "type": "decision",
+      "chapter": "C2",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C2-D2/A",
+      "type": "option",
+      "chapter": "C2",
+      "protagonist": "kaloy",
+      "decision_id": "C2-D2",
+      "option_id": "A",
+      "label_key": "C2-D2-A",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C2-D2/B",
+      "type": "option",
+      "chapter": "C2",
+      "protagonist": "kaloy",
+      "decision_id": "C2-D2",
+      "option_id": "B",
+      "label_key": "C2-D2-B",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C2-D2/C",
+      "type": "option",
+      "chapter": "C2",
+      "protagonist": "kaloy",
+      "decision_id": "C2-D2",
+      "option_id": "C",
+      "label_key": "C2-D2-C",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C2-S05A",
+      "type": "dialogue",
+      "chapter": "C2",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C2-S05B",
+      "type": "dialogue",
+      "chapter": "C2",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C2-S05C",
+      "type": "dialogue",
+      "chapter": "C2",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C2-S06",
+      "type": "dialogue",
+      "chapter": "C2",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C2-D3",
+      "type": "decision",
+      "chapter": "C2",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C2-D3/A",
+      "type": "option",
+      "chapter": "C2",
+      "protagonist": "kaloy",
+      "decision_id": "C2-D3",
+      "option_id": "A",
+      "label_key": "C2-D3-A",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C2-D3/B",
+      "type": "option",
+      "chapter": "C2",
+      "protagonist": "kaloy",
+      "decision_id": "C2-D3",
+      "option_id": "B",
+      "label_key": "C2-D3-B",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C2-D3/C",
+      "type": "option",
+      "chapter": "C2",
+      "protagonist": "kaloy",
+      "decision_id": "C2-D3",
+      "option_id": "C",
+      "label_key": "C2-D3-C",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C2-S06A",
+      "type": "dialogue",
+      "chapter": "C2",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C2-S06B",
+      "type": "dialogue",
+      "chapter": "C2",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C2-S06C",
+      "type": "dialogue",
+      "chapter": "C2",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C2-S07",
+      "type": "hub",
+      "chapter": "C2",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "FLOW-C2",
+      "type": "flowchart",
+      "chapter": "C2",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C3-S01",
+      "type": "cutscene",
+      "chapter": "C3",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C3-S02",
+      "type": "dialogue",
+      "chapter": "C3",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C3-D1",
+      "type": "decision",
+      "chapter": "C3",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C3-D1/A",
+      "type": "option",
+      "chapter": "C3",
+      "protagonist": "perlita",
+      "decision_id": "C3-D1",
+      "option_id": "A",
+      "label_key": "C3-D1-A",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C3-D1/B",
+      "type": "option",
+      "chapter": "C3",
+      "protagonist": "perlita",
+      "decision_id": "C3-D1",
+      "option_id": "B",
+      "label_key": "C3-D1-B",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C3-D1/C",
+      "type": "option",
+      "chapter": "C3",
+      "protagonist": "perlita",
+      "decision_id": "C3-D1",
+      "option_id": "C",
+      "label_key": "C3-D1-C",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C3-S03A",
+      "type": "dialogue",
+      "chapter": "C3",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C3-S03B",
+      "type": "dialogue",
+      "chapter": "C3",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C3-S03C",
+      "type": "dialogue",
+      "chapter": "C3",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C3-S04",
+      "type": "dialogue",
+      "chapter": "C3",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C3-D2",
+      "type": "decision",
+      "chapter": "C3",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C3-D2/A",
+      "type": "option",
+      "chapter": "C3",
+      "protagonist": "perlita",
+      "decision_id": "C3-D2",
+      "option_id": "A",
+      "label_key": "C3-D2-A",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C3-D2/B",
+      "type": "option",
+      "chapter": "C3",
+      "protagonist": "perlita",
+      "decision_id": "C3-D2",
+      "option_id": "B",
+      "label_key": "C3-D2-B",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C3-D2/C",
+      "type": "option",
+      "chapter": "C3",
+      "protagonist": "perlita",
+      "decision_id": "C3-D2",
+      "option_id": "C",
+      "label_key": "C3-D2-C",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C3-S05A",
+      "type": "dialogue",
+      "chapter": "C3",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C3-S05B",
+      "type": "dialogue",
+      "chapter": "C3",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C3-S05C",
+      "type": "dialogue",
+      "chapter": "C3",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C3-S06",
+      "type": "dialogue",
+      "chapter": "C3",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C3-D3",
+      "type": "decision",
+      "chapter": "C3",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C3-D3/A",
+      "type": "option",
+      "chapter": "C3",
+      "protagonist": "perlita",
+      "decision_id": "C3-D3",
+      "option_id": "A",
+      "label_key": "C3-D3-A",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C3-D3/B",
+      "type": "option",
+      "chapter": "C3",
+      "protagonist": "perlita",
+      "decision_id": "C3-D3",
+      "option_id": "B",
+      "label_key": "C3-D3-B",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C3-D3/C",
+      "type": "option",
+      "chapter": "C3",
+      "protagonist": "perlita",
+      "decision_id": "C3-D3",
+      "option_id": "C",
+      "label_key": "C3-D3-C",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C3-S06A",
+      "type": "dialogue",
+      "chapter": "C3",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C3-S06B",
+      "type": "dialogue",
+      "chapter": "C3",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C3-S06C",
+      "type": "dialogue",
+      "chapter": "C3",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C3-S07",
+      "type": "hub",
+      "chapter": "C3",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "FLOW-C3",
+      "type": "flowchart",
+      "chapter": "C3",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C4-S01A",
+      "type": "dialogue",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C4-S01B",
+      "type": "dialogue",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C4-S01C",
+      "type": "dialogue",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C4-S02",
+      "type": "dialogue",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C4-D1",
+      "type": "decision",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C4-D1/A",
+      "type": "option",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "decision_id": "C4-D1",
+      "option_id": "A",
+      "label_key": "C4-D1-A",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C4-D1/B",
+      "type": "option",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "decision_id": "C4-D1",
+      "option_id": "B",
+      "label_key": "C4-D1-B",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C4-D1/C",
+      "type": "option",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "decision_id": "C4-D1",
+      "option_id": "C",
+      "label_key": "C4-D1-C",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C4-S03A",
+      "type": "dialogue",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C4-S03B",
+      "type": "dialogue",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C4-S03C",
+      "type": "dialogue",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C4-S04",
+      "type": "dialogue",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C4-D2",
+      "type": "decision",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C4-D2/A",
+      "type": "option",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "decision_id": "C4-D2",
+      "option_id": "A",
+      "label_key": "C4-D2-A",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C4-D2/B",
+      "type": "option",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "decision_id": "C4-D2",
+      "option_id": "B",
+      "label_key": "C4-D2-B",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C4-D2/C",
+      "type": "option",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "decision_id": "C4-D2",
+      "option_id": "C",
+      "label_key": "C4-D2-C",
+      "locked_hint_key": "C4-D2-C-LOCKED",
+      "requires": {
+        "flag": "mk_met"
+      }
+    },
+    {
+      "id": "C4-S04A",
+      "type": "dialogue",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C4-S04B",
+      "type": "dialogue",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C4-S04C",
+      "type": "dialogue",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C4-S05",
+      "type": "dialogue",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C4-D3",
+      "type": "decision",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C4-D3/A",
+      "type": "option",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "decision_id": "C4-D3",
+      "option_id": "A",
+      "label_key": "C4-D3-A",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C4-D3/B",
+      "type": "option",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "decision_id": "C4-D3",
+      "option_id": "B",
+      "label_key": "C4-D3-B",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C4-D3/C",
+      "type": "option",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "decision_id": "C4-D3",
+      "option_id": "C",
+      "label_key": "C4-D3-C",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C4-S05A",
+      "type": "dialogue",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C4-S05B",
+      "type": "dialogue",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C4-S05C",
+      "type": "dialogue",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C4-S06",
+      "type": "hub",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "flowchart_lock": null
+    },
+    {
+      "id": "FLOW-C4",
+      "type": "flowchart",
+      "chapter": "C4",
+      "protagonist": "mario",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C5-S01",
+      "type": "dialogue",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C5-S02",
+      "type": "dialogue",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C5-S03",
+      "type": "dialogue",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C5-D1",
+      "type": "decision",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C5-D1/A",
+      "type": "option",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "decision_id": "C5-D1",
+      "option_id": "A",
+      "label_key": "C5-D1-A",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C5-D1/B",
+      "type": "option",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "decision_id": "C5-D1",
+      "option_id": "B",
+      "label_key": "C5-D1-B",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C5-D1/C",
+      "type": "option",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "decision_id": "C5-D1",
+      "option_id": "C",
+      "label_key": "C5-D1-C",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C5-S04",
+      "type": "dialogue",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C5-D2",
+      "type": "decision",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C5-D2/A",
+      "type": "option",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "decision_id": "C5-D2",
+      "option_id": "A",
+      "label_key": "C5-D2-A",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C5-D2/B",
+      "type": "option",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "decision_id": "C5-D2",
+      "option_id": "B",
+      "label_key": "C5-D2-B",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C5-D2/C",
+      "type": "option",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "decision_id": "C5-D2",
+      "option_id": "C",
+      "label_key": "C5-D2-C",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C5-S05",
+      "type": "dialogue",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C5-D3",
+      "type": "decision",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C5-D3/A",
+      "type": "option",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "decision_id": "C5-D3",
+      "option_id": "A",
+      "label_key": "C5-D3-A",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C5-D3/B",
+      "type": "option",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "decision_id": "C5-D3",
+      "option_id": "B",
+      "label_key": "C5-D3-B",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C5-D3/C",
+      "type": "option",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "decision_id": "C5-D3",
+      "option_id": "C",
+      "label_key": "C5-D3-C",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C5-S06",
+      "type": "dialogue",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C5-D4",
+      "type": "decision",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C5-D4/A",
+      "type": "option",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "decision_id": "C5-D4",
+      "option_id": "A",
+      "label_key": "C5-D4-A",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C5-D4/B",
+      "type": "option",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "decision_id": "C5-D4",
+      "option_id": "B",
+      "label_key": "C5-D4-B",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C5-D4/C",
+      "type": "option",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "decision_id": "C5-D4",
+      "option_id": "C",
+      "label_key": "C5-D4-C",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C5-S06A",
+      "type": "dialogue",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C5-S06B",
+      "type": "dialogue",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C5-S06C",
+      "type": "dialogue",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C5-S07",
+      "type": "dialogue",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C5-S08",
+      "type": "hub",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "FLOW-C5",
+      "type": "flowchart",
+      "chapter": "C5",
+      "protagonist": "kaloy",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C6-S01",
+      "type": "dialogue",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C6-S02",
+      "type": "dialogue",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C6-D1",
+      "type": "decision",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C6-D1/A",
+      "type": "option",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "decision_id": "C6-D1",
+      "option_id": "A",
+      "label_key": "C6-D1-A",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C6-D1/B",
+      "type": "option",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "decision_id": "C6-D1",
+      "option_id": "B",
+      "label_key": "C6-D1-B",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C6-D1/C",
+      "type": "option",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "decision_id": "C6-D1",
+      "option_id": "C",
+      "label_key": "C6-D1-C",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C6-S02A",
+      "type": "dialogue",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C6-S02B",
+      "type": "dialogue",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C6-S02C",
+      "type": "dialogue",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C6-S03",
+      "type": "dialogue",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C6-D2",
+      "type": "decision",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C6-D2/A",
+      "type": "option",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "decision_id": "C6-D2",
+      "option_id": "A",
+      "label_key": "C6-D2-A",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C6-D2/B",
+      "type": "option",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "decision_id": "C6-D2",
+      "option_id": "B",
+      "label_key": "C6-D2-B",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C6-D2/C",
+      "type": "option",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "decision_id": "C6-D2",
+      "option_id": "C",
+      "label_key": "C6-D2-C",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C6-S03A",
+      "type": "dialogue",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C6-S03B",
+      "type": "dialogue",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C6-S03C",
+      "type": "dialogue",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C6-S04",
+      "type": "dialogue",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C6-D3",
+      "type": "decision",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C6-D3/A",
+      "type": "option",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "decision_id": "C6-D3",
+      "option_id": "A",
+      "label_key": "C6-D3-A",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C6-D3/B",
+      "type": "option",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "decision_id": "C6-D3",
+      "option_id": "B",
+      "label_key": "C6-D3-B",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C6-D3/C",
+      "type": "option",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "decision_id": "C6-D3",
+      "option_id": "C",
+      "label_key": "C6-D3-C",
+      "locked_hint_key": "",
+      "requires": {
+        "always": true
+      }
+    },
+    {
+      "id": "C6-S04A",
+      "type": "dialogue",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C6-S04B",
+      "type": "dialogue",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C6-S04C",
+      "type": "dialogue",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C6-S05",
+      "type": "dialogue",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C6-S06",
+      "type": "dialogue",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "C6-S07",
+      "type": "hub",
+      "chapter": "C6",
+      "protagonist": "perlita",
+      "flowchart_lock": null
+    },
+    {
+      "id": "FLOW-C6",
+      "type": "flowchart",
+      "chapter": "C6",
+      "protagonist": "perlita",
       "flowchart_lock": null
     }
   ],
@@ -388,132 +1742,1594 @@
       "from": "C1-S08",
       "to": "FLOW-C1",
       "option_id": ""
+    },
+    {
+      "from": "FLOW-C1",
+      "to": "C2-S01",
+      "option_id": ""
+    },
+    {
+      "from": "C2-S01",
+      "to": "C2-D1",
+      "option_id": ""
+    },
+    {
+      "from": "C2-D1",
+      "to": "C2-D1/A",
+      "option_id": "A"
+    },
+    {
+      "from": "C2-D1/A",
+      "to": "C2-S02A",
+      "option_id": ""
+    },
+    {
+      "from": "C2-D1",
+      "to": "C2-D1/B",
+      "option_id": "B"
+    },
+    {
+      "from": "C2-D1/B",
+      "to": "C2-S02B",
+      "option_id": ""
+    },
+    {
+      "from": "C2-D1",
+      "to": "C2-D1/C",
+      "option_id": "C"
+    },
+    {
+      "from": "C2-D1/C",
+      "to": "C2-S02C",
+      "option_id": ""
+    },
+    {
+      "from": "C2-S02A",
+      "to": "C2-S03",
+      "option_id": ""
+    },
+    {
+      "from": "C2-S02B",
+      "to": "C2-S03",
+      "option_id": ""
+    },
+    {
+      "from": "C2-S02C",
+      "to": "C2-S03",
+      "option_id": ""
+    },
+    {
+      "from": "C2-S03",
+      "to": "C2-S04",
+      "option_id": ""
+    },
+    {
+      "from": "C2-S04",
+      "to": "C2-D2",
+      "option_id": ""
+    },
+    {
+      "from": "C2-D2",
+      "to": "C2-D2/A",
+      "option_id": "A"
+    },
+    {
+      "from": "C2-D2/A",
+      "to": "C2-S05A",
+      "option_id": ""
+    },
+    {
+      "from": "C2-D2",
+      "to": "C2-D2/B",
+      "option_id": "B"
+    },
+    {
+      "from": "C2-D2/B",
+      "to": "C2-S05B",
+      "option_id": ""
+    },
+    {
+      "from": "C2-D2",
+      "to": "C2-D2/C",
+      "option_id": "C"
+    },
+    {
+      "from": "C2-D2/C",
+      "to": "C2-S05C",
+      "option_id": ""
+    },
+    {
+      "from": "C2-S05A",
+      "to": "C2-S06",
+      "option_id": ""
+    },
+    {
+      "from": "C2-S05B",
+      "to": "C2-S06",
+      "option_id": ""
+    },
+    {
+      "from": "C2-S05C",
+      "to": "C2-S06",
+      "option_id": ""
+    },
+    {
+      "from": "C2-S06",
+      "to": "C2-D3",
+      "option_id": ""
+    },
+    {
+      "from": "C2-D3",
+      "to": "C2-D3/A",
+      "option_id": "A"
+    },
+    {
+      "from": "C2-D3/A",
+      "to": "C2-S06A",
+      "option_id": ""
+    },
+    {
+      "from": "C2-D3",
+      "to": "C2-D3/B",
+      "option_id": "B"
+    },
+    {
+      "from": "C2-D3/B",
+      "to": "C2-S06B",
+      "option_id": ""
+    },
+    {
+      "from": "C2-D3",
+      "to": "C2-D3/C",
+      "option_id": "C"
+    },
+    {
+      "from": "C2-D3/C",
+      "to": "C2-S06C",
+      "option_id": ""
+    },
+    {
+      "from": "C2-S06A",
+      "to": "C2-S07",
+      "option_id": ""
+    },
+    {
+      "from": "C2-S06B",
+      "to": "C2-S07",
+      "option_id": ""
+    },
+    {
+      "from": "C2-S06C",
+      "to": "C2-S07",
+      "option_id": ""
+    },
+    {
+      "from": "C2-S07",
+      "to": "FLOW-C2",
+      "option_id": ""
+    },
+    {
+      "from": "FLOW-C2",
+      "to": "C3-S01",
+      "option_id": ""
+    },
+    {
+      "from": "C3-S01",
+      "to": "C3-S02",
+      "option_id": ""
+    },
+    {
+      "from": "C3-S02",
+      "to": "C3-D1",
+      "option_id": ""
+    },
+    {
+      "from": "C3-D1",
+      "to": "C3-D1/A",
+      "option_id": "A"
+    },
+    {
+      "from": "C3-D1/A",
+      "to": "C3-S03A",
+      "option_id": ""
+    },
+    {
+      "from": "C3-D1",
+      "to": "C3-D1/B",
+      "option_id": "B"
+    },
+    {
+      "from": "C3-D1/B",
+      "to": "C3-S03B",
+      "option_id": ""
+    },
+    {
+      "from": "C3-D1",
+      "to": "C3-D1/C",
+      "option_id": "C"
+    },
+    {
+      "from": "C3-D1/C",
+      "to": "C3-S03C",
+      "option_id": ""
+    },
+    {
+      "from": "C3-S03A",
+      "to": "C3-S04",
+      "option_id": ""
+    },
+    {
+      "from": "C3-S03B",
+      "to": "C3-S04",
+      "option_id": ""
+    },
+    {
+      "from": "C3-S03C",
+      "to": "C3-S04",
+      "option_id": ""
+    },
+    {
+      "from": "C3-S04",
+      "to": "C3-D2",
+      "option_id": ""
+    },
+    {
+      "from": "C3-D2",
+      "to": "C3-D2/A",
+      "option_id": "A"
+    },
+    {
+      "from": "C3-D2/A",
+      "to": "C3-S05A",
+      "option_id": ""
+    },
+    {
+      "from": "C3-D2",
+      "to": "C3-D2/B",
+      "option_id": "B"
+    },
+    {
+      "from": "C3-D2/B",
+      "to": "C3-S05B",
+      "option_id": ""
+    },
+    {
+      "from": "C3-D2",
+      "to": "C3-D2/C",
+      "option_id": "C"
+    },
+    {
+      "from": "C3-D2/C",
+      "to": "C3-S05C",
+      "option_id": ""
+    },
+    {
+      "from": "C3-S05A",
+      "to": "C3-S06",
+      "option_id": ""
+    },
+    {
+      "from": "C3-S05B",
+      "to": "C3-S06",
+      "option_id": ""
+    },
+    {
+      "from": "C3-S05C",
+      "to": "C3-S06",
+      "option_id": ""
+    },
+    {
+      "from": "C3-S06",
+      "to": "C3-D3",
+      "option_id": ""
+    },
+    {
+      "from": "C3-D3",
+      "to": "C3-D3/A",
+      "option_id": "A"
+    },
+    {
+      "from": "C3-D3/A",
+      "to": "C3-S06A",
+      "option_id": ""
+    },
+    {
+      "from": "C3-D3",
+      "to": "C3-D3/B",
+      "option_id": "B"
+    },
+    {
+      "from": "C3-D3/B",
+      "to": "C3-S06B",
+      "option_id": ""
+    },
+    {
+      "from": "C3-D3",
+      "to": "C3-D3/C",
+      "option_id": "C"
+    },
+    {
+      "from": "C3-D3/C",
+      "to": "C3-S06C",
+      "option_id": ""
+    },
+    {
+      "from": "C3-S06A",
+      "to": "C3-S07",
+      "option_id": ""
+    },
+    {
+      "from": "C3-S06B",
+      "to": "C3-S07",
+      "option_id": ""
+    },
+    {
+      "from": "C3-S06C",
+      "to": "C3-S07",
+      "option_id": ""
+    },
+    {
+      "from": "C3-S07",
+      "to": "FLOW-C3",
+      "option_id": ""
+    },
+    {
+      "from": "FLOW-C3",
+      "to": "C4-S01A",
+      "option_id": ""
+    },
+    {
+      "from": "C4-S01A",
+      "to": "C4-S02",
+      "option_id": ""
+    },
+    {
+      "from": "C4-S01B",
+      "to": "C4-S02",
+      "option_id": ""
+    },
+    {
+      "from": "C4-S01C",
+      "to": "C4-S02",
+      "option_id": ""
+    },
+    {
+      "from": "C4-S02",
+      "to": "C4-D1",
+      "option_id": ""
+    },
+    {
+      "from": "C4-D1",
+      "to": "C4-D1/A",
+      "option_id": "A"
+    },
+    {
+      "from": "C4-D1/A",
+      "to": "C4-S03A",
+      "option_id": ""
+    },
+    {
+      "from": "C4-D1",
+      "to": "C4-D1/B",
+      "option_id": "B"
+    },
+    {
+      "from": "C4-D1/B",
+      "to": "C4-S03B",
+      "option_id": ""
+    },
+    {
+      "from": "C4-D1",
+      "to": "C4-D1/C",
+      "option_id": "C"
+    },
+    {
+      "from": "C4-D1/C",
+      "to": "C4-S03C",
+      "option_id": ""
+    },
+    {
+      "from": "C4-S03A",
+      "to": "C4-S04",
+      "option_id": ""
+    },
+    {
+      "from": "C4-S03B",
+      "to": "C4-S04",
+      "option_id": ""
+    },
+    {
+      "from": "C4-S03C",
+      "to": "C4-S04",
+      "option_id": ""
+    },
+    {
+      "from": "C4-S04",
+      "to": "C4-D2",
+      "option_id": ""
+    },
+    {
+      "from": "C4-D2",
+      "to": "C4-D2/A",
+      "option_id": "A"
+    },
+    {
+      "from": "C4-D2/A",
+      "to": "C4-S04A",
+      "option_id": ""
+    },
+    {
+      "from": "C4-D2",
+      "to": "C4-D2/B",
+      "option_id": "B"
+    },
+    {
+      "from": "C4-D2/B",
+      "to": "C4-S04B",
+      "option_id": ""
+    },
+    {
+      "from": "C4-D2",
+      "to": "C4-D2/C",
+      "option_id": "C"
+    },
+    {
+      "from": "C4-D2/C",
+      "to": "C4-S04C",
+      "option_id": ""
+    },
+    {
+      "from": "C4-D2/C",
+      "to": "C4-S04C",
+      "option_id": ""
+    },
+    {
+      "from": "C4-S04A",
+      "to": "C4-S05",
+      "option_id": ""
+    },
+    {
+      "from": "C4-S04B",
+      "to": "C4-S05",
+      "option_id": ""
+    },
+    {
+      "from": "C4-S04C",
+      "to": "C4-S05",
+      "option_id": ""
+    },
+    {
+      "from": "C4-S05",
+      "to": "C4-D3",
+      "option_id": ""
+    },
+    {
+      "from": "C4-D3",
+      "to": "C4-D3/A",
+      "option_id": "A"
+    },
+    {
+      "from": "C4-D3/A",
+      "to": "C4-S05A",
+      "option_id": ""
+    },
+    {
+      "from": "C4-D3/A",
+      "to": "C4-S05A",
+      "option_id": ""
+    },
+    {
+      "from": "C4-D3",
+      "to": "C4-D3/B",
+      "option_id": "B"
+    },
+    {
+      "from": "C4-D3/B",
+      "to": "C4-S05B",
+      "option_id": ""
+    },
+    {
+      "from": "C4-D3",
+      "to": "C4-D3/C",
+      "option_id": "C"
+    },
+    {
+      "from": "C4-D3/C",
+      "to": "C4-S05C",
+      "option_id": ""
+    },
+    {
+      "from": "C4-S05A",
+      "to": "C4-S06",
+      "option_id": ""
+    },
+    {
+      "from": "C4-S05B",
+      "to": "C4-S06",
+      "option_id": ""
+    },
+    {
+      "from": "C4-S05C",
+      "to": "C4-S06",
+      "option_id": ""
+    },
+    {
+      "from": "C4-S06",
+      "to": "FLOW-C4",
+      "option_id": ""
+    },
+    {
+      "from": "FLOW-C4",
+      "to": "C5-S01",
+      "option_id": ""
+    },
+    {
+      "from": "C5-S01",
+      "to": "C5-S02",
+      "option_id": ""
+    },
+    {
+      "from": "C5-S02",
+      "to": "C5-S03",
+      "option_id": ""
+    },
+    {
+      "from": "C5-S03",
+      "to": "C5-D1",
+      "option_id": ""
+    },
+    {
+      "from": "C5-D1",
+      "to": "C5-D1/A",
+      "option_id": "A"
+    },
+    {
+      "from": "C5-D1/A",
+      "to": "C5-S04",
+      "option_id": ""
+    },
+    {
+      "from": "C5-D1",
+      "to": "C5-D1/B",
+      "option_id": "B"
+    },
+    {
+      "from": "C5-D1/B",
+      "to": "C5-S04",
+      "option_id": ""
+    },
+    {
+      "from": "C5-D1",
+      "to": "C5-D1/C",
+      "option_id": "C"
+    },
+    {
+      "from": "C5-D1/C",
+      "to": "C5-S04",
+      "option_id": ""
+    },
+    {
+      "from": "C5-S04",
+      "to": "C5-D2",
+      "option_id": ""
+    },
+    {
+      "from": "C5-D2",
+      "to": "C5-D2/A",
+      "option_id": "A"
+    },
+    {
+      "from": "C5-D2/A",
+      "to": "C5-S05",
+      "option_id": ""
+    },
+    {
+      "from": "C5-D2",
+      "to": "C5-D2/B",
+      "option_id": "B"
+    },
+    {
+      "from": "C5-D2/B",
+      "to": "C5-S05",
+      "option_id": ""
+    },
+    {
+      "from": "C5-D2",
+      "to": "C5-D2/C",
+      "option_id": "C"
+    },
+    {
+      "from": "C5-D2/C",
+      "to": "C5-S05",
+      "option_id": ""
+    },
+    {
+      "from": "C5-S05",
+      "to": "C5-D3",
+      "option_id": ""
+    },
+    {
+      "from": "C5-D3",
+      "to": "C5-D3/A",
+      "option_id": "A"
+    },
+    {
+      "from": "C5-D3/A",
+      "to": "C5-S06",
+      "option_id": ""
+    },
+    {
+      "from": "C5-D3",
+      "to": "C5-D3/B",
+      "option_id": "B"
+    },
+    {
+      "from": "C5-D3/B",
+      "to": "C5-S06",
+      "option_id": ""
+    },
+    {
+      "from": "C5-D3",
+      "to": "C5-D3/C",
+      "option_id": "C"
+    },
+    {
+      "from": "C5-D3/C",
+      "to": "C5-S06",
+      "option_id": ""
+    },
+    {
+      "from": "C5-S06",
+      "to": "C5-D4",
+      "option_id": ""
+    },
+    {
+      "from": "C5-D4",
+      "to": "C5-D4/A",
+      "option_id": "A"
+    },
+    {
+      "from": "C5-D4/A",
+      "to": "C5-S06A",
+      "option_id": ""
+    },
+    {
+      "from": "C5-D4",
+      "to": "C5-D4/B",
+      "option_id": "B"
+    },
+    {
+      "from": "C5-D4/B",
+      "to": "C5-S06B",
+      "option_id": ""
+    },
+    {
+      "from": "C5-D4",
+      "to": "C5-D4/C",
+      "option_id": "C"
+    },
+    {
+      "from": "C5-D4/C",
+      "to": "C5-S06C",
+      "option_id": ""
+    },
+    {
+      "from": "C5-S06A",
+      "to": "C5-S07",
+      "option_id": ""
+    },
+    {
+      "from": "C5-S06B",
+      "to": "C5-S07",
+      "option_id": ""
+    },
+    {
+      "from": "C5-S06C",
+      "to": "C5-S07",
+      "option_id": ""
+    },
+    {
+      "from": "C5-S07",
+      "to": "C5-S08",
+      "option_id": ""
+    },
+    {
+      "from": "C5-S08",
+      "to": "FLOW-C5",
+      "option_id": ""
+    },
+    {
+      "from": "FLOW-C5",
+      "to": "C6-S01",
+      "option_id": ""
+    },
+    {
+      "from": "C6-S01",
+      "to": "C6-S02",
+      "option_id": ""
+    },
+    {
+      "from": "C6-S02",
+      "to": "C6-D1",
+      "option_id": ""
+    },
+    {
+      "from": "C6-D1",
+      "to": "C6-D1/A",
+      "option_id": "A"
+    },
+    {
+      "from": "C6-D1/A",
+      "to": "C6-S02A",
+      "option_id": ""
+    },
+    {
+      "from": "C6-D1",
+      "to": "C6-D1/B",
+      "option_id": "B"
+    },
+    {
+      "from": "C6-D1/B",
+      "to": "C6-S02B",
+      "option_id": ""
+    },
+    {
+      "from": "C6-D1",
+      "to": "C6-D1/C",
+      "option_id": "C"
+    },
+    {
+      "from": "C6-D1/C",
+      "to": "C6-S02C",
+      "option_id": ""
+    },
+    {
+      "from": "C6-S02A",
+      "to": "C6-S03",
+      "option_id": ""
+    },
+    {
+      "from": "C6-S02B",
+      "to": "C6-S03",
+      "option_id": ""
+    },
+    {
+      "from": "C6-S02C",
+      "to": "C6-S03",
+      "option_id": ""
+    },
+    {
+      "from": "C6-S03",
+      "to": "C6-D2",
+      "option_id": ""
+    },
+    {
+      "from": "C6-D2",
+      "to": "C6-D2/A",
+      "option_id": "A"
+    },
+    {
+      "from": "C6-D2/A",
+      "to": "C6-S03A",
+      "option_id": ""
+    },
+    {
+      "from": "C6-D2/A",
+      "to": "C6-S03A",
+      "option_id": ""
+    },
+    {
+      "from": "C6-D2",
+      "to": "C6-D2/B",
+      "option_id": "B"
+    },
+    {
+      "from": "C6-D2/B",
+      "to": "C6-S03B",
+      "option_id": ""
+    },
+    {
+      "from": "C6-D2",
+      "to": "C6-D2/C",
+      "option_id": "C"
+    },
+    {
+      "from": "C6-D2/C",
+      "to": "C6-S03C",
+      "option_id": ""
+    },
+    {
+      "from": "C6-S03A",
+      "to": "C6-S04",
+      "option_id": ""
+    },
+    {
+      "from": "C6-S03B",
+      "to": "C6-S04",
+      "option_id": ""
+    },
+    {
+      "from": "C6-S03C",
+      "to": "C6-S04",
+      "option_id": ""
+    },
+    {
+      "from": "C6-S04",
+      "to": "C6-D3",
+      "option_id": ""
+    },
+    {
+      "from": "C6-D3",
+      "to": "C6-D3/A",
+      "option_id": "A"
+    },
+    {
+      "from": "C6-D3/A",
+      "to": "C6-S04A",
+      "option_id": ""
+    },
+    {
+      "from": "C6-D3/A",
+      "to": "C6-S04A",
+      "option_id": ""
+    },
+    {
+      "from": "C6-D3",
+      "to": "C6-D3/B",
+      "option_id": "B"
+    },
+    {
+      "from": "C6-D3/B",
+      "to": "C6-S04B",
+      "option_id": ""
+    },
+    {
+      "from": "C6-D3",
+      "to": "C6-D3/C",
+      "option_id": "C"
+    },
+    {
+      "from": "C6-D3/C",
+      "to": "C6-S04C",
+      "option_id": ""
+    },
+    {
+      "from": "C6-D3/C",
+      "to": "C6-S04C",
+      "option_id": ""
+    },
+    {
+      "from": "C6-S04A",
+      "to": "C6-S05",
+      "option_id": ""
+    },
+    {
+      "from": "C6-S04B",
+      "to": "C6-S05",
+      "option_id": ""
+    },
+    {
+      "from": "C6-S04C",
+      "to": "C6-S05",
+      "option_id": ""
+    },
+    {
+      "from": "C6-S05",
+      "to": "C6-S06",
+      "option_id": ""
+    },
+    {
+      "from": "C6-S06",
+      "to": "C6-S07",
+      "option_id": ""
+    },
+    {
+      "from": "C6-S07",
+      "to": "FLOW-C6",
+      "option_id": ""
     }
   ],
   "positions": {
     "C1-S01": [
-      80,
-      130
+      30,
+      145
     ],
     "C1-D1": [
-      80,
-      240
+      30,
+      280
     ],
     "C1-D1/A": [
-      420,
-      240
+      250,
+      280
     ],
     "C1-D1/B": [
-      420,
-      302
+      250,
+      352
     ],
     "C1-D1/C": [
-      420,
-      364
+      250,
+      424
     ],
     "C1-S02A": [
-      80,
-      350
+      30,
+      415
     ],
     "C1-S02B": [
-      80,
-      460
+      30,
+      550
     ],
     "C1-S02C": [
-      80,
-      570
+      30,
+      685
     ],
     "C1-S03": [
-      80,
-      680
+      30,
+      820
     ],
     "C1-S04": [
-      80,
-      790
+      30,
+      955
     ],
     "C1-S05": [
-      80,
-      900
+      30,
+      1090
     ],
     "C1-D2": [
-      80,
-      1010
+      30,
+      1225
     ],
     "C1-D2/A": [
-      420,
-      1010
+      250,
+      1225
     ],
     "C1-D2/B": [
-      420,
-      1072
+      250,
+      1297
     ],
     "C1-D2/C": [
-      420,
-      1134
+      250,
+      1369
     ],
     "C1-S06A": [
-      80,
-      1120
+      30,
+      1360
     ],
     "C1-S06B": [
-      80,
-      1230
+      30,
+      1495
     ],
     "C1-S06C": [
-      80,
-      1340
+      30,
+      1630
     ],
     "C1-D2b": [
-      80,
-      1450
+      30,
+      1765
     ],
     "C1-D2b/A": [
-      420,
-      1450
+      250,
+      1765
     ],
     "C1-D2b/B": [
-      420,
-      1512
+      250,
+      1837
     ],
     "C1-S07": [
-      80,
-      1560
+      30,
+      1900
     ],
     "C1-D3": [
-      80,
-      1670
+      30,
+      2035
     ],
     "C1-D3/A": [
-      420,
-      1670
+      250,
+      2035
     ],
     "C1-D3/B": [
-      420,
-      1732
+      250,
+      2107
     ],
     "C1-D3/C": [
-      420,
-      1794
+      250,
+      2179
     ],
     "C1-S07A": [
-      80,
-      1780
+      30,
+      2170
     ],
     "C1-S07B": [
-      80,
-      1890
+      30,
+      2305
     ],
     "C1-S07C": [
-      80,
-      2000
+      30,
+      2440
     ],
     "C1-S08": [
-      80,
-      2110
+      30,
+      2575
     ],
     "FLOW-C1": [
-      80,
-      2220
+      30,
+      2710
+    ],
+    "C2-S01": [
+      460,
+      145
+    ],
+    "C2-D1": [
+      460,
+      280
+    ],
+    "C2-D1/A": [
+      680,
+      280
+    ],
+    "C2-D1/B": [
+      680,
+      352
+    ],
+    "C2-D1/C": [
+      680,
+      424
+    ],
+    "C2-S02A": [
+      460,
+      415
+    ],
+    "C2-S02B": [
+      460,
+      550
+    ],
+    "C2-S02C": [
+      460,
+      685
+    ],
+    "C2-S03": [
+      460,
+      820
+    ],
+    "C2-S04": [
+      460,
+      955
+    ],
+    "C2-D2": [
+      460,
+      1090
+    ],
+    "C2-D2/A": [
+      680,
+      1090
+    ],
+    "C2-D2/B": [
+      680,
+      1162
+    ],
+    "C2-D2/C": [
+      680,
+      1234
+    ],
+    "C2-S05A": [
+      460,
+      1225
+    ],
+    "C2-S05B": [
+      460,
+      1360
+    ],
+    "C2-S05C": [
+      460,
+      1495
+    ],
+    "C2-S06": [
+      460,
+      1630
+    ],
+    "C2-D3": [
+      460,
+      1765
+    ],
+    "C2-D3/A": [
+      680,
+      1765
+    ],
+    "C2-D3/B": [
+      680,
+      1837
+    ],
+    "C2-D3/C": [
+      680,
+      1909
+    ],
+    "C2-S06A": [
+      460,
+      1900
+    ],
+    "C2-S06B": [
+      460,
+      2035
+    ],
+    "C2-S06C": [
+      460,
+      2170
+    ],
+    "C2-S07": [
+      460,
+      2305
+    ],
+    "FLOW-C2": [
+      460,
+      2440
+    ],
+    "C3-S01": [
+      890,
+      145
+    ],
+    "C3-S02": [
+      890,
+      280
+    ],
+    "C3-D1": [
+      890,
+      415
+    ],
+    "C3-D1/A": [
+      1110,
+      415
+    ],
+    "C3-D1/B": [
+      1110,
+      487
+    ],
+    "C3-D1/C": [
+      1110,
+      559
+    ],
+    "C3-S03A": [
+      890,
+      550
+    ],
+    "C3-S03B": [
+      890,
+      685
+    ],
+    "C3-S03C": [
+      890,
+      820
+    ],
+    "C3-S04": [
+      890,
+      955
+    ],
+    "C3-D2": [
+      890,
+      1090
+    ],
+    "C3-D2/A": [
+      1110,
+      1090
+    ],
+    "C3-D2/B": [
+      1110,
+      1162
+    ],
+    "C3-D2/C": [
+      1110,
+      1234
+    ],
+    "C3-S05A": [
+      890,
+      1225
+    ],
+    "C3-S05B": [
+      890,
+      1360
+    ],
+    "C3-S05C": [
+      890,
+      1495
+    ],
+    "C3-S06": [
+      890,
+      1630
+    ],
+    "C3-D3": [
+      890,
+      1765
+    ],
+    "C3-D3/A": [
+      1110,
+      1765
+    ],
+    "C3-D3/B": [
+      1110,
+      1837
+    ],
+    "C3-D3/C": [
+      1110,
+      1909
+    ],
+    "C3-S06A": [
+      890,
+      1900
+    ],
+    "C3-S06B": [
+      890,
+      2035
+    ],
+    "C3-S06C": [
+      890,
+      2170
+    ],
+    "C3-S07": [
+      890,
+      2305
+    ],
+    "FLOW-C3": [
+      890,
+      2440
+    ],
+    "C4-S01A": [
+      30,
+      2845
+    ],
+    "C4-S01B": [
+      30,
+      2980
+    ],
+    "C4-S01C": [
+      30,
+      3115
+    ],
+    "C4-S02": [
+      30,
+      3250
+    ],
+    "C4-D1": [
+      30,
+      3385
+    ],
+    "C4-D1/A": [
+      250,
+      3385
+    ],
+    "C4-D1/B": [
+      250,
+      3457
+    ],
+    "C4-D1/C": [
+      250,
+      3529
+    ],
+    "C4-S03A": [
+      30,
+      3520
+    ],
+    "C4-S03B": [
+      30,
+      3655
+    ],
+    "C4-S03C": [
+      30,
+      3790
+    ],
+    "C4-S04": [
+      30,
+      3925
+    ],
+    "C4-D2": [
+      30,
+      4060
+    ],
+    "C4-D2/A": [
+      250,
+      4060
+    ],
+    "C4-D2/B": [
+      250,
+      4132
+    ],
+    "C4-D2/C": [
+      250,
+      4204
+    ],
+    "C4-S04A": [
+      30,
+      4195
+    ],
+    "C4-S04B": [
+      30,
+      4330
+    ],
+    "C4-S04C": [
+      30,
+      4465
+    ],
+    "C4-S05": [
+      30,
+      4600
+    ],
+    "C4-D3": [
+      30,
+      4735
+    ],
+    "C4-D3/A": [
+      250,
+      4735
+    ],
+    "C4-D3/B": [
+      250,
+      4807
+    ],
+    "C4-D3/C": [
+      250,
+      4879
+    ],
+    "C4-S05A": [
+      30,
+      4870
+    ],
+    "C4-S05B": [
+      30,
+      5005
+    ],
+    "C4-S05C": [
+      30,
+      5140
+    ],
+    "C4-S06": [
+      30,
+      5275
+    ],
+    "FLOW-C4": [
+      30,
+      5410
+    ],
+    "C5-S01": [
+      460,
+      2575
+    ],
+    "C5-S02": [
+      460,
+      2710
+    ],
+    "C5-S03": [
+      460,
+      2845
+    ],
+    "C5-D1": [
+      460,
+      2980
+    ],
+    "C5-D1/A": [
+      680,
+      2980
+    ],
+    "C5-D1/B": [
+      680,
+      3052
+    ],
+    "C5-D1/C": [
+      680,
+      3124
+    ],
+    "C5-S04": [
+      460,
+      3115
+    ],
+    "C5-D2": [
+      460,
+      3250
+    ],
+    "C5-D2/A": [
+      680,
+      3250
+    ],
+    "C5-D2/B": [
+      680,
+      3322
+    ],
+    "C5-D2/C": [
+      680,
+      3394
+    ],
+    "C5-S05": [
+      460,
+      3385
+    ],
+    "C5-D3": [
+      460,
+      3520
+    ],
+    "C5-D3/A": [
+      680,
+      3520
+    ],
+    "C5-D3/B": [
+      680,
+      3592
+    ],
+    "C5-D3/C": [
+      680,
+      3664
+    ],
+    "C5-S06": [
+      460,
+      3655
+    ],
+    "C5-D4": [
+      460,
+      3790
+    ],
+    "C5-D4/A": [
+      680,
+      3790
+    ],
+    "C5-D4/B": [
+      680,
+      3862
+    ],
+    "C5-D4/C": [
+      680,
+      3934
+    ],
+    "C5-S06A": [
+      460,
+      3925
+    ],
+    "C5-S06B": [
+      460,
+      4060
+    ],
+    "C5-S06C": [
+      460,
+      4195
+    ],
+    "C5-S07": [
+      460,
+      4330
+    ],
+    "C5-S08": [
+      460,
+      4465
+    ],
+    "FLOW-C5": [
+      460,
+      4600
+    ],
+    "C6-S01": [
+      890,
+      2575
+    ],
+    "C6-S02": [
+      890,
+      2710
+    ],
+    "C6-D1": [
+      890,
+      2845
+    ],
+    "C6-D1/A": [
+      1110,
+      2845
+    ],
+    "C6-D1/B": [
+      1110,
+      2917
+    ],
+    "C6-D1/C": [
+      1110,
+      2989
+    ],
+    "C6-S02A": [
+      890,
+      2980
+    ],
+    "C6-S02B": [
+      890,
+      3115
+    ],
+    "C6-S02C": [
+      890,
+      3250
+    ],
+    "C6-S03": [
+      890,
+      3385
+    ],
+    "C6-D2": [
+      890,
+      3520
+    ],
+    "C6-D2/A": [
+      1110,
+      3520
+    ],
+    "C6-D2/B": [
+      1110,
+      3592
+    ],
+    "C6-D2/C": [
+      1110,
+      3664
+    ],
+    "C6-S03A": [
+      890,
+      3655
+    ],
+    "C6-S03B": [
+      890,
+      3790
+    ],
+    "C6-S03C": [
+      890,
+      3925
+    ],
+    "C6-S04": [
+      890,
+      4060
+    ],
+    "C6-D3": [
+      890,
+      4195
+    ],
+    "C6-D3/A": [
+      1110,
+      4195
+    ],
+    "C6-D3/B": [
+      1110,
+      4267
+    ],
+    "C6-D3/C": [
+      1110,
+      4339
+    ],
+    "C6-S04A": [
+      890,
+      4330
+    ],
+    "C6-S04B": [
+      890,
+      4465
+    ],
+    "C6-S04C": [
+      890,
+      4600
+    ],
+    "C6-S05": [
+      890,
+      4735
+    ],
+    "C6-S06": [
+      890,
+      4870
+    ],
+    "C6-S07": [
+      890,
+      5005
+    ],
+    "FLOW-C6": [
+      890,
+      5140
     ]
-  }
+  },
+  "lanes": [
+    {
+      "id": "mario",
+      "x": 30,
+      "title_key": "UI-LANE-MARIO"
+    },
+    {
+      "id": "kaloy",
+      "x": 460,
+      "title_key": "UI-LANE-KALOY"
+    },
+    {
+      "id": "perlita",
+      "x": 890,
+      "title_key": "UI-LANE-PERLITA"
+    }
+  ]
 }

@@ -1,7 +1,20 @@
 {
   "entry_node": "C1-S01",
   "chapter_files": [
-    "chapters/c01.json"
+    "chapters/c01.json",
+    "chapters/c02.json",
+    "chapters/c03.json",
+    "chapters/c04.json",
+    "chapters/c05.json",
+    "chapters/c06.json"
   ],
-  "story_data_version": 2
+  "story_data_version": 4,
+  "chapter_map": {
+    "C1": "chapters/c01.json",
+    "C2": "chapters/c02.json",
+    "C3": "chapters/c03.json",
+    "C4": "chapters/c04.json",
+    "C5": "chapters/c05.json",
+    "C6": "chapters/c06.json"
+  }
 }

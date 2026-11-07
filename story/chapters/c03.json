@@ -1,0 +1,628 @@
+{
+  "id": "C3",
+  "title_key": "C3-TITLE",
+  "protagonist": "perlita",
+  "start_node": "C3-S01",
+  "nodes": [
+    {
+      "id": "C3-S01",
+      "type": "cutscene",
+      "stage": "c3_flashback",
+      "line_interval": 2.8,
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S01-L01"
+        },
+        {
+          "speaker": "madam",
+          "text_key": "C3-S01-L02"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S01-L03"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S01-L04"
+        },
+        {
+          "speaker": "child_voice",
+          "text_key": "C3-S01-L05"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S01-L06"
+        },
+        {
+          "speaker": "perlita",
+          "text_key": "C3-S01-L07"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S01-L08"
+        },
+        {
+          "speaker": "child_voice",
+          "text_key": "C3-S01-L09"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S01-L10"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S01-L11"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S01-L12"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S01-L13"
+        },
+        {
+          "speaker": "owwa_officer",
+          "text_key": "C3-S01-L14"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S01-L15"
+        }
+      ],
+      "next": "C3-S02",
+      "non_interactive": true
+    },
+    {
+      "id": "C3-S02",
+      "type": "dialogue",
+      "stage": "salvador_gate",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S02-L01"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S02-L02"
+        },
+        {
+          "speaker": "aling_pacing",
+          "text_key": "C3-S02-L03"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S02-L04"
+        },
+        {
+          "speaker": "jessa",
+          "text_key": "C3-S02-L05"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S02-L06"
+        },
+        {
+          "speaker": "bea",
+          "text_key": "C3-S02-L07"
+        }
+      ],
+      "next": "C3-D1"
+    },
+    {
+      "id": "C3-D1",
+      "type": "decision",
+      "prompt_key": "C3-D1-PROMPT",
+      "timer_seconds": 15,
+      "default_option": "C",
+      "options": [
+        {
+          "id": "A",
+          "label_key": "C3-D1-A",
+          "next": "C3-S03A",
+          "effects": [
+            {
+              "set": "p_bea",
+              "to": "insisted"
+            },
+            {
+              "add": "bond_bea",
+              "by": -1
+            },
+            {
+              "add": "bond_jessa",
+              "by": -1
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "label_key": "C3-D1-B",
+          "next": "C3-S03B",
+          "effects": [
+            {
+              "set": "p_bea",
+              "to": "gentle"
+            },
+            {
+              "add": "bond_bea",
+              "by": 1
+            },
+            {
+              "add": "bond_jessa",
+              "by": 1
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "label_key": "C3-D1-C",
+          "next": "C3-S03C",
+          "effects": [
+            {
+              "set": "p_bea",
+              "to": "deferred"
+            },
+            {
+              "add": "bond_jessa",
+              "by": 1
+            }
+          ]
+        }
+      ],
+      "stage": "salvador_gate"
+    },
+    {
+      "id": "C3-S03A",
+      "type": "dialogue",
+      "stage": "salvador_gate",
+      "lines": [
+        {
+          "speaker": "bea",
+          "text_key": "C3-S03A-L01"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S03A-L02"
+        }
+      ],
+      "next": "C3-S04"
+    },
+    {
+      "id": "C3-S03B",
+      "type": "dialogue",
+      "stage": "salvador_gate",
+      "lines": [
+        {
+          "speaker": "bea",
+          "text_key": "C3-S03B-L01"
+        },
+        {
+          "speaker": "perlita",
+          "text_key": "C3-S03B-L02"
+        },
+        {
+          "speaker": "bea",
+          "text_key": "C3-S03B-L03"
+        },
+        {
+          "speaker": "dandan",
+          "text_key": "C3-S03B-L04"
+        },
+        {
+          "speaker": "perlita",
+          "text_key": "C3-S03B-L05"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S03B-L06"
+        }
+      ],
+      "next": "C3-S04"
+    },
+    {
+      "id": "C3-S03C",
+      "type": "dialogue",
+      "stage": "salvador_gate",
+      "lines": [
+        {
+          "speaker": "jessa",
+          "text_key": "C3-S03C-L01"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S03C-L02"
+        },
+        {
+          "speaker": "bea",
+          "text_key": "C3-S03C-L03"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S03C-L04"
+        }
+      ],
+      "next": "C3-S04"
+    },
+    {
+      "id": "C3-S04",
+      "type": "dialogue",
+      "stage": "salvador_dinner",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S04-L01"
+        },
+        {
+          "speaker": "dandan",
+          "text_key": "C3-S04-L02"
+        },
+        {
+          "speaker": "perlita",
+          "text_key": "C3-S04-L03"
+        },
+        {
+          "speaker": "cherry",
+          "text_key": "C3-S04-L04"
+        },
+        {
+          "speaker": "rhea",
+          "text_key": "C3-S04-L05",
+          "stage_direction_key": "C3-S04-L05-DIR"
+        },
+        {
+          "speaker": "cherry",
+          "text_key": "C3-S04-L06"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S04-L07"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S04-L08"
+        },
+        {
+          "speaker": "jessa",
+          "text_key": "C3-S04-L09"
+        }
+      ],
+      "next": "C3-D2"
+    },
+    {
+      "id": "C3-D2",
+      "type": "decision",
+      "prompt_key": "C3-D2-PROMPT",
+      "timer_seconds": 0,
+      "default_option": "A",
+      "options": [
+        {
+          "id": "A",
+          "label_key": "C3-D2-A",
+          "next": "C3-S05A",
+          "effects": [
+            {
+              "set": "p_notebook",
+              "to": "took_over"
+            },
+            {
+              "add": "bond_jessa",
+              "by": -2
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "label_key": "C3-D2-B",
+          "next": "C3-S05B",
+          "effects": [
+            {
+              "set": "p_notebook",
+              "to": "jessa_stays"
+            },
+            {
+              "add": "bond_jessa",
+              "by": 1
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "label_key": "C3-D2-C",
+          "next": "C3-S05C",
+          "effects": [
+            {
+              "set": "p_notebook",
+              "to": "apologized"
+            },
+            {
+              "add": "bond_jessa",
+              "by": 2
+            }
+          ]
+        }
+      ],
+      "stage": "salvador_dinner"
+    },
+    {
+      "id": "C3-S05A",
+      "type": "dialogue",
+      "stage": "salvador_dinner",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S05A-L01"
+        },
+        {
+          "speaker": "jessa",
+          "text_key": "C3-S05A-L02"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S05A-L03"
+        }
+      ],
+      "next": "C3-S06"
+    },
+    {
+      "id": "C3-S05B",
+      "type": "dialogue",
+      "stage": "salvador_dinner",
+      "lines": [
+        {
+          "speaker": "jessa",
+          "text_key": "C3-S05B-L01"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S05B-L02"
+        }
+      ],
+      "next": "C3-S06"
+    },
+    {
+      "id": "C3-S05C",
+      "type": "dialogue",
+      "stage": "salvador_dinner",
+      "lines": [
+        {
+          "speaker": "jessa",
+          "text_key": "C3-S05C-L01"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S05C-L02"
+        }
+      ],
+      "conversation_open_when": {
+        "gte": [
+          "bond_jessa",
+          2
+        ]
+      },
+      "conversation_note_key": "C3-D2-C-OPEN",
+      "next": "C3-S06"
+    },
+    {
+      "id": "C3-S06",
+      "type": "dialogue",
+      "stage": "salvador_night",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S06-L01"
+        },
+        {
+          "speaker": "paolo",
+          "text_key": "C3-S06-L02"
+        },
+        {
+          "speaker": "perlita",
+          "text_key": "C3-S06-L03"
+        },
+        {
+          "speaker": "paolo",
+          "text_key": "C3-S06-L04"
+        }
+      ],
+      "next": "C3-D3"
+    },
+    {
+      "id": "C3-D3",
+      "type": "decision",
+      "prompt_key": "C3-D3-PROMPT",
+      "timer_seconds": 15,
+      "default_option": "B",
+      "options": [
+        {
+          "id": "A",
+          "label_key": "C3-D3-A",
+          "next": "C3-S06A",
+          "effects": [
+            {
+              "set": "p_paolo",
+              "to": "promised"
+            },
+            {
+              "add": "bond_paolo",
+              "by": 1
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "label_key": "C3-D3-B",
+          "next": "C3-S06B",
+          "effects": [
+            {
+              "set": "p_paolo",
+              "to": "honest"
+            },
+            {
+              "add": "bond_paolo",
+              "by": 1
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "label_key": "C3-D3-C",
+          "next": "C3-S06C",
+          "effects": [
+            {
+              "set": "p_paolo",
+              "to": "pulled_rank"
+            },
+            {
+              "add": "bond_paolo",
+              "by": -2
+            }
+          ]
+        }
+      ],
+      "stage": "salvador_night"
+    },
+    {
+      "id": "C3-S06A",
+      "type": "dialogue",
+      "stage": "salvador_night",
+      "lines": [
+        {
+          "speaker": "paolo",
+          "text_key": "C3-S06A-L01"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S06A-L02"
+        },
+        {
+          "speaker": "paolo",
+          "text_key": "C3-S06A-L03"
+        }
+      ],
+      "next": "C3-S07"
+    },
+    {
+      "id": "C3-S06B",
+      "type": "dialogue",
+      "stage": "salvador_night",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S06B-L01"
+        },
+        {
+          "speaker": "paolo",
+          "text_key": "C3-S06B-L02"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S06B-L03"
+        }
+      ],
+      "next": "C3-S07"
+    },
+    {
+      "id": "C3-S06C",
+      "type": "dialogue",
+      "stage": "salvador_night",
+      "lines": [
+        {
+          "speaker": "paolo",
+          "text_key": "C3-S06C-L01"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S06C-L02"
+        }
+      ],
+      "next": "C3-S07"
+    },
+    {
+      "id": "C3-S07",
+      "type": "hub",
+      "stage": "salvador_night",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C3-S07-L01"
+        }
+      ],
+      "variants": [
+        {
+          "when": {
+            "eq": [
+              "p_bea",
+              "insisted"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C3-S07-INSISTED"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "p_bea",
+              "gentle"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C3-S07-L02"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C3-S07-GENTLE-L01"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C3-S07-GENTLE-L02"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "p_bea",
+              "deferred"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C3-S07-L02"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C3-S07-DEFERRED-L01"
+            },
+            {
+              "speaker": "jessa",
+              "text_key": "C3-S07-DEFERRED-L02"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C3-S07-DEFERRED-L03"
+            }
+          ]
+        }
+      ],
+      "next": "FLOW-C3"
+    },
+    {
+      "id": "FLOW-C3",
+      "type": "flowchart",
+      "next": "C4-S01A",
+      "next_if": [
+        {"when":{"eq":["meds_choice","half_dose"]},"next":"C4-S01B"},
+        {"when":{"eq":["meds_choice","loan_5_6"]},"next":"C4-S01C"}
+      ]
+    }
+  ]
+}

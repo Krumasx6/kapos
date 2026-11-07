@@ -1,0 +1,791 @@
+{
+  "id": "C4",
+  "title_key": "C4-TITLE",
+  "protagonist": "mario",
+  "start_node": "C4-S01A",
+  "nodes": [
+    {
+      "id": "C4-S01A",
+      "type": "dialogue",
+      "stage": "magsino_house_dawn",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S01A-L01"
+        },
+        {
+          "speaker": "mario",
+          "text_key": "C4-S01A-L02"
+        },
+        {
+          "speaker": "anna",
+          "text_key": "C4-S01A-L03"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S01A-L04"
+        },
+        {
+          "speaker": "luz",
+          "text_key": "C4-S01A-L05"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S01A-L06"
+        }
+      ],
+      "next": "C4-S02"
+    },
+    {
+      "id": "C4-S01B",
+      "type": "dialogue",
+      "stage": "sidh_er",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S01B-L01"
+        },
+        {
+          "speaker": "luz",
+          "text_key": "C4-S01B-L02"
+        },
+        {
+          "speaker": "migo",
+          "text_key": "C4-S01B-L03"
+        },
+        {
+          "speaker": "anna",
+          "text_key": "C4-S01B-L04"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S01B-L05"
+        },
+        {
+          "speaker": "dr_lorna",
+          "text_key": "C4-S01B-L06"
+        },
+        {
+          "speaker": "mario",
+          "text_key": "C4-S01B-L07"
+        },
+        {
+          "speaker": "dr_lorna",
+          "text_key": "C4-S01B-L08"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S01B-L09"
+        },
+        {
+          "speaker": "luz",
+          "text_key": "C4-S01B-L10"
+        },
+        {
+          "speaker": "mario",
+          "text_key": "C4-S01B-L11"
+        }
+      ],
+      "next": "C4-S02"
+    },
+    {
+      "id": "C4-S01C",
+      "type": "dialogue",
+      "stage": "magsino_house_dawn",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S01C-L01"
+        },
+        {
+          "speaker": "dodong",
+          "text_key": "C4-S01C-L02"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S01C-L03"
+        },
+        {
+          "speaker": "jun",
+          "text_key": "C4-S01C-L04"
+        },
+        {
+          "speaker": "migo",
+          "text_key": "C4-S01C-L05"
+        },
+        {
+          "speaker": "lola_tindeng",
+          "text_key": "C4-S01C-L06"
+        },
+        {
+          "speaker": "dodong",
+          "text_key": "C4-S01C-L07"
+        }
+      ],
+      "next": "C4-S02"
+    },
+    {
+      "id": "C4-S02",
+      "type": "dialogue",
+      "stage": "dike_steps_night",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S02-L01"
+        },
+        {
+          "speaker": "ramil",
+          "text_key": "C4-S02-L02"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S02-L03"
+        }
+      ],
+      "next": "C4-D1"
+    },
+    {
+      "id": "C4-D1",
+      "type": "decision",
+      "prompt_key": "C4-D1-PROMPT",
+      "options": [
+        {
+          "id": "A",
+          "label_key": "C4-D1-A",
+          "next": "C4-S03A",
+          "effects": [
+            {
+              "set": "money_fix",
+              "to": "ramil_advance"
+            },
+            {
+              "add": "m_tulay",
+              "by": 1
+            },
+            {
+              "add": "m_debt",
+              "by": -1
+            },
+            {
+              "set": "mk_met",
+              "to": true
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "label_key": "C4-D1-B",
+          "next": "C4-S03B",
+          "effects": [
+            {
+              "set": "money_fix",
+              "to": "maniquis_patronage"
+            },
+            {
+              "set": "owes_maniquis",
+              "to": true
+            },
+            {
+              "add": "m_debt",
+              "by": -1
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "label_key": "C4-D1-C",
+          "next": "C4-S03C",
+          "effects": [
+            {
+              "set": "money_fix",
+              "to": "sold_bike"
+            },
+            {
+              "set": "m_no_bike",
+              "to": true
+            },
+            {
+              "add": "m_debt",
+              "by": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C4-S03A",
+      "type": "dialogue",
+      "stage": "cargo_canteen",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S03A-L01"
+        },
+        {
+          "speaker": "ramil",
+          "text_key": "C4-S03A-L02"
+        },
+        {
+          "speaker": "ramil",
+          "text_key": "C4-S03A-L03"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S03A-L04"
+        },
+        {
+          "speaker": "kaloy",
+          "text_key": "C4-S03A-L05"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S03A-L06"
+        }
+      ],
+      "next": "C4-S04"
+    },
+    {
+      "id": "C4-S03B",
+      "type": "dialogue",
+      "stage": "city_hall_services",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S03B-L01"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S03B-L02"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S03B-L03"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S03B-L04"
+        }
+      ],
+      "next": "C4-S04",
+      "variants": [
+        {
+          "when": {
+            "gte": [
+              "m_tulay",
+              1
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C4-S03B-L05"
+            },
+            {
+              "speaker": "ilagan",
+              "text_key": "C4-S03B-L06"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C4-S03C",
+      "type": "dialogue",
+      "stage": "magsino_house_dawn",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S03C-L01"
+        },
+        {
+          "speaker": "tonyo",
+          "text_key": "C4-S03C-L02"
+        },
+        {
+          "speaker": "mario",
+          "text_key": "C4-S03C-L03"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S03C-L04"
+        },
+        {
+          "speaker": "luz",
+          "text_key": "C4-S03C-L05"
+        }
+      ],
+      "next": "C4-S04"
+    },
+    {
+      "id": "C4-S04",
+      "type": "dialogue",
+      "stage": "sidh_pharmacy",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S04-L01"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S04-L02"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S04-L03"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S04-L04"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S04-L05"
+        }
+      ],
+      "next": "C4-D2"
+    },
+    {
+      "id": "C4-D2",
+      "type": "decision",
+      "prompt_key": "C4-D2-PROMPT",
+      "options": [
+        {
+          "id": "A",
+          "label_key": "C4-D2-A",
+          "next": "C4-S04A",
+          "effects": [
+            {
+              "set": "pharmacy",
+              "to": "lent"
+            },
+            {
+              "add": "mk_bond",
+              "by": 1
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "label_key": "C4-D2-B",
+          "next": "C4-S04B",
+          "effects": [
+            {
+              "set": "pharmacy",
+              "to": "kept"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "label_key": "C4-D2-C",
+          "locked_hint_key": "C4-D2-C-LOCKED",
+          "requires": {
+            "flag": "mk_met"
+          },
+          "next": "C4-S04C",
+          "effects": [
+            {
+              "set": "pharmacy",
+              "to": "asked_kaloy"
+            }
+          ],
+          "next_if": [
+            {
+              "when": {
+                "any": [
+                  {
+                    "flag": "k_photo_evidence"
+                  },
+                  {
+                    "flag": "tito_story"
+                  }
+                ]
+              },
+              "next": "C4-S04C",
+              "effects": [
+                {
+                  "add": "mk_bond",
+                  "by": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C4-S04A",
+      "type": "dialogue",
+      "stage": "sidh_pharmacy",
+      "lines": [
+        {
+          "speaker": "kaloy",
+          "text_key": "C4-S04A-L01"
+        },
+        {
+          "speaker": "mario",
+          "text_key": "C4-S04A-L02"
+        },
+        {
+          "speaker": "aling_nena",
+          "text_key": "C4-S04A-L03"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S04A-L04"
+        }
+      ],
+      "next": "C4-S05"
+    },
+    {
+      "id": "C4-S04B",
+      "type": "dialogue",
+      "stage": "sidh_pharmacy",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S04B-L01"
+        }
+      ],
+      "next": "C4-S05"
+    },
+    {
+      "id": "C4-S04C",
+      "type": "dialogue",
+      "stage": "sidh_pharmacy",
+      "variants": [
+        {
+          "when": {
+            "any": [
+              {
+                "flag": "k_photo_evidence"
+              },
+              {
+                "flag": "tito_story"
+              }
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "kaloy",
+              "text_key": "C4-S04C-L01"
+            }
+          ]
+        },
+        {
+          "when": {
+            "always": true
+          },
+          "lines": [
+            {
+              "speaker": "kaloy",
+              "text_key": "C4-S04C-L02"
+            }
+          ]
+        }
+      ],
+      "next": "C4-S05"
+    },
+    {
+      "id": "C4-S05",
+      "type": "dialogue",
+      "stage": "barangay_hall",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S05-L01"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S05-L02"
+        }
+      ],
+      "variants": [
+        {
+          "when": {
+            "eq": [
+              "caca_phone",
+              "confronted"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "caca",
+              "text_key": "C4-S05-L04"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "caca_phone",
+              "calm"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "caca",
+              "text_key": "C4-S05-L05"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "caca_phone",
+              "ignored"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "caca",
+              "text_key": "C4-S05-L06"
+            }
+          ]
+        }
+      ],
+      "next": "C4-D3"
+    },
+    {
+      "id": "C4-D3",
+      "type": "decision",
+      "prompt_key": "C4-D3-PROMPT",
+      "options": [
+        {
+          "id": "A",
+          "label_key": "C4-D3-A",
+          "next": "C4-S05A",
+          "effects": [
+            {
+              "set": "caca_arrest",
+              "to": "paid_settlement"
+            }
+          ],
+          "next_if": [
+            {
+              "when": {
+                "eq": [
+                  "money_fix",
+                  "maniquis_patronage"
+                ]
+              },
+              "next": "C4-S05A",
+              "effects": [
+                {
+                  "add": "m_debt",
+                  "by": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "label_key": "C4-D3-B",
+          "next": "C4-S05B",
+          "effects": [
+            {
+              "set": "caca_arrest",
+              "to": "diversion"
+            },
+            {
+              "add": "m_trust",
+              "by": 1
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "label_key": "C4-D3-C",
+          "next": "C4-S05C",
+          "effects": [
+            {
+              "set": "caca_arrest",
+              "to": "tulay_favor"
+            },
+            {
+              "add": "m_tulay",
+              "by": 1
+            },
+            {
+              "set": "mk_met",
+              "to": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C4-S05A",
+      "type": "dialogue",
+      "stage": "barangay_hall",
+      "lines": [
+        {
+          "speaker": "mrs_reyes",
+          "text_key": "C4-S05A-L01"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S05A-L02"
+        },
+        {
+          "speaker": "caca",
+          "text_key": "C4-S05A-L03"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S05A-L04"
+        }
+      ],
+      "next": "C4-S06"
+    },
+    {
+      "id": "C4-S05B",
+      "type": "dialogue",
+      "stage": "barangay_hall",
+      "lines": [
+        {
+          "speaker": "kap_lando",
+          "text_key": "C4-S05B-L01"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S05B-L02"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S05B-L03"
+        }
+      ],
+      "next": "C4-S06"
+    },
+    {
+      "id": "C4-S05C",
+      "type": "dialogue",
+      "stage": "barangay_hall",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S05C-L01"
+        },
+        {
+          "speaker": "ramil",
+          "text_key": "C4-S05C-L02"
+        },
+        {
+          "speaker": "mario",
+          "text_key": "C4-S05C-L03"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S05C-L04"
+        }
+      ],
+      "next": "C4-S06"
+    },
+    {
+      "id": "C4-S06",
+      "type": "hub",
+      "stage": "magsino_window_midnight",
+      "variant_mode": "all_matching",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S06-L01"
+        },
+        {
+          "speaker": "luz",
+          "text_key": "C4-S06-L02"
+        },
+        {
+          "speaker": "mario",
+          "text_key": "C4-S06-L03"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S06-L04"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C4-S06-L04"
+        }
+      ],
+      "variants": [
+        {
+          "when": {
+            "gte": [
+              "m_tulay",
+              1
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "luz",
+              "text_key": "C4-S06-TULAY-L01"
+            },
+            {
+              "speaker": "mario",
+              "text_key": "C4-S06-TULAY-L02"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C4-S06-TULAY-L03"
+            }
+          ],
+          "effects": [
+            {
+              "set": "luz_suspects",
+              "to": true
+            }
+          ]
+        },
+        {
+          "when": {
+            "flag": "owes_maniquis"
+          },
+          "lines": [
+            {
+              "speaker": "luz",
+              "text_key": "C4-S06-MANIQUIS-L01"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C4-S06-MANIQUIS-L02"
+            }
+          ]
+        },
+        {
+          "when": {
+            "flag": "m_no_bike"
+          },
+          "lines": [
+            {
+              "speaker": "luz",
+              "text_key": "C4-S06-BIKE-L01"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "caca_arrest",
+              "diversion"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "luz",
+              "text_key": "C4-S06-DIVERSION-L01"
+            }
+          ]
+        }
+      ],
+      "next": "FLOW-C4"
+    },
+    {
+      "id": "FLOW-C4",
+      "type": "flowchart",
+      "next": "C5-S01"
+    }
+  ]
+}

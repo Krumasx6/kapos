@@ -47,7 +47,10 @@ static func apply_effects(effects: Array, current: Dictionary, definitions: Dict
 		if effect.has("set"):
 			next_value = effect.get("to")
 		elif effect.has("add"):
-			next_value = int(result.get(flag_name, 0)) + int(effect.get("by", 0))
+			var limits: Dictionary = definitions[flag_name]
+			var source := float(result.get(flag_name, 0)) + float(effect.get("by", 0))
+			next_value = clampf(source, float(limits.get("min", source)), float(limits.get("max", source)))
+			if limits.get("type") == "int": next_value = int(next_value)
 		else:
 			var limits: Dictionary = definitions[flag_name]
 			var source := float(result.get(flag_name, 0))
@@ -78,7 +81,7 @@ static func derived_value(name: String, values: Dictionary, derived_rules: Dicti
 			if condition_matches(adjustment.get("when", {"always": true}), values, derived_rules):
 				total += float(adjustment.get("by", 0))
 		return clampf(total, float(definition.get("min", -INF)), float(definition.get("max", INF)))
-	return null
+	return definition.get("default")
 
 static func _value(name: String, values: Dictionary, derived: Dictionary) -> Variant:
 	if values.has(name):

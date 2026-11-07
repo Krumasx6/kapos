@@ -1,0 +1,710 @@
+[
+    {
+        "manifest_id": "magsino_house_dawn",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. one-room hollow-block house interior at dawn, plywood curtain, a Milo can on a shelf, back window showing a tall gray concrete dike wall with a dark water stain",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620411,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "magsino_house_night",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. same house at night, one dim bulb",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620412,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "tambayan",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. delivery riders' lounge, plastic chairs, broken fan, TV on a wall, warehouse bay visible through a doorway",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620413,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "cargo_hub_bay4",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. corrugated steel loading dock with a rolling shutter, pallets, office window, floodlight",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620414,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "maniquis_back_door",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. back door of a hardware store, stacked cement bags, a single bulb, night",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620415,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "dumalagan_house",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. small two-room house interior, brownout dark, a wheelchair corner, a sofa",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620416,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "river_road_night",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. warehouse-lined river road at night beside a yellow pumping station",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620417,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "salvador_gate",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. two-story rented house with a gate that does not close, a creek beside it",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620418,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "salvador_dining",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. crowded dining table made for six, nine plates, a ceiling lamp",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620419,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "siis_gym",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. school gymnasium interior with a stage, basketball hoops, fluorescent lights",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620420,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "dike_steps_night",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. back steps of a hollow-block house facing a tall concrete dike wall at night, a wet dark stain, one street lamp",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620442,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "barangay_hall",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. small barangay hall interior, a plastic chair, a desk with a lamp, a tarpaulin on the wall",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620443,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "sidh_pharmacy",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. public hospital pharmacy window with a queue line painted on the floor, fluorescent light, a plastic bench",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620444,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "sidh_ward",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. crowded public hospital ward, steel beds, a drip stand, window light",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620445,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "city_hall_corridor",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. crowded city hall hallway, a large smiling politician's tarpaulin, plastic chairs",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620446,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "cargo_hub_bay7",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. warehouse bay with steel drums stacked beside cardboard relief boxes, one overhead light",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620447,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "dado_office",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. small warehouse office with a window onto the loading floor, a metal desk, a clipboard",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620448,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "tito_boy_garage",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. a garage with plastic chairs set out in rows, a laptop on crates, a forklift in the corner",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620449,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "tanggol_manggagawa_office",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. second-floor legal aid office, box fan, stacked files, an old calendar",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620450,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "valdez_drawing_room",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. grand drawing room with a piano nobody plays, polished floor, tall windows",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620451,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "valdez_study_corridor",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. quiet corridor outside a closed study door, a dusting cloth on a chair, warm lamp",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620452,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "tita_baby_house",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. small upland house, plain, a spare mattress on the floor, a window with trees",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620453,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "tabing_ilog_flooded",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. flooded street at night, rooftops above brown water, rain, one roof with a small light",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620454,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "magsino_loft_flooded",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. a small loft room with water at the floor, a bed, a cupboard, a dim flashlight beam",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620455,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "pumping_station_night",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. yellow pump house at night beside a river, dark windows, rain",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620456,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "creek_overflow",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. a creek overflowing a gate, a two-story house, rain at night",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620457,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "siis_gym_evacuation",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. school gymnasium filled with cots and tarpaulin, a kitchen table, fluorescent lights",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620458,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "collapsed_dike",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. forty metres of collapsed dike wall into brown water, mud, a floating tarpaulin, daylight",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620459,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "vlw_gate_picket",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. warehouse gate in daylight with a hand-painted protest banner, yellow tape",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620460,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "city_council_hall",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. council session hall with a raised panel desk, rows of benches, a camera tripod",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620461,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "river_dawn_epilogue",
+        "prompt": "2D pixel art, side-on view, warm slightly desaturated palette, modern Philippine neighborhood, no characters, no text, no UI. the same river at dawn, a shorter imperfect new wall, calm water",
+        "image_size": {
+            "width": 320,
+            "height": 180
+        },
+        "settings": {
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side"
+        },
+        "seed": 83620462,
+        "endpoint": "POST /v2/create-image-pixflux-background"
+    },
+    {
+        "manifest_id": "chb_wall_tileset",
+        "prompt": "2D pixel art, warm slightly desaturated palette, Philippine urban poor neighborhood, no text. hollow-block concrete wall tiles with uneven paint patches and vertical water stains, side view material.",
+        "transition_prompt": "2D pixel art, warm slightly desaturated palette, Philippine urban poor neighborhood, no text. chipped paint and dark water stains along the top edge of the hollow-block wall.",
+        "image_size": {
+            "width": 32,
+            "height": 32
+        },
+        "settings": {
+            "mode": "standard",
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side",
+            "transition_size": 0.25,
+            "init_image": false
+        },
+        "seed": 83900001,
+        "endpoint": "POST /create-tileset-sidescroller",
+        "generation_id": "48072838-a21f-4775-8e6c-1f4679cc51cc",
+        "generations_used": 1
+    },
+    {
+        "manifest_id": "gi_sheet_roof_tileset",
+        "prompt": "2D pixel art, warm slightly desaturated palette, Philippine urban poor neighborhood, no text. corrugated GI sheet roof material, long narrow parallel ridges, weathered galvanized metal, side view.",
+        "transition_prompt": "2D pixel art, warm slightly desaturated palette, Philippine urban poor neighborhood, no text. rusty seams and muted rain wear along the ridge tops of a corrugated GI sheet roof.",
+        "image_size": {
+            "width": 32,
+            "height": 32
+        },
+        "settings": {
+            "mode": "standard",
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side",
+            "transition_size": 0.25,
+            "init_image": false
+        },
+        "seed": 83900002,
+        "endpoint": "POST /create-tileset-sidescroller",
+        "generation_id": "d141b769-47d0-4325-a100-e2c570a533aa",
+        "generations_used": 1
+    },
+    {
+        "manifest_id": "plywood_curtain_divider",
+        "prompt": "2D pixel art, warm slightly desaturated palette, Philippine urban poor neighborhood, no text. a plywood panel divider with a hanging faded cloth curtain, household interior prop, unobstructed full object, side view.",
+        "image_size": {
+            "width": 96,
+            "height": 96
+        },
+        "settings": {
+            "mode": "basic",
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side",
+            "background": "transparent",
+            "init_image": false
+        },
+        "seed": null,
+        "endpoint": "POST /map-objects",
+        "generation_id": "6c6769fe-bc73-49f6-961f-09a604e8136b",
+        "generations_used": 1
+    },
+    {
+        "manifest_id": "monobloc_chairs_two_colors",
+        "prompt": "2D pixel art, warm slightly desaturated palette, Philippine urban poor neighborhood, no text. two simple plastic monobloc chairs shown side by side, one muted blue and one faded red, full silhouettes separated by transparent space, side view.",
+        "image_size": {
+            "width": 128,
+            "height": 64
+        },
+        "settings": {
+            "mode": "basic",
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side",
+            "background": "transparent",
+            "init_image": false
+        },
+        "seed": null,
+        "endpoint": "POST /map-objects",
+        "generation_id": "02e84c3a-8b2b-41d8-bca5-34d32b5141c8",
+        "generations_used": 1
+    },
+    {
+        "manifest_id": "milo_can_shelf",
+        "prompt": "2D pixel art, warm slightly desaturated palette, Philippine urban poor neighborhood, no text. a small cylindrical green malt drink can with a simple blank label on a narrow household shelf, full object, side view.",
+        "image_size": {
+            "width": 96,
+            "height": 96
+        },
+        "settings": {
+            "mode": "basic",
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side",
+            "background": "transparent",
+            "init_image": false
+        },
+        "seed": null,
+        "endpoint": "POST /map-objects",
+        "generation_id": "397113c0-0f4d-4eef-96ca-72f2c25fcf10",
+        "generations_used": 1
+    },
+    {
+        "manifest_id": "sari_sari_snack_shelf",
+        "prompt": "2D pixel art, warm slightly desaturated palette, Philippine urban poor neighborhood, no text. a narrow sari-sari store wooden shelf stocked with colorful small snack packets and jars, all package labels blank and unreadable, full object, side view.",
+        "image_size": {
+            "width": 128,
+            "height": 96
+        },
+        "settings": {
+            "mode": "basic",
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side",
+            "background": "transparent",
+            "init_image": false
+        },
+        "seed": null,
+        "endpoint": "POST /map-objects",
+        "generation_id": "39f7d8a5-fff2-4822-9b88-ed62d2766f37",
+        "generations_used": 1
+    },
+    {
+        "manifest_id": "electric_fan",
+        "prompt": "2D pixel art, warm slightly desaturated palette, Philippine urban poor neighborhood, no text. a household electric fan with a metal cage, narrow stand and simple round base, complete unobstructed silhouette, side view.",
+        "image_size": {
+            "width": 96,
+            "height": 96
+        },
+        "settings": {
+            "mode": "basic",
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side",
+            "background": "transparent",
+            "init_image": false
+        },
+        "seed": null,
+        "endpoint": "POST /map-objects",
+        "generation_id": "48a57441-2524-4eda-b6e3-08452bfb6e54",
+        "generations_used": 1
+    },
+    {
+        "manifest_id": "tarpaulin_election_poster",
+        "prompt": "2D pixel art, warm slightly desaturated palette, Philippine urban poor neighborhood, no text. a rectangular tarpaulin election poster hanging from two corners, bold abstract portrait silhouette and simple colorful graphic shapes only, absolutely no readable letters or numbers, full object, side view.",
+        "image_size": {
+            "width": 64,
+            "height": 96
+        },
+        "settings": {
+            "mode": "basic",
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side",
+            "background": "transparent",
+            "init_image": false
+        },
+        "seed": null,
+        "endpoint": "POST /map-objects",
+        "generation_id": "97781a10-6043-4140-96b7-cf3740645356",
+        "generations_used": 1
+    },
+    {
+        "manifest_id": "jeepney_side",
+        "prompt": "2D pixel art, warm slightly desaturated palette, Philippine urban poor neighborhood, no text. a small Filipino jeepney in full side profile, decorated but without any readable lettering, wheels visible, complete vehicle silhouette on transparent background.",
+        "image_size": {
+            "width": 192,
+            "height": 96
+        },
+        "settings": {
+            "mode": "basic",
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side",
+            "background": "transparent",
+            "init_image": false
+        },
+        "seed": null,
+        "endpoint": "POST /map-objects",
+        "generation_id": "7e7c833c-747b-4364-a463-9547cb41075b",
+        "generations_used": 1
+    },
+    {
+        "manifest_id": "motorcycle_side",
+        "prompt": "2D pixel art, warm slightly desaturated palette, Philippine urban poor neighborhood, no text. a small everyday motorcycle in full side profile, simple dark frame, seat, fuel tank and two wheels, complete unobstructed vehicle silhouette on transparent background.",
+        "image_size": {
+            "width": 128,
+            "height": 96
+        },
+        "settings": {
+            "mode": "basic",
+            "outline": "selective outline",
+            "shading": "medium shading",
+            "detail": "medium detail",
+            "view": "side",
+            "background": "transparent",
+            "init_image": false
+        },
+        "seed": null,
+        "endpoint": "POST /map-objects",
+        "generation_id": "53e482be-8e9a-4b3e-b93c-c33faa3a1c0a",
+        "generations_used": 1
+    }
+]

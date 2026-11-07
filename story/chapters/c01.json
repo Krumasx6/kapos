@@ -470,7 +470,7 @@
       "type": "decision",
       "prompt_key": "C1-D3-PROMPT",
       "timer_seconds": 15,
-      "default_option": "B",
+      "default_option": "C",
       "options": [
         {
           "id": "A",
@@ -740,7 +740,8 @@
     },
     {
       "id": "FLOW-C1",
-      "type": "flowchart"
+      "type": "flowchart",
+      "next": "C2-S01"
     }
   ]
 }

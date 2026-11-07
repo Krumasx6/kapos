@@ -6,8 +6,11 @@ signal line_shown(speaker_id: String, expression: String)
 
 var text_label: Label
 var continue_button: Button
+var auto_timer: Timer
 var active_lines: Array[Dictionary] = []
 var line_index := 0
+var non_interactive := false
+var line_interval := 2.5
 
 func _ready() -> void:
 	set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
@@ -24,8 +27,16 @@ func _ready() -> void:
 	continue_button.size = Vector2(184, 48)
 	continue_button.pressed.connect(_advance_line)
 	add_child(continue_button)
+	auto_timer = Timer.new()
+	auto_timer.one_shot = true
+	auto_timer.timeout.connect(_advance_line)
+	add_child(auto_timer)
 
-func show_lines(lines: Array) -> void:
+func show_lines(lines: Array, auto_play: bool = false, seconds_per_line: float = 2.5) -> void:
+	non_interactive = auto_play
+	line_interval = maxf(0.1, seconds_per_line)
+	continue_button.visible = not non_interactive
+	auto_timer.stop()
 	active_lines.clear()
 	for line: Variant in lines:
 		if line is Dictionary: active_lines.append(line)
@@ -43,8 +54,11 @@ func _show_current_line() -> void:
 	text_label.text = StoryDB.text("UI-TEST-DIALOGUE-LINE") % [speaker_name, StoryDB.text(str(line.get("text_key", "")))]
 	continue_button.text = StoryDB.text("UI-TEST-CONTINUE") if line_index == active_lines.size() - 1 else StoryDB.text("UI-TEST-NEXT-LINE")
 	line_shown.emit(speaker_id, str(line.get("expr", "neutral")))
+	if non_interactive:
+		auto_timer.start(line_interval)
 
 func _advance_line() -> void:
+	auto_timer.stop()
 	if line_index + 1 < active_lines.size():
 		line_index += 1
 		_show_current_line()

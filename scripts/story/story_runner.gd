@@ -30,6 +30,9 @@ func _ready() -> void:
 	show_node(StoryState.current_node)
 
 func show_node(node_id: String) -> void:
+	if not StoryDB.ensure_node_loaded(node_id):
+		push_error("StoryRunner: could not load node '%s'" % node_id)
+		return
 	if not StoryDB.nodes.has(node_id):
 		push_error("StoryRunner: unknown node '%s'" % node_id)
 		return
@@ -39,14 +42,15 @@ func show_node(node_id: String) -> void:
 	if not chapter_id.is_empty() and not StoryState.chapter_snapshots.has(chapter_id):
 		StoryState.snapshot_chapter(chapter_id, node_id)
 	StoryState.record_node(node_id)
+	_apply_variant_effects(node)
 	if node.has("stage"):
-		director.apply_stage(str(node.stage), str(node.get("portrait", "")))
+		director.apply_stage(str(node.stage), _variant_portrait(node))
 	status_label.text = StoryDB.text("UI-TEST-STATUS") % node_id
 	match str(node.get("type", "")):
-		"dialogue":
+		"dialogue", "cutscene":
 			choices.visible = false
 			dialogue.visible = true
-			dialogue.show_lines(_variant_lines(node))
+			dialogue.show_lines(_variant_lines(node), bool(node.get("non_interactive", node.get("type") == "cutscene")), float(node.get("line_interval", 2.5)))
 		"hub":
 			choices.visible = false
 			dialogue.visible = true
@@ -64,12 +68,42 @@ func show_node(node_id: String) -> void:
 			push_error("StoryRunner: unsupported node type '%s'" % node.get("type", ""))
 
 func _variant_lines(node: Dictionary) -> Array:
+	var base_lines: Array = node.get("lines", [])
 	if not node.has("variants"):
-		return node.get("lines", [])
-	for variant: Dictionary in node.variants:
+		return base_lines
+	var result: Array = base_lines.duplicate()
+	var matching := _matching_variants(node)
+	if node.get("variant_mode", "first_match") == "all_matching":
+		for variant: Dictionary in matching:
+			result.append_array(variant.get("lines", []))
+	elif not matching.is_empty():
+		result.append_array(matching[0].get("lines", []))
+	return result
+
+func _matching_variants(node: Dictionary) -> Array[Dictionary]:
+	var matching: Array[Dictionary] = []
+	for variant: Dictionary in node.get("variants", []):
 		if StoryEvaluator.condition_matches(variant.get("when", {"always": true}), StoryState.flags, StoryDB.derived_definitions):
-			return variant.get("lines", [])
-	return []
+			matching.append(variant)
+			if node.get("variant_mode", "first_match") != "all_matching":
+				break
+	return matching
+
+func _apply_variant_effects(node: Dictionary) -> void:
+	for variant: Dictionary in _matching_variants(node):
+		var effects: Array = variant.get("effects", [])
+		if effects.is_empty(): continue
+		var updated := StoryEvaluator.apply_effects(effects, StoryState.flags, StoryDB.flag_definitions)
+		if updated.has("_evaluation_error"):
+			push_error("StoryRunner: " + str(updated["_evaluation_error"]))
+			continue
+		StoryState.apply_flag_values(updated)
+
+func _variant_portrait(node: Dictionary) -> String:
+	for variant: Dictionary in node.get("variants", []):
+		if StoryEvaluator.condition_matches(variant.get("when", {"always": true}), StoryState.flags, StoryDB.derived_definitions):
+			return str(variant.get("portrait_id", node.get("portrait", "")))
+	return str(node.get("portrait", ""))
 
 func _advance_dialogue() -> void:
 	var node: Dictionary = StoryDB.nodes[StoryState.current_node]
@@ -77,6 +111,11 @@ func _advance_dialogue() -> void:
 	if not next_id.is_empty(): show_node(next_id)
 
 func _line_shown(speaker_id: String, expression: String) -> void:
+	var node: Dictionary = StoryDB.nodes.get(StoryState.current_node, {})
+	var variant_portrait := _variant_portrait(node)
+	if not variant_portrait.is_empty():
+		director.apply_portrait(variant_portrait)
+		return
 	var character: Dictionary = StoryDB.characters.get("characters", {}).get(speaker_id, {})
 	var portrait_id := str(character.get("expression_portraits", {}).get(expression, character.get("portrait_id", "")))
 	director.apply_portrait(portrait_id)
@@ -120,7 +159,7 @@ func _show_flowchart(resume_node_id: String = "") -> void:
 	flowchart.resume_node_id = resume_node_id
 	flowchart.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	add_child(flowchart)
-	flowchart.continue_pressed.connect(_restart_chapter)
+	flowchart.continue_pressed.connect(_continue_after_flowchart)
 	flowchart.resume_requested.connect(_resume_from_flowchart)
 
 func _open_flowchart() -> void:
@@ -138,6 +177,27 @@ func _restart_chapter() -> void:
 	if not StoryState.restore_snapshot(chapter_id): StoryState.reset()
 	show_node(StoryState.current_node)
 	SaveSystem.autosave()
+
+func _continue_after_flowchart() -> void:
+	var node: Dictionary = StoryDB.nodes.get(StoryState.current_node, {})
+	var next_id := str(node.get("next", ""))
+	for branch: Dictionary in node.get("next_if", []):
+		if StoryEvaluator.condition_matches(branch.get("when", {}), StoryState.flags, StoryDB.derived_definitions):
+			var effects: Array = branch.get("effects", [])
+			if not effects.is_empty():
+				var updated := StoryEvaluator.apply_effects(effects, StoryState.flags, StoryDB.flag_definitions)
+				if updated.has("_evaluation_error"):
+					push_error("StoryRunner: " + str(updated["_evaluation_error"]))
+					return
+				if not StoryState.apply_flag_values(updated): return
+			next_id = str(branch.get("next", next_id))
+			break
+	if next_id.is_empty():
+		_restart_chapter()
+		return
+	if is_instance_valid(flowchart): flowchart.queue_free()
+	flowchart = null
+	show_node(next_id)
 
 func _show_errors() -> void:
 	var label := Label.new()

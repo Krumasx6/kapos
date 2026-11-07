@@ -21,7 +21,7 @@ func _ready() -> void:
 	graph_nodes = graph.get("nodes", [])
 	graph_edges = graph.get("edges", [])
 	var heading := Label.new()
-	heading.text = StoryDB.text("UI-C1-FLOW")
+	heading.text = StoryDB.text("UI-FLOWCHART")
 	heading.position = Vector2(28, 14)
 	heading.add_theme_font_size_override("font_size", 24)
 	add_child(heading)
@@ -36,7 +36,8 @@ func _ready() -> void:
 	selection_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	add_child(selection_label)
 	var button := Button.new()
-	button.text = StoryDB.text("UI-TEST-REPLAY")
+	var current_node: Dictionary = StoryDB.nodes.get(StoryState.current_node, {})
+	button.text = StoryDB.text("UI-CHAPTER-CONTINUE") if not str(current_node.get("next", "")).is_empty() else StoryDB.text("UI-CHAPTER-REPLAY")
 	button.position = Vector2(1032, 650)
 	button.size = Vector2(220, 44)
 	button.pressed.connect(func() -> void: continue_pressed.emit())
@@ -52,6 +53,10 @@ func _ready() -> void:
 
 func _draw() -> void:
 	var positions: Dictionary = graph.get("positions", {})
+	for lane: Dictionary in graph.get("lanes", []):
+		var lane_x := float(lane.get("x", 0.0)) * scale_factor + pan.x
+		draw_string(ThemeDB.fallback_font, Vector2(lane_x, 112.0 * scale_factor + pan.y), StoryDB.text(str(lane.get("title_key", ""))), HORIZONTAL_ALIGNMENT_LEFT, 360.0, 20, Color("#DDE3EA"))
+		draw_line(Vector2(lane_x, 122.0 * scale_factor + pan.y), Vector2(lane_x + 385.0 * scale_factor, 122.0 * scale_factor + pan.y), Color("#69717A"), 2.0)
 	for edge: Dictionary in graph_edges:
 		var start := _node_center(str(edge.get("from", "")), positions)
 		var finish := _node_center(str(edge.get("to", "")), positions)
@@ -112,7 +117,7 @@ func _status(node_id: String) -> String:
 		var source := str(graph_node.get("decision_id", ""))
 		var option_id := str(graph_node.get("option_id", ""))
 		var decision: Dictionary = StoryDB.nodes.get(source, {})
-		var option: Dictionary = _find_option(decision, option_id)
+		var option: Dictionary = _find_option(decision, option_id) if not decision.is_empty() else graph_node
 		for branch: Dictionary in StoryState.branch_log:
 			if branch.get("decision_id") == source and branch.get("locked_options", []).has(option_id):
 				return "locked"
@@ -165,8 +170,11 @@ func _select_at(point: Vector2) -> void:
 		var status := _status(node_id)
 		var detail := StoryDB.text("UI-TEST-NODE-STATUS").format({"node": node_id, "status": StoryDB.text("UI-TEST-STATUS-" + status.to_upper())})
 		if node.get("type") == "option":
-			var option := _find_option(StoryDB.nodes.get(str(node.get("decision_id", "")), {}), str(node.get("option_id", "")))
-			var key := str(option.get("locked_hint_key", "")) if status == "locked" else str(option.get("label_key", ""))
+			var decision: Dictionary = StoryDB.nodes.get(str(node.get("decision_id", "")), {})
+			var option := _find_option(decision, str(node.get("option_id", ""))) if not decision.is_empty() else node
+			var key := ""
+			if status == "locked": key = str(option.get("locked_hint_key", ""))
+			elif status == "chosen" or status == "alternative": key = str(option.get("label_key", ""))
 			if not key.is_empty(): detail += "\n" + StoryDB.text(key)
 		elif StoryDB.nodes.has(node_id):
 			var story_node: Dictionary = StoryDB.nodes[node_id]

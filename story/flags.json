@@ -54,6 +54,175 @@
       "min": -3,
       "max": 3,
       "default": 0
+    },
+    "dado_notice": {
+      "type": "int",
+      "min": 0,
+      "max": 3,
+      "default": 0
+    },
+    "money_fix": {
+      "type": "enum",
+      "values": ["ramil_advance", "maniquis_patronage", "sold_bike"],
+      "default": null
+    },
+    "owes_maniquis": {"type": "bool", "default": false},
+    "m_no_bike": {"type": "bool", "default": false},
+    "pharmacy": {
+      "type": "enum",
+      "values": ["lent", "kept", "asked_kaloy"],
+      "default": null
+    },
+    "mk_bond": {"type": "int", "min": 0, "max": 2, "default": 0},
+    "caca_arrest": {
+      "type": "enum",
+      "values": ["paid_settlement", "diversion", "tulay_favor"],
+      "default": null
+    },
+    "luz_suspects": {"type": "bool", "default": false},
+    "k_night_job": {
+      "type": "enum",
+      "values": ["accepted", "declined", "accepted_recording"],
+      "default": null
+    },
+    "k_union": {
+      "type": "enum",
+      "values": ["committed", "regularized", "neutral"],
+      "default": null
+    },
+    "k_project": {
+      "type": "enum",
+      "values": ["toned_down", "supported", "asked_alma"],
+      "default": null
+    },
+    "alma_contacted": {"type": "bool", "default": false},
+    "project_public": {"type": "bool", "default": false},
+    "k_corruption": {"type": "int", "min": 0, "max": 3, "default": 0},
+    "k_violence": {
+      "type": "enum",
+      "values": ["struck", "vaw_desk", "relocated"],
+      "default": null
+    },
+    "p_ruben": {
+      "type": "enum",
+      "values": ["let_in", "outside", "refused"],
+      "default": null
+    },
+    "ruben_info": {"type": "bool", "default": false},
+    "p_work": {
+      "type": "enum",
+      "values": ["recruiter", "valdez", "local"],
+      "default": null
+    },
+    "p_inside": {"type": "bool", "default": false},
+    "p_income": {"type": "int", "min": 0, "max": 2, "default": 0},
+    "p_jessa_abroad": {
+      "type": "enum",
+      "values": ["forbid", "licensed", "compromise"],
+      "default": null
+    },
+    "jessa_status": {
+      "type": "enum",
+      "values": ["stays_resentful", "leaving_licensed", "stays_studying", "left_illegal"],
+      "default": null
+    },
+    "k_father_morning": {
+      "type": "enum",
+      "values": [
+        "appeased",
+        "confronted",
+        "shielded"
+      ],
+      "default": null
+    },
+    "k_safety": {
+      "type": "int",
+      "min": -2,
+      "max": 2,
+      "default": 0
+    },
+    "k_wage": {
+      "type": "enum",
+      "values": [
+        "joined",
+        "silent",
+        "asked_ot"
+      ],
+      "default": null
+    },
+    "k_solidarity": {
+      "type": "int",
+      "min": 0,
+      "max": 3,
+      "default": 0
+    },
+    "k_box": {
+      "type": "enum",
+      "values": [
+        "photographed",
+        "ignored",
+        "asked_tito"
+      ],
+      "default": null
+    },
+    "k_photo_evidence": {
+      "type": "bool",
+      "default": false
+    },
+    "tito_story": {
+      "type": "bool",
+      "default": false
+    },
+    "bond_jessa": {
+      "type": "int",
+      "min": -2,
+      "max": 3,
+      "default": 0
+    },
+    "bond_paolo": {
+      "type": "int",
+      "min": -2,
+      "max": 3,
+      "default": 0
+    },
+    "bond_bea": {
+      "type": "int",
+      "min": -2,
+      "max": 3,
+      "default": 0
+    },
+    "bond_family": {
+      "type": "int",
+      "min": -2,
+      "max": 3,
+      "default": 0
+    },
+    "p_bea": {
+      "type": "enum",
+      "values": [
+        "insisted",
+        "gentle",
+        "deferred"
+      ],
+      "default": null
+    },
+    "p_notebook": {
+      "type": "enum",
+      "values": [
+        "took_over",
+        "jessa_stays",
+        "apologized"
+      ],
+      "default": null
+    },
+    "p_paolo": {
+      "type": "enum",
+      "values": [
+        "promised",
+        "honest",
+        "pulled_rank"
+      ],
+      "default": null
     }
   },
   "test_fixture_flags": {
@@ -67,7 +236,28 @@
       "test_only": true
     }
   },
-  "derived": {},
+  "derived": {
+    "m_status": {
+      "rules": [
+        {"when": {"gte": ["m_tulay", 2]}, "value": "ENTANGLED"},
+        {"when": {"any": [{"eq": ["m_tulay", 1]}, {"flag": "owes_maniquis"}]}, "value": "TOUCHED"}
+      ],
+      "default": "CLEAN"
+    },
+    "k_stance": {
+      "rules": [
+        {"when": {"any": [{"eq": ["k_night_job", "accepted"]}, {"eq": ["k_union", "regularized"]}]}, "value": "dado_man"},
+        {"when": {"any": [{"eq": ["k_union", "committed"]}, {"eq": ["k_night_job", "accepted_recording"]}]}, "value": "ally"}
+      ],
+      "default": "neutral"
+    },
+    "knows_lockbox": {
+      "rules": [
+        {"when": {"in": ["k_night_job", ["accepted", "accepted_recording"]]}, "value": true}
+      ],
+      "default": false
+    }
+  },
   "migrations": {
     "flag_renames": {}
   }

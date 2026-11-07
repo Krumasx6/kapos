@@ -1,0 +1,1009 @@
+{
+  "id": "C5",
+  "title_key": "C5-TITLE",
+  "protagonist": "kaloy",
+  "start_node": "C5-S01",
+  "nodes": [
+    {
+      "id": "C5-S01",
+      "type": "dialogue",
+      "stage": "dumalagan_home_dawn",
+      "lines": [],
+      "variants": [
+        {
+          "when": {
+            "eq": [
+              "k_father_morning",
+              "appeased"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S01-APPEASED-L01"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S01-APPEASED-L02"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S01-L02"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "k_father_morning",
+              "confronted"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S01-CONFRONTED-L01"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S01-L02"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "k_father_morning",
+              "shielded"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "jomar",
+              "text_key": "C5-S01-SHIELDED-L01"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S01-SHIELDED-L02"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S01-L02"
+            }
+          ]
+        }
+      ],
+      "next": "C5-S02"
+    },
+    {
+      "id": "C5-S02",
+      "type": "dialogue",
+      "stage": "sidh_pharmacy",
+      "lines": [],
+      "variants": [
+        {
+          "when": {
+            "eq": [
+              "pharmacy",
+              "lent"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S02-LENT-L01"
+            },
+            {
+              "speaker": "kaloy",
+              "text_key": "C5-S02-LENT-L02"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S02-LENT-L03"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "pharmacy",
+              "kept"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S02-KEPT-L01"
+            }
+          ]
+        },
+        {
+          "when": {
+            "all": [
+              {
+                "eq": [
+                  "pharmacy",
+                  "asked_kaloy"
+                ]
+              },
+              {
+                "any": [
+                  {
+                    "flag": "k_photo_evidence"
+                  },
+                  {
+                    "flag": "tito_story"
+                  }
+                ]
+              }
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "kaloy",
+              "text_key": "C5-S02-ASKED-YES-L01"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "pharmacy",
+              "asked_kaloy"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "kaloy",
+              "text_key": "C5-S02-ASKED-NO-L01"
+            }
+          ]
+        }
+      ],
+      "next": "C5-S03"
+    },
+    {
+      "id": "C5-S03",
+      "type": "dialogue",
+      "stage": "dado_office",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C5-S03-L01"
+        },
+        {
+          "speaker": "dado",
+          "text_key": "C5-S03-L02"
+        }
+      ],
+      "variants": [
+        {
+          "when": {
+            "eq": [
+              "k_wage",
+              "joined"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "dado",
+              "text_key": "C5-S03-JOINED-L01"
+            },
+            {
+              "speaker": "dado",
+              "text_key": "C5-S03-L03"
+            },
+            {
+              "speaker": "kaloy",
+              "text_key": "C5-S03-L04"
+            },
+            {
+              "speaker": "dado",
+              "text_key": "C5-S03-L05"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "k_wage",
+              "asked_ot"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "dado",
+              "text_key": "C5-S03-OT-L01"
+            },
+            {
+              "speaker": "dado",
+              "text_key": "C5-S03-L03"
+            },
+            {
+              "speaker": "kaloy",
+              "text_key": "C5-S03-L04"
+            },
+            {
+              "speaker": "dado",
+              "text_key": "C5-S03-L05"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "k_wage",
+              "silent"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "dado",
+              "text_key": "C5-S03-SILENT-L01"
+            },
+            {
+              "speaker": "dado",
+              "text_key": "C5-S03-L03"
+            },
+            {
+              "speaker": "kaloy",
+              "text_key": "C5-S03-L04"
+            },
+            {
+              "speaker": "dado",
+              "text_key": "C5-S03-L05"
+            }
+          ]
+        }
+      ],
+      "next": "C5-D1"
+    },
+    {
+      "id": "C5-D1",
+      "type": "decision",
+      "prompt_key": "C5-D1-PROMPT",
+      "options": [
+        {
+          "id": "A",
+          "label_key": "C5-D1-A",
+          "next": "C5-S04",
+          "effects": [
+            {
+              "set": "k_night_job",
+              "to": "accepted"
+            },
+            {
+              "add": "k_corruption",
+              "by": 1
+            },
+            {
+              "add": "dado_notice",
+              "by": 1
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "label_key": "C5-D1-B",
+          "next": "C5-S04",
+          "effects": [
+            {
+              "set": "k_night_job",
+              "to": "declined"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "label_key": "C5-D1-C",
+          "next": "C5-S04",
+          "effects": [
+            {
+              "set": "k_night_job",
+              "to": "accepted_recording"
+            },
+            {
+              "add": "k_corruption",
+              "by": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C5-S04",
+      "type": "dialogue",
+      "stage": "union_garage",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C5-S04-L01"
+        },
+        {
+          "speaker": "tito_boy",
+          "text_key": "C5-S04-L02"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C5-S04-L03"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C5-S04-L04"
+        }
+      ],
+      "next": "C5-D2",
+      "variants": [
+        {
+          "when": {
+            "eq": [
+              "k_night_job",
+              "accepted"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S04-JOB-L01"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "k_night_job",
+              "declined"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "dado",
+              "text_key": "C5-S04-DECLINED-L01"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "k_night_job",
+              "accepted_recording"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S04-RECORD-L01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C5-D2",
+      "type": "decision",
+      "prompt_key": "C5-D2-PROMPT",
+      "options": [
+        {
+          "id": "A",
+          "label_key": "C5-D2-A",
+          "next": "C5-S05",
+          "effects": [
+            {
+              "set": "k_union",
+              "to": "committed"
+            },
+            {
+              "add": "k_solidarity",
+              "by": 1
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "label_key": "C5-D2-B",
+          "next": "C5-S05",
+          "effects": [
+            {
+              "set": "k_union",
+              "to": "regularized"
+            },
+            {
+              "add": "k_corruption",
+              "by": 1
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "label_key": "C5-D2-C",
+          "next": "C5-S05",
+          "effects": [
+            {
+              "set": "k_union",
+              "to": "neutral"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C5-S05",
+      "type": "dialogue",
+      "stage": "siis_science_fair",
+      "lines": [],
+      "next": "C5-D3",
+      "variants": [
+        {
+          "when": {
+            "eq": [
+              "k_union",
+              "committed"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "tito_boy",
+              "text_key": "C5-S05-COMMITTED-L01"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S05-L01"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S05-L02"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S05-L03"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S05-L04"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S05-L05"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S05-L06"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S05-L07"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "k_union",
+              "regularized"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S05-REGULARIZED-L01"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S05-L01"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S05-L02"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S05-L03"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S05-L04"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S05-L05"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S05-L06"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S05-L07"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "k_union",
+              "neutral"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "tito_boy",
+              "text_key": "C5-S05-NEUTRAL-L01"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S05-NEUTRAL-L02"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S05-L01"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S05-L02"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S05-L03"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S05-L04"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S05-L05"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S05-L06"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S05-L07"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C5-D3",
+      "type": "decision",
+      "prompt_key": "C5-D3-PROMPT",
+      "options": [
+        {
+          "id": "A",
+          "label_key": "C5-D3-A",
+          "next": "C5-S06",
+          "effects": [
+            {
+              "set": "k_project",
+              "to": "toned_down"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "label_key": "C5-D3-B",
+          "next": "C5-S06",
+          "effects": [
+            {
+              "set": "k_project",
+              "to": "supported"
+            },
+            {
+              "set": "project_public",
+              "to": true
+            },
+            {
+              "add": "k_solidarity",
+              "by": 1
+            },
+            {
+              "add": "dado_notice",
+              "by": 1
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "label_key": "C5-D3-C",
+          "next": "C5-S06",
+          "effects": [
+            {
+              "set": "k_project",
+              "to": "asked_alma"
+            },
+            {
+              "set": "alma_contacted",
+              "to": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C5-S06",
+      "type": "dialogue",
+      "stage": "dumalagan_home_night",
+      "lines": [],
+      "next": "C5-D4",
+      "variants": [
+        {
+          "when": {
+            "eq": [
+              "k_project",
+              "toned_down"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S06-TONED-L01"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S06-TONED-L02"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S06-L01"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S06-L02"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S06-L03"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S06-L04"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "k_project",
+              "supported"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S06-SUPPORTED-L01"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S06-SUPPORTED-L02"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S06-L01"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S06-L02"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S06-L03"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S06-L04"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "k_project",
+              "asked_alma"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S06-ALMA-L01"
+            },
+            {
+              "speaker": "alma",
+              "text_key": "C5-S06-ALMA-L02"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S06-ALMA-L03"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S06-L01"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S06-L02"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S06-L03"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S06-L04"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C5-D4",
+      "type": "decision",
+      "prompt_key": "C5-D4-PROMPT",
+      "timer_seconds": 15,
+      "default_option": "B",
+      "options": [
+        {
+          "id": "A",
+          "label_key": "C5-D4-A",
+          "next": "C5-S06A",
+          "effects": [
+            {
+              "set": "k_violence",
+              "to": "struck"
+            },
+            {
+              "add": "k_safety",
+              "by": -1
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "label_key": "C5-D4-B",
+          "next": "C5-S06B",
+          "effects": [
+            {
+              "set": "k_violence",
+              "to": "vaw_desk"
+            },
+            {
+              "add": "k_safety",
+              "by": 1
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "label_key": "C5-D4-C",
+          "next": "C5-S06C",
+          "effects": [
+            {
+              "set": "k_violence",
+              "to": "relocated"
+            },
+            {
+              "add": "k_safety",
+              "by": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C5-S06A",
+      "type": "dialogue",
+      "stage": "dumalagan_home_night",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C5-S06A-L01"
+        },
+        {
+          "speaker": "kaloy",
+          "text_key": "C5-S06A-L02"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C5-S06A-L03"
+        }
+      ],
+      "next": "C5-S07"
+    },
+    {
+      "id": "C5-S06B",
+      "type": "dialogue",
+      "stage": "barangay_vaw_desk",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C5-S06B-L01"
+        },
+        {
+          "speaker": "officer",
+          "text_key": "C5-S06B-L02"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C5-S06B-L03"
+        }
+      ],
+      "next": "C5-S07"
+    },
+    {
+      "id": "C5-S06C",
+      "type": "dialogue",
+      "stage": "tita_baby_home",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C5-S06C-L01"
+        },
+        {
+          "speaker": "tita_baby",
+          "text_key": "C5-S06C-L02"
+        },
+        {
+          "speaker": "aling_nena",
+          "text_key": "C5-S06C-L03"
+        }
+      ],
+      "next": "C5-S07"
+    },
+    {
+      "id": "C5-S07",
+      "type": "dialogue",
+      "stage": "vlw_bodega_row",
+      "variants": [
+        {
+          "when": {
+            "eq": [
+              "k_night_job",
+              "accepted_recording"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S07-JOB-L01"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S07-JOB-L02"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S07-JOB-L03"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S07-JOB-L04"
+            },
+            {
+              "speaker": "dado",
+              "text_key": "C5-S07-JOB-L05"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "k_night_job",
+              "accepted"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S07-JOB-L01"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S07-JOB-L02"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S07-JOB-L03"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S07-JOB-L04"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "k_night_job",
+              "declined"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S07-DECLINED-L01"
+            }
+          ]
+        }
+      ],
+      "next": "C5-S08"
+    },
+    {
+      "id": "C5-S08",
+      "type": "hub",
+      "stage": "dumalagan_home_night",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C5-S08-L01"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C5-S08-L02"
+        }
+      ],
+      "variants": [
+        {
+          "when": {
+            "eq": [
+              "k_night_job",
+              "accepted"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S08-ACCEPTED-L01"
+            },
+            {
+              "speaker": "aling_nena",
+              "text_key": "C5-S08-ACCEPTED-L02"
+            },
+            {
+              "speaker": "kaloy",
+              "text_key": "C5-S08-ACCEPTED-L03"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "k_night_job",
+              "declined"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S08-DECLINED-L01"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "k_night_job",
+              "accepted_recording"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S08-RECORDED-L01"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C5-S08-RECORDED-L02"
+            }
+          ]
+        }
+      ],
+      "next": "FLOW-C5"
+    },
+    {
+      "id": "FLOW-C5",
+      "type": "flowchart",
+      "next": "C6-S01"
+    }
+  ]
+}

@@ -152,3 +152,480 @@ C1-S03-L07-DIR,walking in with three cups of coffee
 C1-S01-L02-DIR,"from the bed, eyes closed"
 C1-S03-L05-DIR,"DINDO (20, proud)"
 C1-S06A-L05-DIR,glancing at the office window
+C2-TITLE,Kargador
+C2-S01-L01,"The Dumalagan house has two rooms and a ceiling that sags in the middle. There is a brownout, so Jomar studies by phone flashlight. Aling Nena sits in her corner bed squeezing a rubber therapy ball with her weak left hand, counting under her breath. On the sofa, Mang Berto sleeps beside an empty bottle of gin."
+C2-S01-L02,"Kuya, Biyernes na ang science fair namin ni Cherry. Kailangan ko ng bond paper at ink. Dalawang daan."
+C2-S01-L03,Sige. Sa sweldo.
+C2-S01-L04,Kaloy. Pang-tagay lang. Tatlong daan.
+C2-S01-L05,Wala.
+C2-S01-L06,Wala? Eh may trabaho ka! Sino ba'ng nagpalaki sa 'yo?
+C2-S01-L07,Jomar goes still. Aling Nena stops counting.
+C2-D1-PROMPT,The morning demand
+C2-D1-A,Give him ₱300
+C2-D1-B,Refuse and stand your ground
+C2-D1-C,"Give ₱100, say ""Mamaya, Pa,"" and text Tita Baby to take Jomar tonight"
+C2-S02A-L01,Berto leaves.
+C2-S02A-L02,"Aling Nena says slowly, ""Anak... huwag."""
+C2-S02A-L03,"Mamaya lang 'to, Ma."
+C2-S02A-L04,Mamaya na naman.
+C2-S02A-L05,Kaloy skips lunch money and rides the jeep standing.
+C2-S02B-L01,Berto lunges; Kaloy catches his wrist.
+C2-S02B-L02,"Tay, tama na po!"
+C2-S02B-L03,Ako pa ang pinapahiya mo sa sarili kong bahay?
+C2-S02B-L04,He walks out. Aling Nena is crying without sound. Kaloy is twenty minutes late.
+C2-S02C-L01,Bakit ako ang pinapalayas?
+C2-S02C-L02,Hindi kita pinapalayas. Pinoprotektahan kita.
+C2-S02C-L03,"Hindi ako ang kailangan mong protektahan, Kuya. Si Mama."
+C2-S02C-L04,Kaloy has no answer.
+C2-S03-L01,"The VLW Cargo Hub: six warehouses in a row, a river road, a yellow-painted pumping station next door. Kaloy's badge reads CONTRACTUAL — 5 MOS. A bulletin board says ""Voluntary Extended Hours (No Overtime Rate)."" Tito Boy drives his forklift up beside him."
+C2-S03-L02,Ayos ang mukha mo. Parang pallet na nalaglag.
+C2-S03-L03,"Salamat po, Tito. Ikaw naman, parang forklift na luma."
+C2-S03-L04,Luma pero hindi pa naipapamigay.
+C2-S03-L05,They laugh. It is the only unforced laugh Kaloy will have all week.
+C2-S04-L01,"The payroll window opens at noon. Kaloy's slip is short ₱2,400: ₱1,600 in overtime ""not recognized"" and ₱800 for a ""uniform fee"" that he never signed for. Tito Boy shows him his own slip, short by the same."
+C2-S04-L02,Hindi lang ikaw. Nagpapapirma ako ng reklamo para sa DOLE. Kasama natin si Atty. Benj ng Tanggol Manggagawa.
+C2-S04-L03,"Across the hallway, Dado Villaflor, in a gray polo and a plain lanyard, is reading a clipboard. He looks up and nods at Kaloy, friendly."
+C2-D2-PROMPT,The short pay
+C2-D2-A,Sign Tito Boy's complaint
+C2-D2-B,Stay silent
+C2-D2-C,Ask Dado directly for overtime to make up the difference
+C2-S05A-L01,Tama 'yan.
+C2-S05A-L02,The next morning Dado greets Kaloy by name with a smile that does not reach his eyes.
+C2-S05B-L01,"Naiintindihan kita. Hindi ako nagagalit, Kaloy. Nalulungkot lang."
+C2-S05C-L01,"Matalino ka. Sa susunod na linggo, titingnan natin ang overtime mo."
+C2-S05C-L02,He hands over a card with a number.
+C2-S05C-L03,Pag may kailangan ka.
+C2-S06-L01,"At 3:30 PM a rider arrives at Bay 4 for a sealed box. This is the same scene as C1-S06A, seen from Kaloy's side."
+C2-S06-L02,At 9 PM Kaloy is told to sweep Bay 7. Behind the mop bucket he sees two things stacked together. One is a pallet of cardboard boxes stamped Valdez Foundation — Pamaskong Handog / Relief. The other is a row of steel drums stamped DPWI — BPS STANDBY DIESEL — DO NOT RELEASE. Government fuel sitting in a private warehouse. A guard's flashlight sweeps the far wall.
+C2-S06-RIDER-THOUGHT,Mukhang pagod. Parang si Papa noong nagtatrabaho pa.
+C2-D3-PROMPT,Drums and pallets
+C2-D3-A,Take photos
+C2-D3-B,Ignore it
+C2-D3-C,Quietly ask Tito Boy
+C2-S06A-L01,"The flashlight comes closer. Kaloy crouches behind a pallet with his phone dark in his hand. The guard, Mang Cesar, hums a radio jingle and moves on. Kaloy exhales. Six photos are on his phone."
+C2-S06B-L01,"He sweeps the last aisle and turns off the light. In the dark, the drums are just shapes."
+C2-S06C-L01,"Noong isang taon, 'yung semento para sa Section 7. Sa resibo, walong daang sako. Apat na raan lang ang bumaba sa truck. Nakita ko mismo."
+C2-S06C-L02,Bakit hindi mo sinabi?
+C2-S06C-L03,Kanino?
+C2-S07-L01,"Kaloy walks home along the river road at 10 PM, past a basketball court where three kids shoot hoops under one working lamp. His phone buzzes."
+C2-S07-L02,"Kuya, ready na project namin ni Cherry. May mapa kami ng baha. Ang galing niya!"
+C2-S07-APPEASED,"Berto is out. Aling Nena is awake in the dark, waiting."
+C2-S07-CONFRONTED,"Berto sits at the table, sober and silent, looking at Kaloy for a long time."
+C2-S07-SHIELDED,The house is quiet. Jomar's mat is empty. Kaloy lies on his side of it and listens.
+C2-FLOW,Decision Flowchart
+C3-TITLE,Uwi
+C3-S01-L01,"Four years earlier, in a kitchen in a Gulf city, at midnight. The Madam of the house inspects a plate under the light."
+C3-S01-L02,May marka. Ulitin.
+C3-S01-L03,"Perlita washes it again. Her phone is locked in a drawer in the Madam's bedroom. Her wages have been ""held"" for fourteen months. She is allowed one three-minute call a month on a cheap card."
+C3-S01-L04,The short call plays as audio over black:
+C3-S01-L05,Sino po 'to?
+C3-S01-L06,a small voice asks.
+C3-S01-L07,"Si Mama 'to, anak."
+C3-S01-L08,Silence. Then:
+C3-S01-L09,Ate Jessa! May tumatawag po!
+C3-S01-L10,"Then the escape, in three still frames."
+C3-S01-L11,"A neighbor's housemaid, Ate Nelia, leaves a back gate unlocked."
+C3-S01-L12,"A shelter run by Filipino volunteers, with a hand-lettered sign."
+C3-S01-L13,An OWWA officer stamping a repatriation form:
+C3-S01-L14,"Ma'am Perlita, uuwi na po kayo."
+C3-S01-L15,"The screen fades to white. Nine years. Eight children. Unpaid wages and benefits owed: about ₱520,000."
+C3-S02-L01,Barangay Maligaya. A two-story rented house with a gate that does not close and a creek that smells like rain even when it is dry.
+C3-S02-L02,"ALING PACING, the neighbor, drops her basin:"
+C3-S02-L03,Perlita?! Diyos ko!
+C3-S02-L04,Jessa opens the front door. She is 23 and looks older.
+C3-S02-L05,Ma.
+C3-S02-L06,"She does not hug her mother. Behind her, on the stairs, five faces line up in a row like a school photo. A smaller one peeks from behind Jessa's leg. Perlita counts without meaning to: Jessa, five on the stairs, one behind her. Seven. Paolo, the eighth, is not there."
+C3-D1-PROMPT,Ikaw po ba si Mama?
+C3-S02-L07,Ikaw po ba si Mama?
+C3-D1-A,"Kneel: ""Ako 'to, anak. Si Mama mo."""
+C3-D1-B,"""Ako si Perlita. Hindi mo kailangang tawagin akong Mama ngayon."""
+C3-D1-C,"Look at Jessa: ""Jessa, ikaw ang magpakilala."""
+C3-S03A-L01,Pero si Ate Jessa po ang Mama ko.
+C3-S03A-L02,Aiza grips Jessa's hand tighter. The children say nothing. Perlita's smile is held in place by effort.
+C3-S03B-L01,Perlita... parang perlas?
+C3-S03B-L02,"Oo, parang perlas."
+C3-S03B-L03,May pasalubong ka po ba?
+C3-S03B-L04,"Oo nga, Madam, may pasalubong ba?"
+C3-S03B-L05,Wala. Pero may luto ako.
+C3-S03B-L06,The tension breaks.
+C3-S03C-L01,"Bea, siya si Mama."
+C3-S03C-L02,"It is a statement, not a welcome."
+C3-S03C-L03,Hello po.
+C3-S03C-L04,Jessa's hand settles on Bea's shoulder.
+C3-S04-L01,Nine plates on a table made for six. Perlita serves and does not sit.
+C3-S04-L02,"Madam, upuan po."
+C3-S04-L03,"Ay, hindi, ako na."
+C3-S04-L04,"Nine years, hindi ka pa rin marunong umupo?"
+C3-S04-L05,Cherry!
+C3-S04-L06,Tanong lang.
+C3-S04-L07,Jun-Jun finishes eating in four minutes and leaves without a word. Paolo's chair is empty.
+C3-S04-L08,"After dinner Jessa places a spiral notebook in front of Perlita. It lists a tindahan debt of ₱14,200, a power bill of ₱5,800, two months' rent behind (₱18,000), and ₱6,500 in school contributions."
+C3-S04-L09,"Ma, para po sa inyo. Kayo na po ang bahala."
+C3-D2-PROMPT,The notebook
+C3-D2-A,"Take it: ""Ako na ang magulang dito. Magpahinga ka na."""
+C3-D2-B,"Push it back: ""Ikaw ang nakakaalam. Turuan mo ako."""
+C3-D2-C,"Close it: ""Ako ang dapat humingi ng tawad. Anong kailangan mo?"""
+C3-S05A-L01,Jessa's face closes like a door.
+C3-S05A-L02,Opo.
+C3-S05A-L03,The stairs creak. Nobody eats dessert.
+C3-S05B-L01,...Sige po.
+C3-S05B-L02,"She opens to the first page and explains the ledger in a flat voice. It takes forty minutes. At the end, she almost smiles."
+C3-S05C-L01,"Gusto ko lang... magpahinga, Ma."
+C3-S05C-L02,"She has been holding the house together for nine years, and she cries without making a sound. She says nothing about nursing yet."
+C3-S06-L01,Paolo comes in smelling of rubber and rain. He stops when he sees Perlita awake on the sofa.
+C3-S06-L02,Gising ka pa.
+C3-S06-L03,Hinihintay kita.
+C3-S06-L04,Kailan ka aalis ulit?
+C3-D3-PROMPT,Kailan ka aalis ulit?
+C3-D3-A,"""Hindi na ako aalis. Pangako."""
+C3-D3-B,"""Hindi ko alam. Pero hindi ako aalis nang hindi n'yo muna alam."""
+C3-D3-C,"""Huwag mo akong bastusin. Ako pa rin ang nanay mo."""
+C3-S06A-L01,Madali sabihin.
+C3-S06A-L02,He takes two steps up the stairs and stops.
+C3-S06A-L03,...Sige.
+C3-S06B-L01,Paolo sits on the third stair.
+C3-S06B-L02,Hmm.
+C3-S06B-L03,It is the first thing he has said that is not an insult.
+C3-S06C-L01,"Nanay? Sige po, Ma."
+C3-S06C-L02,The door closes behind him again.
+C3-S07-L01,Perlita sleeps on a mat in the girls' room between Aiza and Bea. Tomorrow she has an appointment with Atty. Benjamin Salonga at Tanggol Manggagawa about her unpaid-wage claim. She counts coins in her palm in the dark. She has not sat down for a full meal in nine years. She does not know this yet.
+C3-S07-L02,"A small, unsigned drawing is waiting at the foot of her mat."
+C3-S07-INSISTED,There is no drawing. Bea sleeps facing the wall.
+C3-S07-GENTLE-L01,Crayon: a woman with a big round pearl on a string.
+C3-S07-GENTLE-L02,"Under it, in careful letters: PERLITA."
+C3-S07-DEFERRED-L01,Jessa slips in at midnight and sets down a drawing Bea made.
+C3-S07-DEFERRED-L02,"Pinaguhit niya 'yan para sa inyo,"
+C3-S07-DEFERRED-L03,she whispers. It shows two women holding hands.
+C3-D2-C-OPEN,The conversation is open if bond_jessa is 2 or higher.
+UI-C2-CHAR-JOMAR,Jomar
+UI-C2-CHAR-BERTO,Mang Berto
+UI-C2-CHAR-ALING_NENA,Aling Nena
+UI-C2-CHAR-TITO_BOY,Tito Boy
+UI-C2-CHAR-DADO,Dado
+UI-C2-CHAR-MANG_CESAR,Mang Cesar
+UI-C3-CHAR-MADAM,Madam
+UI-C3-CHAR-CHILD_VOICE,Child voice
+UI-C3-CHAR-OWWA_OFFICER,OWWA officer
+UI-C3-CHAR-ALING_PACING,Aling Pacing
+UI-C3-CHAR-JESSA,Jessa
+UI-C3-CHAR-BEA,Bea
+UI-C3-CHAR-AIZA,Aiza
+UI-C3-CHAR-DANDAN,Dandan
+UI-C3-CHAR-CHERRY,Cherry
+UI-C3-CHAR-RHEA,Rhea
+UI-C3-CHAR-JUN_JUN,Jun-Jun
+UI-C3-CHAR-PAOLO,Paolo
+UI-C3-CHAR-ATE_NELIA,Ate Nelia
+UI-C2-ASSET-BG,TEST CONTENT — Chapter 2 placeholder background
+UI-C3-ASSET-BG,TEST CONTENT — Chapter 3 placeholder background
+UI-FLOWCHART,Decision Flowchart
+UI-CHAPTER-CONTINUE,Continue to next chapter
+UI-CHAPTER-REPLAY,Replay chapter
+UI-LANE-MARIO,Mario
+UI-LANE-KALOY,Kaloy
+UI-LANE-PERLITA,Perlita
+C2-S01-L04-DIR,"waking, hoarse"
+C3-S04-L05-DIR,laughing and crying
+C2-S06C-L01-DIR,low voice
+UI-C3-CHAR-PERLITA,Perlita
+C4-TITLE,Utang
+C4-D1-PROMPT,The way to pay
+C4-D1-A,Take Ramil's 15K advance
+C4-D1-B,Ask Councilor Maniquis's office for help
+C4-D1-C,Sell the motorcycle
+C4-D2-PROMPT,Four hundred pesos
+C4-D2-A,Lend Kaloy ₱400
+C4-D2-B,Keep your money
+C4-D2-C,Kilala kita. Bay 4. Alam mo ba kung ano'ng dinadala ko?
+C4-D2-C-LOCKED,You have not met Kaloy at Bay 4.
+C4-D3-PROMPT,Cacá
+C4-D3-A,"Pay the ₱5,000"
+C4-D3-B,Use the barangay diversion program
+C4-D3-C,"Call Ramil to ""ayusin"" it"
+C4-S01A-L01,Anna eats breakfast without looking at him.
+C4-S01A-L02,"Anna, mamaya..."
+C4-S01A-L03,Okay lang po.
+C4-S01A-L04,Luz's phone buzzes with a text from the teacher: Anna was left out of Project Katatagan because the fee was unpaid.
+C4-S01A-L05,"Luz reads it aloud, softly."
+C4-S01A-L06,The Milo can holds ₱310.
+C4-S01B-L01,6:10 AM. Luz is at the sink. A cup falls. She grips the counter.
+C4-S01B-L02,Mario...
+C4-S01B-L03,Migo screams.
+C4-S01B-L04,Anna dials.
+C4-S01B-L05,"Mario carries her to a tricycle with Lola Tindeng beside him. At the SIDH emergency room, Dr. Lorna Pascual says:"
+C4-S01B-L06,"Hypertensive crisis. Hindi dapat kalahati ang gamot, Mr. Magsino."
+C4-S01B-L07,Kasi po...
+C4-S01B-L08,Alam ko 'yan.
+C4-S01B-L09,"She does not say it unkindly. Two days in the ward. Out-of-pocket: ₱18,400. “May Medical Assistance sa City Hall. Karaniwan, kailangan nila ng endorsement ng isang opisyal.” Luz, in the bed:"
+C4-S01B-L10,"Ako ang nagsabi, Mario."
+C4-S01B-L11,Hindi. Ako dapat.
+C4-S01C-L01,Day 15. Two men from Aling Susan's lender stand in the doorway at 7 AM.
+C4-S01C-L02,Anim na libo.
+C4-S01C-L03,"Mario has ₱1,900."
+C4-S01C-L04,Tatlong araw na lang. Pitong libo't dalawang daan na 'yan.
+C4-S01C-L05,Migo hides behind Luz's skirt.
+C4-S01C-L06,May tatlong anak ang tao!
+C4-S01C-L07,Biyernes.
+C4-S02-L01,"Night. Mario sits on the steps behind his house, facing the dike. A dark seep runs down the Section 7 wall under a streetlight. If you listen closely, there is a trickle inside it. His phone lights up."
+C4-S02-L02,Pare. May bigat na tulong ako para sa 'yo. 15K advance. Usap tayo?
+C4-S02-L03,"This text appears in every path. If Mario declined Ramil in C1, it still arrives. Ramil said he would be there."
+C4-S03A-L01,"Ramil slides ₱15,000 across the canteen table in a plain envelope."
+C4-S03A-L02,"Hindi ka makukulong sa paghatid ng papel, Mario."
+C4-S03A-L03,Para sa special line.
+C4-S03A-L04,"That night at Bay 4, Kaloy hands him a taped box."
+C4-S03A-L05,Ikaw ulit po.
+C4-S03A-L06,Mario nods. Neither says anything else.
+C4-S03B-L01,"The Constituent Services office at City Hall: two hundred people in a hallway, a six-foot tarpaulin of Councilor Maniquis smiling, a clerk who stamps papers without looking up."
+C4-S03B-L02,A guarantee letter appears with a campaign sticker.
+C4-S03B-L03,Mario must pose with it for a photo.
+C4-S03B-L04,The photo goes onto the Councilor's page: “Isa na namang pamilya ang natulungan ni Kon. Bong!”
+C4-S03B-L05,Atty. Ilagan smiles at him.
+C4-S03B-L06,"Rider ni Ramil, tama?"
+C4-S03C-L01,"Mang Dencio, the buyer, offers ₱18,000 for a bike worth ₱32,000."
+C4-S03C-L02,"Pare, 'wag mo nang ibigay."
+C4-S03C-L03,Kailangan ko.
+C4-S03C-L04,Tonyo's cousin rents him a boundary bike at ₱350 a day.
+C4-S03C-L05,"Luz watches him hand over the keys and says nothing, which is worse than anything she might say."
+C4-S04-L01,SIDH's pharmacy window.
+C4-S04-L02,Wala po ang generic. Brand lang po.
+C4-S04-L03,The man in front of Mario is short ₱400.
+C4-S04-L04,"It is Kaloy, with his mother Aling Nena in a wheelchair beside him."
+C4-S04-L05,Dr. Lorna walks past with a clipboard and does not stop.
+C4-S04-L06,"Babayaran ko po agad, sir."
+C4-S04-L07,The man in front of Mario is Kaloy.
+C4-S04A-L01,"Babayaran ko po agad, sir."
+C4-S04A-L02,Hindi na. Ipainom mo sa nanay mo.
+C4-S04A-L03,"Salamat, anak."
+C4-S04A-L04,It is the nicest thing anyone has said to Mario in a week.
+C4-S04B-L01,Kaloy borrows from Tito Boy's wife by phone. Mario pays for Luz's refill and walks out into the heat.
+C4-S04C-L01,"Hindi ko alam, sir. Pero hindi papel 'yan."
+C4-S04C-L02,Wala po akong alam. Huwag n'yo po akong idamay.
+C4-S05-L01,10 PM. The tanods bring Cacá in. He was caught with Jericho snatching a phone from a woman at the Plaza. Jericho ran.
+C4-S05-L02,"Kap. Lando Ocampo sits at his desk with the complainant, Mrs. Reyes. The settlement is ₱5,000, or the case goes to the prosecutor. A third option exists, if anyone has the patience to ask for it."
+C4-S05-L03,The opening line depends on caca_phone.
+C4-S05-L04,Huwag mo akong hawakan!
+C4-S05-L05,"Tay, sorry po. Hindi ko po sinasadya."
+C4-S05-L06,"Hindi ka naman nagtanong, Tay."
+C4-S05A-L01,Sayang ang bata.
+C4-S05A-L02,Mario hands over the money.
+C4-S05A-L03,"Kapag may pera, nawawala pala ang kaso."
+C4-S05A-L04,Mario has no answer.
+C4-S05B-L01,"Mahaba 'to, Mario. Pero nasa tamang daan."
+C4-S05B-L02,Cacá spends the night on a plastic chair with a blanket.
+C4-S05B-L03,In the morning he looks at his father and says nothing. It is not hatred. It is exhaustion.
+C4-S05C-L01,Ramil makes one call.
+C4-S05C-L02,"Walang tanong, 'di ba?"
+C4-S05C-L03,Mario says yes.
+C4-S05C-L04,He has never lied better or felt worse.
+C4-S06-L01,Midnight. Luz stands at the back window looking at the dike.
+C4-S06-L02,May tubig na lumalabas sa pader kanina. Hindi ulan.
+C4-S06-L03,Luma lang 'yan.
+C4-S06-TULAY-L01,Saan galing 'yang pera?
+C4-S06-TULAY-L02,Overtime.
+C4-S06-TULAY-L03,She does not believe him.
+C4-S06-MANIQUIS-L01,Ginamit ka ni Kon. Bong sa tarpaulin niya.
+C4-S06-MANIQUIS-L02,"She laughs once, bitterly."
+C4-S06-DIVERSION-L01,Maaga akong gigising bukas para ipagluto si Carlo.
+C4-S06-BIKE-L01,She puts her hand on his and says: “Hindi naman ang motor ang importante sa akin.”
+C5-TITLE,Bodega
+C5-D1-PROMPT,Special handling
+C5-D1-A,Accept
+C5-D1-B,Decline
+C5-D1-C,"Accept, and secretly record everything"
+C5-D2-PROMPT,The union and the offer
+C5-D2-A,Commit: join the union and agree to testify
+C5-D2-B,Take the regularization and sign the NDA
+C5-D2-C,Stay neutral: attend but sign nothing
+C5-D3-PROMPT,The Section 7 slide
+C5-D3-A,"Tell Jomar to remove the slide. ""Scholarship muna."""
+C5-D3-B,"Back them openly. ""Ituloy mo."""
+C5-D3-C,"Ask Alma privately: ""Totoo bang mahina ang Section 7?"""
+C5-D4-PROMPT,Tonight
+C5-D4-A,Hit him
+C5-D4-B,Take your mother to the barangay VAW desk in the morning and ask for a protection order
+C5-D4-C,Move your mother and Jomar to Tita Baby's tonight
+C5-S01-L01,The opening changes with k_father_morning.
+C5-S01-L02,"Jomar has two things coming. A Valdez Foundation scholarship interview on Friday, and the science fair the same morning. He is happier than Kaloy has seen him in a year."
+C5-S01-APPEASED-L01,"Berto now expects ₱500 every payday, plus drinking money. Kaloy gives it."
+C5-S01-APPEASED-L02,Aling Nena squeezes her therapy ball harder every time he does.
+C5-S01-CONFRONTED-L01,Berto has been sober for a week. He sits at the table in silence and watches. The house feels like the air before a typhoon.
+C5-S01-SHIELDED-L01,Jomar spends most nights at Tita Baby's.
+C5-S01-SHIELDED-L02,He still brings his homework home on Saturdays.
+C5-S02-L01,"This is the same scene as C4-S04, seen from Kaloy's side."
+C5-S02-LENT-L01,"Kaloy hesitates, then takes the ₱400."
+C5-S02-LENT-L02,Sino ang nagbibigay ng pera sa estranghero?
+C5-S02-KEPT-L01,Kaloy phones Tito Boy's wife and borrows ₱400 from her. He is ashamed and does not know why the stranger in the line did not look at him.
+C5-S02-ASKED-YES-L01,"Hindi ko alam, sir. Pero hindi papel 'yan."
+C5-S02-ASKED-NO-L01,Wala po akong alam. Huwag n'yo po akong idamay.
+C5-S03-L01,A small office with a window onto the loading floor. A framed photo on the desk shows a girl in a wheelchair.
+C5-S03-L02,Anak ko si Pearl. Ang laki ng gastos.
+C5-S03-JOINED-L01,"Narinig kong pumirma ka sa reklamo ni Rodrigo. Hindi ako galit. Pero ang kumpanya, ayaw ng gulo. Baka gusto mong tumulong sa halip na magreklamo?"
+C5-S03-OT-L01,Matalino ka. Ito 'yung overtime na pinag-usapan natin.
+C5-S03-SILENT-L01,Wala kang reklamo. Gusto ko 'yan. Tahimik.
+C5-S03-L03,Special handling. Dalawang gabi sa isang linggo. Anim na libo kada gabi. Pag-load lang ng sealed pallets. Hindi mo kailangang buksan.
+C5-S03-L04,Ano po ang laman?
+C5-S03-L05,Hindi mo kailangang malaman.
+C5-S04-L01,"Two weeks later. Fourteen workers sit on plastic chairs in a garage. Atty. Benj Salonga has a laptop on a stack of crates. Nadia Cruz of Radyo Buhangin sits at the back, taking notes."
+C5-S04-L02,Kailangan namin ng taong may access sa mga dokumento. Isang testigo.
+C5-S04-L03,"That morning, a VLW HR representative, Ma'am Lyn, handed Kaloy a letter."
+C5-S04-L04,"Regularization next month, plus a ₱40,000 “loyalty bonus,” if the complaint is withdrawn and a non-disclosure agreement is signed."
+C5-S05-L01,Friday morning at SIIS. A banner reads Valdez Foundation Presents: San Isidro Science and Innovation Fair. Doña Cora Valdez cuts the ribbon. Engr. Alma Dizon is a guest judge.
+C5-S05-L02,"Cherry and Jomar present Mapa ng Baha: Alam Ba Natin Kung Saan Pumapasok ang Tubig? They have laid the barangay's 2018 flood marks over the dike's public plan. Their slide for Section 7 shows no drainage openings and a seep rate of about eight liters an hour at the visible stain. Alma is quiet. In the audience, a woman in a clean dress sits next to Kaloy."
+C5-S05-L03,"Kuya ni Jomar, 'di ba? Anak ko si Cherry."
+C5-S05-L04,Ang galing nila.
+C5-S05-L05,Parang mas marunong pa sila sa mga engineer.
+C5-S05-L06,Hindi sila ang mali.
+C5-S05-L07,Dado is at the back as a VGC representative.
+C5-S06-L01,"1:00 AM, San Roque. Berto comes home drunk. He has heard from a neighbor what Kaloy earns."
+C5-S06-L02,Huwag mong hingin ang pera ng anak mo.
+C5-S06-L03,"There is a sound that Kaloy hears from the doorway, and then he is in the room."
+C5-S06A-L01,Berto is on the floor. Kaloy looks at his own hands.
+C5-S06A-L02,Ganito pala.
+C5-S06A-L03,"Jomar, in the doorway, will not look at him."
+C5-S06B-L01,At the VAW desk a woman officer writes down the details without comment.
+C5-S06B-L02,"Hindi mo kasalanan 'to, ma'am."
+C5-S06B-L03,Aling Nena lowers her head. Kaloy realizes his mother has never heard those words before.
+C5-S06C-L01,Tita Baby opens the door in her nightdress.
+C5-S06C-L02,Matagal ko nang hinihintay 'to.
+C5-S06C-L03,Aling Nena asks to take her therapy ball.
+C5-S07-JOB-L01,11 PM to 4 AM. Kaloy and two other loaders move sealed crates stamped Maniquis Hardware onto an unmarked truck.
+C5-S07-JOB-L02,Dado counts them by flashlight.
+C5-S07-JOB-L03,Near the end he carries a red metal lockbox up to a second-floor room marked Records.
+C5-S07-JOB-L04,Kaloy now knows the lockbox exists and where it is kept.
+C5-S07-JOB-L05,"Yung Libro, kay Atty. Ilagan pa rin."
+C5-S07-DECLINED-L01,Kaloy shoots hoops on the court. From the river road he sees Dado's truck leave Bodega Row at 11 PM with the lights off.
+C5-S08-L01,Kaloy sits at the table counting money and papers.
+C5-S08-L02,A text arrives from Dado: Pumasok ka nang maaga bukas.
+C5-S08-ACCEPTED-L01,"₱12,000 in an envelope."
+C5-S08-ACCEPTED-L02,Saan galing 'yan?
+C5-S08-ACCEPTED-L03,"Overtime, Ma."
+C5-S08-DECLINED-L01,Nothing extra. A tired man at a table.
+C5-S08-RECORDED-L01,"The money, and a phone file named voice_03."
+C5-S08-RECORDED-L02,He hides the phone.
+C6-TITLE,Singil
+C6-D1-PROMPT,Ruben
+C6-D1-A,Let him in
+C6-D1-B,"Meet him outside, at the store"
+C6-D1-C,Shut the door
+C6-D2-PROMPT,Work
+C6-D2-A,"Sign with Madam Fely, an unlicensed recruiter, to go abroad again"
+C6-D2-B,Work for the Valdez household as a housekeeper
+C6-D2-C,Take local work (laundry and the barangay community kitchen) and wait for the claim
+C6-D3-PROMPT,Jessa wants to go
+C6-D3-A,Forbid it
+C6-D3-B,Help her do it safely: check the agency with Atty. Benj
+C6-D3-C,"Offer a compromise: she studies part-time, and you earn"
+C6-S01-L01,"A second-floor office above a pharmacy. A box fan, stacks of files, a calendar from three years ago."
+C6-S01-L02,Atty. Benj Salonga turns a laptop toward her.
+C6-S01-L03,"Her claim stands at ₱520,000 in unpaid wages and benefits."
+C6-S01-L04,"GlobalStar's bond may cover it, if its owner can be found."
+C6-S01-L05,"Hindi 'to mabilis, Ma'am. Tatlo hanggang labindalawang buwan."
+C6-S01-L06,Kailangan ko po ngayon.
+C6-S01-L07,Alam ko.
+C6-S01-L08,"Rent arrears are now ₱27,000."
+C6-S01-L09,"Her phone buzzes. A text from Jessa: Ma, nandito si Papa."
+C6-S02-L01,"Ruben stands at the gate in a borrowed shirt, thinner than she remembers, holding a paper bag of pandesal. The children gather on the stairs."
+C6-S02-L02,Perlita.
+C6-S02-L03,Nandito na naman siya.
+C6-S02-L04,Sino po 'yan?
+C6-S02A-L01,"At the table Ruben cries, which none of the children have seen."
+C6-S02A-L02,Iniwan ako ni Marites. May sakit ako.
+C6-S02A-L03,Paolo walks out.
+C6-S02A-L04,Jessa leaves the room. Jun-Jun sits close to his father.
+C6-S02A-L05,"Naghukay ako para sa Silangan sa Section 7. Pinaalis ako nang magreklamo ako sa semento. Hindi tama ang halo, Perlita. Hindi tama."
+C6-S02A-L06,He leaves a folder of crumpled pay slips and a photo of a pour log on the table. Three days later the coffee can in the kitchen is empty and so is his chair.
+C6-S02B-L01,In front of the store Ruben says:
+C6-S02B-L02,"Marami akong alam, Perlita."
+C6-S02B-L03,Tungkol sa ano?
+C6-S02B-L04,Pag handa ka nang makinig sa akin nang buong gabi.
+C6-S02B-L05,"She gives him ₱2,000 and goes back inside. She will not hear the rest."
+C6-S02C-L01,Wala kang pinto dito.
+C6-S02C-L02,The gate closes.
+C6-S02C-L03,Sayang ang asawa mo.
+C6-S02C-L04,Hindi na po.
+C6-S03-L01,"Three ways to earn, in the same week."
+C6-S03-L02,The rent is due on the 30th.
+C6-S03A-L01,Madam Fely's office is a narrow room with posters of smiling nurses.
+C6-S03A-L02,"Walang kontrata, pero mas mataas ang sahod."
+C6-S03A-L03,"Perlita knows what this is, because she has lived it. She signs anyway. The money comes from a paluwagan of other OFW wives."
+C6-S03B-L01,Doña Cora Valdez interviews her in a drawing room with a piano nobody plays.
+C6-S03B-L02,Kilala ko si Cherry. Magaling sa science fair. Kayo ang nanay?
+C6-S03B-L03,Opo.
+C6-S03B-L04,"Anim na araw sa isang linggo, alas-sais hanggang alas-siyete."
+C6-S03B-L05,"Madam, parang OFW ka pa rin, pero sa kabilang burol."
+C6-S03C-L01,Kap. Rosing Almario asks her to run the barangay community kitchen.
+C6-S03C-L02,Marunong kang magluto para sa marami. Kailangan ko ng ganyan.
+C6-S03C-L03,The kids start to come after school to help peel garlic.
+C6-S04-L01,Jessa sits on the stairs one night with her phone in her hand.
+C6-S04-L02,"Ma, may agency na tumawag sa akin. Caregiver. Dalawang taon. Doon ako makakaipon para makabalik sa nursing."
+C6-S04-APOLOGY-L01,"Hindi ko na po tinago, Ma. Ito na ang paraan."
+C6-S04-TOOKOVER-L01,"If p_notebook is took_over, she says it flatly, as an announcement, not a request."
+C6-S04A-L01,Hindi ka aalis. Hindi mo alam ang pinagdadaanan ng mga katulad ko.
+C6-S04A-L02,"Alam ko, Ma. Kasi hindi mo sinabi."
+C6-S04A-L03,She packs a bag within a week and goes with Madam Fely's group in October. The notebook is left open on the table. Her phone is off.
+C6-S04B-L01,At Atty. Benj's office:
+C6-S04B-L02,"May job order, may license, may kontrata na nababasa ng Pilipino. Pwede."
+C6-S04B-L03,Jessa takes the paper like it is something holy.
+C6-S04C-L01,Mag-aral ka muna. Ako ang magtatrabaho.
+C6-S04C-NO-INCOME-L01,"Paano, Ma? Wala ka ngang trabaho."
+C6-S04C-NO-INCOME-L02,And that settles it.
+C6-S05-VALDEZ-L01,One afternoon Dado arrives with Atty. Ilagan. Perlita is dusting the corridor outside the study. She hears:
+C6-S05-VALDEZ-L02,Pinirmahan na ni Engr. Dizon. Pero kung bumagyo nang malakas sa Section 7...
+C6-S05-VALDEZ-L03,Walang bagyong ganoon.
+C6-S05-VALDEZ-L04,'Yung Libro. Sa Maniquis muna.
+C6-S05-VALDEZ-L05,She sets p_inside = true.
+C6-S05-VALDEZ-L06,"Doña Cora later, without turning around: Perlita, ang mga pinto sa bahay na ito ay laging nakasara. Alam mo ba kung bakit?"
+C6-S05-RECRUITER-L01,"In Madam Fely's waiting room, a woman cries quietly into a rolled-up passport. Nobody speaks to her."
+C6-S05-RECRUITER-L02,Perlita sits beside her. Neither says what they both know.
+C6-S05-LOCAL-L01,The community kitchen at the barangay hall.
+C6-S05-LOCAL-L02,"Kap. Rosing: Kapag bumagyo, dito tayo."
+C6-S05-LOCAL-L03,"Perlita counts the burners on the stove, because it is the kind of thing she does."
+C6-S06-L01,Cherry corners her mother in the kitchen.
+C6-S06-RECRUITER-L01,"Aalis ka na naman, 'di ba?"
+C6-S06-VALDEZ-L01,Nasa kabilang burol ka na naman.
+C6-S06-LOCAL-L01,"Ma, salamat sa kusina."
+C6-S06-L02,"Then, in every version: Hindi ako takot sa baha, Ma. Takot ako na aalis ka ulit."
+C6-S07-L01,"At the kitchen table, late. Perlita and Jessa go through the notebook."
+C6-S07-L02,"On the TV in the living room, a weather bulletin: a low-pressure area east of Luzon has become a tropical depression and has been given a name. Luming. The chapter ends on the Decision Flowchart. Act II ends."
+C6-S07-STUDY-L01,Kaya na po.
+C6-S07-STUDY-L02,Jessa shows her an enrollment form.
+C6-S07-LICENSED-L01,Jessa writes a date in the margin: Enero.
+C6-S07-LICENSED-L02,Perlita does not look at it for long.
+C6-S07-RESENTFUL-L01,Jessa does the sums in silence.
+C6-S07-ILLEGAL-L01,The notebook is blank from the last entry.
+C6-S07-ILLEGAL-L02,Perlita closes it and does not know where to put it down.
+C4-S06-L04,Then she turns to him.
+C6-S04A-L04,Jessa stays but resents it.
+UI-C4-CHAR-DR_LORNA,Dr. Lorna Pascual
+UI-C4-CHAR-DODONG,Dodong
+UI-C4-CHAR-JUN,Jun
+UI-C4-CHAR-PHARMACIST,Pharmacist
+UI-C4-CHAR-MRS_REYES,Mrs. Reyes
+UI-C4-CHAR-KAP_LANDO,Kap. Lando Ocampo
+UI-C5-CHAR-OFFICER,Officer
+UI-C5-CHAR-TITA_BABY,Tita Baby
+UI-C5-CHAR-ALMA,Engr. Alma Dizon
+UI-C6-CHAR-BENJ,Atty. Benj Salonga
+UI-C6-CHAR-RUBEN,Ruben
+UI-C6-CHAR-DONA_CORA,Doña Cora Valdez
+UI-C6-CHAR-KAP_ROSING,Kap. Rosing Almario
+C5-S06-L04,And then he is in the room.
+UI-C4-CHAR-LOLA_TINDENG,Lola Tindeng
+C5-S04-JOB-L01,"₱12,000 a week. Your mother's therapy is paid for."
+C5-S04-DECLINED-L01,Walang problema.
+C5-S04-RECORD-L01,"Same money, same risk."
+C5-S05-COMMITTED-L01,Hindi kita iiwan.
+C5-S05-REGULARIZED-L01,"Job security and ₱40,000. Tito Boy's face does not change, which is worse."
+C5-S05-NEUTRAL-L01,Hindi kita pipilitin.
+C5-S05-NEUTRAL-L02,You keep both doors open for now.
+C5-S06-TONED-L01,Jomar is hurt. The scholarship is safe for now. E7 is lost.
+C5-S06-TONED-L02,Jomar remembers.
+C5-S06-SUPPORTED-L01,Jomar is proud. Dado writes something down. E7 is kept.
+C5-S06-SUPPORTED-L02,In C11 the scholarship is revoked.
+C5-S06-ALMA-L01,Alma goes pale and hands you her card.
+C5-S06-ALMA-L02,Nasa cabinet ko ang mga papel. Hindi pa ngayon.
+C5-S06-ALMA-L03,The kids' slide is removed at Alma's request.
+C6-S03A-L04,"₱35,000 placement fee, borrowed. A flight in December."
+C6-S03B-L06,"₱18,000 a month. Long hours."
+C6-S03C-L04,Low pay. You are at home at night.
+C5-S02-LENT-L03,He memorizes the rider's face.

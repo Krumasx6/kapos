@@ -1,0 +1,535 @@
+{
+  "id": "C2",
+  "title_key": "C2-TITLE",
+  "protagonist": "kaloy",
+  "start_node": "C2-S01",
+  "nodes": [
+    {
+      "id": "C2-S01",
+      "type": "dialogue",
+      "stage": "dumalagan_home_dawn",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C2-S01-L01"
+        },
+        {
+          "speaker": "jomar",
+          "text_key": "C2-S01-L02"
+        },
+        {
+          "speaker": "kaloy",
+          "text_key": "C2-S01-L03"
+        },
+        {
+          "speaker": "berto",
+          "text_key": "C2-S01-L04",
+          "stage_direction_key": "C2-S01-L04-DIR"
+        },
+        {
+          "speaker": "kaloy",
+          "text_key": "C2-S01-L05"
+        },
+        {
+          "speaker": "berto",
+          "text_key": "C2-S01-L06"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C2-S01-L07"
+        }
+      ],
+      "next": "C2-D1"
+    },
+    {
+      "id": "C2-D1",
+      "type": "decision",
+      "prompt_key": "C2-D1-PROMPT",
+      "timer_seconds": 20,
+      "default_option": "A",
+      "options": [
+        {
+          "id": "A",
+          "label_key": "C2-D1-A",
+          "next": "C2-S02A",
+          "effects": [
+            {
+              "set": "k_father_morning",
+              "to": "appeased"
+            },
+            {
+              "set": "k_safety",
+              "to": 0
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "label_key": "C2-D1-B",
+          "next": "C2-S02B",
+          "effects": [
+            {
+              "set": "k_father_morning",
+              "to": "confronted"
+            },
+            {
+              "set": "k_safety",
+              "to": -1
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "label_key": "C2-D1-C",
+          "next": "C2-S02C",
+          "effects": [
+            {
+              "set": "k_father_morning",
+              "to": "shielded"
+            },
+            {
+              "set": "k_safety",
+              "to": 1
+            }
+          ]
+        }
+      ],
+      "stage": "dumalagan_home_dawn"
+    },
+    {
+      "id": "C2-S02A",
+      "type": "dialogue",
+      "stage": "dumalagan_home_dawn",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C2-S02A-L01"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C2-S02A-L02"
+        },
+        {
+          "speaker": "kaloy",
+          "text_key": "C2-S02A-L03"
+        },
+        {
+          "speaker": "aling_nena",
+          "text_key": "C2-S02A-L04"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C2-S02A-L05"
+        }
+      ],
+      "next": "C2-S03"
+    },
+    {
+      "id": "C2-S02B",
+      "type": "dialogue",
+      "stage": "dumalagan_home_dawn",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C2-S02B-L01"
+        },
+        {
+          "speaker": "jomar",
+          "text_key": "C2-S02B-L02"
+        },
+        {
+          "speaker": "berto",
+          "text_key": "C2-S02B-L03"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C2-S02B-L04"
+        }
+      ],
+      "next": "C2-S03"
+    },
+    {
+      "id": "C2-S02C",
+      "type": "dialogue",
+      "stage": "dumalagan_home_dawn",
+      "lines": [
+        {
+          "speaker": "jomar",
+          "text_key": "C2-S02C-L01"
+        },
+        {
+          "speaker": "kaloy",
+          "text_key": "C2-S02C-L02"
+        },
+        {
+          "speaker": "jomar",
+          "text_key": "C2-S02C-L03"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C2-S02C-L04"
+        }
+      ],
+      "next": "C2-S03"
+    },
+    {
+      "id": "C2-S03",
+      "type": "dialogue",
+      "stage": "vlw_bodega_row",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C2-S03-L01"
+        },
+        {
+          "speaker": "tito_boy",
+          "text_key": "C2-S03-L02"
+        },
+        {
+          "speaker": "kaloy",
+          "text_key": "C2-S03-L03"
+        },
+        {
+          "speaker": "tito_boy",
+          "text_key": "C2-S03-L04"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C2-S03-L05"
+        }
+      ],
+      "next": "C2-S04"
+    },
+    {
+      "id": "C2-S04",
+      "type": "dialogue",
+      "stage": "vlw_payday",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C2-S04-L01"
+        },
+        {
+          "speaker": "tito_boy",
+          "text_key": "C2-S04-L02"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C2-S04-L03"
+        }
+      ],
+      "next": "C2-D2"
+    },
+    {
+      "id": "C2-D2",
+      "type": "decision",
+      "prompt_key": "C2-D2-PROMPT",
+      "timer_seconds": 0,
+      "default_option": "A",
+      "options": [
+        {
+          "id": "A",
+          "label_key": "C2-D2-A",
+          "next": "C2-S05A",
+          "effects": [
+            {
+              "set": "k_wage",
+              "to": "joined"
+            },
+            {
+              "add": "k_solidarity",
+              "by": 1
+            },
+            {
+              "add": "dado_notice",
+              "by": 1
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "label_key": "C2-D2-B",
+          "next": "C2-S05B",
+          "effects": [
+            {
+              "set": "k_wage",
+              "to": "silent"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "label_key": "C2-D2-C",
+          "next": "C2-S05C",
+          "effects": [
+            {
+              "set": "k_wage",
+              "to": "asked_ot"
+            },
+            {
+              "add": "dado_notice",
+              "by": 1
+            }
+          ]
+        }
+      ],
+      "stage": "vlw_payday"
+    },
+    {
+      "id": "C2-S05A",
+      "type": "dialogue",
+      "stage": "vlw_payday",
+      "lines": [
+        {
+          "speaker": "tito_boy",
+          "text_key": "C2-S05A-L01"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C2-S05A-L02"
+        }
+      ],
+      "next": "C2-S06"
+    },
+    {
+      "id": "C2-S05B",
+      "type": "dialogue",
+      "stage": "vlw_payday",
+      "lines": [
+        {
+          "speaker": "tito_boy",
+          "text_key": "C2-S05B-L01"
+        }
+      ],
+      "next": "C2-S06"
+    },
+    {
+      "id": "C2-S05C",
+      "type": "dialogue",
+      "stage": "vlw_payday",
+      "lines": [
+        {
+          "speaker": "dado",
+          "text_key": "C2-S05C-L01"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C2-S05C-L02"
+        },
+        {
+          "speaker": "dado",
+          "text_key": "C2-S05C-L03"
+        }
+      ],
+      "next": "C2-S06"
+    },
+    {
+      "id": "C2-S06",
+      "type": "dialogue",
+      "stage": "bay4_afterhours",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C2-S06-L01"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C2-S06-L02"
+        }
+      ],
+      "next": "C2-D3",
+      "variants": [
+        {
+          "when": {
+            "in": [
+              "ramil_offer",
+              [
+                "took",
+                "peeked_took"
+              ]
+            ]
+          },
+          "portrait_id": "c1_mario_portrait",
+          "lines": [
+            {
+              "speaker": "kaloy",
+              "text_key": "C2-S06-RIDER-THOUGHT"
+            }
+          ]
+        },
+        {
+          "when": {
+            "always": true
+          },
+          "portrait_id": "c2_dindo_portrait",
+          "lines": []
+        }
+      ]
+    },
+    {
+      "id": "C2-D3",
+      "type": "decision",
+      "prompt_key": "C2-D3-PROMPT",
+      "timer_seconds": 0,
+      "default_option": "A",
+      "options": [
+        {
+          "id": "A",
+          "label_key": "C2-D3-A",
+          "next": "C2-S06A",
+          "effects": [
+            {
+              "set": "k_box",
+              "to": "photographed"
+            },
+            {
+              "set": "k_photo_evidence",
+              "to": true
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "label_key": "C2-D3-B",
+          "next": "C2-S06B",
+          "effects": [
+            {
+              "set": "k_box",
+              "to": "ignored"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "label_key": "C2-D3-C",
+          "next": "C2-S06C",
+          "effects": [
+            {
+              "set": "k_box",
+              "to": "asked_tito"
+            },
+            {
+              "set": "tito_story",
+              "to": true
+            },
+            {
+              "add": "k_solidarity",
+              "by": 1
+            }
+          ]
+        }
+      ],
+      "stage": "bay4_afterhours"
+    },
+    {
+      "id": "C2-S06A",
+      "type": "dialogue",
+      "stage": "bay7_afterhours",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C2-S06A-L01"
+        }
+      ],
+      "next": "C2-S07"
+    },
+    {
+      "id": "C2-S06B",
+      "type": "dialogue",
+      "stage": "bay7_afterhours",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C2-S06B-L01"
+        }
+      ],
+      "next": "C2-S07"
+    },
+    {
+      "id": "C2-S06C",
+      "type": "dialogue",
+      "stage": "bay7_afterhours",
+      "lines": [
+        {
+          "speaker": "tito_boy",
+          "text_key": "C2-S06C-L01",
+          "stage_direction_key": "C2-S06C-L01-DIR"
+        },
+        {
+          "speaker": "kaloy",
+          "text_key": "C2-S06C-L02"
+        },
+        {
+          "speaker": "tito_boy",
+          "text_key": "C2-S06C-L03"
+        }
+      ],
+      "next": "C2-S07"
+    },
+    {
+      "id": "C2-S07",
+      "type": "hub",
+      "stage": "river_road_night",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C2-S07-L01"
+        },
+        {
+          "speaker": "jomar",
+          "text_key": "C2-S07-L02"
+        }
+      ],
+      "variants": [
+        {
+          "when": {
+            "eq": [
+              "k_father_morning",
+              "appeased"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C2-S07-APPEASED"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "k_father_morning",
+              "confronted"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C2-S07-CONFRONTED"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "k_father_morning",
+              "shielded"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C2-S07-SHIELDED"
+            }
+          ]
+        }
+      ],
+      "next": "FLOW-C2"
+    },
+    {
+      "id": "FLOW-C2",
+      "type": "flowchart",
+      "next": "C3-S01"
+    }
+  ]
+}

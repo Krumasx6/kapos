@@ -1,0 +1,855 @@
+{
+  "id": "C6",
+  "title_key": "C6-TITLE",
+  "protagonist": "perlita",
+  "start_node": "C6-S01",
+  "nodes": [
+    {
+      "id": "C6-S01",
+      "type": "dialogue",
+      "stage": "tanggol_manggagawa_office",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S01-L01"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S01-L02"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S01-L03"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S01-L04"
+        },
+        {
+          "speaker": "benj",
+          "text_key": "C6-S01-L05"
+        },
+        {
+          "speaker": "perlita",
+          "text_key": "C6-S01-L06"
+        },
+        {
+          "speaker": "benj",
+          "text_key": "C6-S01-L07"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S01-L08"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S01-L09"
+        }
+      ],
+      "next": "C6-S02"
+    },
+    {
+      "id": "C6-S02",
+      "type": "dialogue",
+      "stage": "salvador_gate",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S02-L01"
+        },
+        {
+          "speaker": "ruben",
+          "text_key": "C6-S02-L02"
+        },
+        {
+          "speaker": "paolo",
+          "text_key": "C6-S02-L03"
+        },
+        {
+          "speaker": "bea",
+          "text_key": "C6-S02-L04"
+        }
+      ],
+      "next": "C6-D1"
+    },
+    {
+      "id": "C6-D1",
+      "type": "decision",
+      "prompt_key": "C6-D1-PROMPT",
+      "options": [
+        {
+          "id": "A",
+          "label_key": "C6-D1-A",
+          "next": "C6-S02A",
+          "effects": [
+            {
+              "set": "p_ruben",
+              "to": "let_in"
+            },
+            {
+              "set": "ruben_info",
+              "to": true
+            },
+            {
+              "add": "bond_paolo",
+              "by": -1
+            },
+            {
+              "add": "bond_jessa",
+              "by": -1
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "label_key": "C6-D1-B",
+          "next": "C6-S02B",
+          "effects": [
+            {
+              "set": "p_ruben",
+              "to": "outside"
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "label_key": "C6-D1-C",
+          "next": "C6-S02C",
+          "effects": [
+            {
+              "set": "p_ruben",
+              "to": "refused"
+            },
+            {
+              "add": "bond_jessa",
+              "by": 1
+            },
+            {
+              "add": "bond_paolo",
+              "by": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C6-S02A",
+      "type": "dialogue",
+      "stage": "salvador_dinner",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S02A-L01"
+        },
+        {
+          "speaker": "ruben",
+          "text_key": "C6-S02A-L02"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S02A-L03"
+        },
+        {
+          "speaker": "ruben",
+          "text_key": "C6-S02A-L05"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S02A-L06"
+        }
+      ],
+      "next": "C6-S03"
+    },
+    {
+      "id": "C6-S02B",
+      "type": "dialogue",
+      "stage": "poblacion_store",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S02B-L01"
+        },
+        {
+          "speaker": "ruben",
+          "text_key": "C6-S02B-L02"
+        },
+        {
+          "speaker": "perlita",
+          "text_key": "C6-S02B-L03"
+        },
+        {
+          "speaker": "ruben",
+          "text_key": "C6-S02B-L04"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S02B-L05"
+        }
+      ],
+      "next": "C6-S03"
+    },
+    {
+      "id": "C6-S02C",
+      "type": "dialogue",
+      "stage": "salvador_gate",
+      "lines": [
+        {
+          "speaker": "perlita",
+          "text_key": "C6-S02C-L01"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S02C-L02"
+        },
+        {
+          "speaker": "aling_pacing",
+          "text_key": "C6-S02C-L03"
+        },
+        {
+          "speaker": "perlita",
+          "text_key": "C6-S02C-L04"
+        }
+      ],
+      "next": "C6-S03"
+    },
+    {
+      "id": "C6-S03",
+      "type": "dialogue",
+      "stage": "salvador_home",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S03-L01"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S03-L02"
+        }
+      ],
+      "next": "C6-D2"
+    },
+    {
+      "id": "C6-D2",
+      "type": "decision",
+      "prompt_key": "C6-D2-PROMPT",
+      "options": [
+        {
+          "id": "A",
+          "label_key": "C6-D2-A",
+          "next": "C6-S03A",
+          "effects": [
+            {
+              "set": "p_work",
+              "to": "recruiter"
+            },
+            {
+              "set": "p_income",
+              "to": 0
+            }
+          ],
+          "next_if": [
+            {
+              "when": {
+                "eq": [
+                  "p_paolo",
+                  "promised"
+                ]
+              },
+              "next": "C6-S03A",
+              "effects": [
+                {
+                  "add": "bond_paolo",
+                  "by": -3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "label_key": "C6-D2-B",
+          "next": "C6-S03B",
+          "effects": [
+            {
+              "set": "p_work",
+              "to": "valdez"
+            },
+            {
+              "set": "p_income",
+              "to": 2
+            },
+            {
+              "add": "bond_family",
+              "by": -1
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "label_key": "C6-D2-C",
+          "next": "C6-S03C",
+          "effects": [
+            {
+              "set": "p_work",
+              "to": "local"
+            },
+            {
+              "set": "p_income",
+              "to": 1
+            },
+            {
+              "add": "bond_family",
+              "by": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C6-S03A",
+      "type": "dialogue",
+      "stage": "madam_fely_office",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S03A-L01"
+        },
+        {
+          "speaker": "madam",
+          "text_key": "C6-S03A-L02"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S03A-L03"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S03A-L04"
+        }
+      ],
+      "next": "C6-S04"
+    },
+    {
+      "id": "C6-S03B",
+      "type": "dialogue",
+      "stage": "valdez_drawing_room",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S03B-L01"
+        },
+        {
+          "speaker": "dona_cora",
+          "text_key": "C6-S03B-L02"
+        },
+        {
+          "speaker": "perlita",
+          "text_key": "C6-S03B-L03"
+        },
+        {
+          "speaker": "dona_cora",
+          "text_key": "C6-S03B-L04"
+        },
+        {
+          "speaker": "dandan",
+          "text_key": "C6-S03B-L05"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S03B-L06"
+        }
+      ],
+      "next": "C6-S04"
+    },
+    {
+      "id": "C6-S03C",
+      "type": "dialogue",
+      "stage": "barangay_community_kitchen",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S03C-L01"
+        },
+        {
+          "speaker": "kap_rosing",
+          "text_key": "C6-S03C-L02"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S03C-L03"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S03C-L04"
+        }
+      ],
+      "next": "C6-S04"
+    },
+    {
+      "id": "C6-S04",
+      "type": "dialogue",
+      "stage": "salvador_stairs",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S04-L01"
+        },
+        {
+          "speaker": "jessa",
+          "text_key": "C6-S04-L02"
+        }
+      ],
+      "variants": [
+        {
+          "when": {
+            "eq": [
+              "p_notebook",
+              "apologized"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "jessa",
+              "text_key": "C6-S04-APOLOGY-L01"
+            }
+          ]
+        }
+      ],
+      "next": "C6-D3"
+    },
+    {
+      "id": "C6-D3",
+      "type": "decision",
+      "prompt_key": "C6-D3-PROMPT",
+      "options": [
+        {
+          "id": "A",
+          "label_key": "C6-D3-A",
+          "next": "C6-S04A",
+          "effects": [
+            {
+              "set": "p_jessa_abroad",
+              "to": "forbid"
+            },
+            {
+              "set": "jessa_status",
+              "to": "left_illegal"
+            }
+          ],
+          "next_if": [
+            {
+              "when": {
+                "gte": [
+                  "bond_jessa",
+                  1
+                ]
+              },
+              "next": "C6-S04A",
+              "effects": [
+                {
+                  "set": "jessa_status",
+                  "to": "stays_resentful"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "label_key": "C6-D3-B",
+          "next": "C6-S04B",
+          "effects": [
+            {
+              "set": "p_jessa_abroad",
+              "to": "licensed"
+            },
+            {
+              "set": "jessa_status",
+              "to": "leaving_licensed"
+            },
+            {
+              "add": "bond_jessa",
+              "by": 1
+            }
+          ]
+        },
+        {
+          "id": "C",
+          "label_key": "C6-D3-C",
+          "next": "C6-S04C",
+          "effects": [
+            {
+              "set": "p_jessa_abroad",
+              "to": "compromise"
+            },
+            {
+              "set": "jessa_status",
+              "to": "stays_resentful"
+            }
+          ],
+          "next_if": [
+            {
+              "when": {
+                "gte": [
+                  "p_income",
+                  1
+                ]
+              },
+              "next": "C6-S04C",
+              "effects": [
+                {
+                  "set": "jessa_status",
+                  "to": "stays_studying"
+                },
+                {
+                  "add": "bond_jessa",
+                  "by": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C6-S04A",
+      "type": "dialogue",
+      "stage": "salvador_stairs",
+      "lines": [
+        {
+          "speaker": "perlita",
+          "text_key": "C6-S04A-L01"
+        },
+        {
+          "speaker": "jessa",
+          "text_key": "C6-S04A-L02"
+        }
+      ],
+      "next": "C6-S05",
+      "variants": [
+        {
+          "when": {
+            "lte": [
+              "bond_jessa",
+              0
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C6-S04A-L03"
+            }
+          ]
+        },
+        {
+          "when": {
+            "gte": [
+              "bond_jessa",
+              1
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C6-S04A-L04"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C6-S04B",
+      "type": "dialogue",
+      "stage": "tanggol_manggagawa_office",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S04B-L01"
+        },
+        {
+          "speaker": "benj",
+          "text_key": "C6-S04B-L02"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S04B-L03"
+        }
+      ],
+      "next": "C6-S05"
+    },
+    {
+      "id": "C6-S04C",
+      "type": "dialogue",
+      "stage": "salvador_stairs",
+      "lines": [
+        {
+          "speaker": "perlita",
+          "text_key": "C6-S04C-L01"
+        }
+      ],
+      "variants": [
+        {
+          "when": {
+            "eq": [
+              "p_income",
+              0
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "jessa",
+              "text_key": "C6-S04C-NO-INCOME-L01"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C6-S04C-NO-INCOME-L02"
+            }
+          ]
+        }
+      ],
+      "next": "C6-S05"
+    },
+    {
+      "id": "C6-S05",
+      "type": "dialogue",
+      "stage": "valdez_corridor",
+      "variants": [
+        {
+          "when": {
+            "eq": [
+              "p_work",
+              "valdez"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C6-S05-VALDEZ-L01"
+            },
+            {
+              "speaker": "dado",
+              "text_key": "C6-S05-VALDEZ-L02"
+            },
+            {
+              "speaker": "ilagan",
+              "text_key": "C6-S05-VALDEZ-L03"
+            },
+            {
+              "speaker": "dado",
+              "text_key": "C6-S05-VALDEZ-L04"
+            },
+            {
+              "speaker": "dona_cora",
+              "text_key": "C6-S05-VALDEZ-L06"
+            }
+          ],
+          "effects": [
+            {
+              "set": "p_inside",
+              "to": true
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "p_work",
+              "recruiter"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C6-S05-RECRUITER-L01"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C6-S05-RECRUITER-L02"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "p_work",
+              "local"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C6-S05-LOCAL-L01"
+            },
+            {
+              "speaker": "kap_rosing",
+              "text_key": "C6-S05-LOCAL-L02"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C6-S05-LOCAL-L03"
+            }
+          ]
+        }
+      ],
+      "next": "C6-S06"
+    },
+    {
+      "id": "C6-S06",
+      "type": "dialogue",
+      "stage": "salvador_kitchen",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S06-L01"
+        }
+      ],
+      "variants": [
+        {
+          "when": {
+            "eq": [
+              "p_work",
+              "recruiter"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "cherry",
+              "text_key": "C6-S06-RECRUITER-L01"
+            },
+            {
+              "speaker": "cherry",
+              "text_key": "C6-S06-L02"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "p_work",
+              "valdez"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "cherry",
+              "text_key": "C6-S06-VALDEZ-L01"
+            },
+            {
+              "speaker": "cherry",
+              "text_key": "C6-S06-L02"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "p_work",
+              "local"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "cherry",
+              "text_key": "C6-S06-LOCAL-L01"
+            },
+            {
+              "speaker": "cherry",
+              "text_key": "C6-S06-L02"
+            }
+          ]
+        }
+      ],
+      "next": "C6-S07"
+    },
+    {
+      "id": "C6-S07",
+      "type": "hub",
+      "stage": "salvador_kitchen",
+      "lines": [
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S07-L01"
+        },
+        {
+          "speaker": "narrator",
+          "text_key": "C6-S07-L02"
+        }
+      ],
+      "variants": [
+        {
+          "when": {
+            "eq": [
+              "jessa_status",
+              "stays_studying"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "narrator",
+              "text_key": "C6-S07-STUDY-L02"
+            },
+            {
+              "speaker": "jessa",
+              "text_key": "C6-S07-STUDY-L01"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "jessa_status",
+              "leaving_licensed"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "jessa",
+              "text_key": "C6-S07-LICENSED-L01"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C6-S07-LICENSED-L02"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "jessa_status",
+              "stays_resentful"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "jessa",
+              "text_key": "C6-S07-RESENTFUL-L01"
+            }
+          ]
+        },
+        {
+          "when": {
+            "eq": [
+              "jessa_status",
+              "left_illegal"
+            ]
+          },
+          "lines": [
+            {
+              "speaker": "jessa",
+              "text_key": "C6-S07-ILLEGAL-L01"
+            },
+            {
+              "speaker": "narrator",
+              "text_key": "C6-S07-ILLEGAL-L02"
+            }
+          ]
+        }
+      ],
+      "next": "FLOW-C6"
+    },
+    {
+      "id": "FLOW-C6",
+      "type": "flowchart"
+    }
+  ]
+}

@@ -72,7 +72,7 @@
     },
     "dado": {
       "name_key": "UI-C1-CHAR-DADO",
-      "portrait_id": "c1_dado_portrait",
+      "portrait_id": "dado_portrait",
       "expressions": [
         "neutral"
       ]
@@ -94,6 +94,237 @@
     "narrator": {
       "name_key": "UI-C1-CHAR-NARRATOR",
       "portrait_id": "c1_narrator_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "jomar": {
+      "name_key": "UI-C2-CHAR-JOMAR",
+      "portrait_id": "jomar_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "berto": {
+      "name_key": "UI-C2-CHAR-BERTO",
+      "portrait_id": "berto_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "aling_nena": {
+      "name_key": "UI-C2-CHAR-ALING_NENA",
+      "portrait_id": "aling_nena_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "tito_boy": {
+      "name_key": "UI-C2-CHAR-TITO_BOY",
+      "portrait_id": "tito_boy_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "mang_cesar": {
+      "name_key": "UI-C2-CHAR-MANG_CESAR",
+      "portrait_id": "mang_cesar_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "madam": {
+      "name_key": "UI-C3-CHAR-MADAM",
+      "portrait_id": "madam_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "child_voice": {
+      "name_key": "UI-C3-CHAR-CHILD_VOICE",
+      "portrait_id": "child_voice_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "owwa_officer": {
+      "name_key": "UI-C3-CHAR-OWWA_OFFICER",
+      "portrait_id": "owwa_officer_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "aling_pacing": {
+      "name_key": "UI-C3-CHAR-ALING_PACING",
+      "portrait_id": "aling_pacing_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "jessa": {
+      "name_key": "UI-C3-CHAR-JESSA",
+      "portrait_id": "jessa_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "bea": {
+      "name_key": "UI-C3-CHAR-BEA",
+      "portrait_id": "bea_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "aiza": {
+      "name_key": "UI-C3-CHAR-AIZA",
+      "portrait_id": "aiza_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "dandan": {
+      "name_key": "UI-C3-CHAR-DANDAN",
+      "portrait_id": "dandan_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "cherry": {
+      "name_key": "UI-C3-CHAR-CHERRY",
+      "portrait_id": "cherry_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "rhea": {
+      "name_key": "UI-C3-CHAR-RHEA",
+      "portrait_id": "rhea_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "jun_jun": {
+      "name_key": "UI-C3-CHAR-JUN_JUN",
+      "portrait_id": "jun_jun_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "paolo": {
+      "name_key": "UI-C3-CHAR-PAOLO",
+      "portrait_id": "paolo_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "ate_nelia": {
+      "name_key": "UI-C3-CHAR-ATE_NELIA",
+      "portrait_id": "ate_nelia_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "perlita": {
+      "name_key": "UI-C3-CHAR-PERLITA",
+      "portrait_id": "perlita_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "dr_lorna": {
+      "name_key": "UI-C4-CHAR-DR_LORNA",
+      "portrait_id": "dr_lorna_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "dodong": {
+      "name_key": "UI-C4-CHAR-DODONG",
+      "portrait_id": "dodong_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "jun": {
+      "name_key": "UI-C4-CHAR-JUN",
+      "portrait_id": "jun_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "pharmacist": {
+      "name_key": "UI-C4-CHAR-PHARMACIST",
+      "portrait_id": "pharmacist_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "mrs_reyes": {
+      "name_key": "UI-C4-CHAR-MRS_REYES",
+      "portrait_id": "mrs_reyes_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "kap_lando": {
+      "name_key": "UI-C4-CHAR-KAP_LANDO",
+      "portrait_id": "kap_lando_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "officer": {
+      "name_key": "UI-C5-CHAR-OFFICER",
+      "portrait_id": "officer_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "tita_baby": {
+      "name_key": "UI-C5-CHAR-TITA_BABY",
+      "portrait_id": "tita_baby_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "benj": {
+      "name_key": "UI-C6-CHAR-BENJ",
+      "portrait_id": "benj_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "ruben": {
+      "name_key": "UI-C6-CHAR-RUBEN",
+      "portrait_id": "ruben_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "dona_cora": {
+      "name_key": "UI-C6-CHAR-DONA_CORA",
+      "portrait_id": "dona_cora_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "alma": {
+      "name_key": "UI-C5-CHAR-ALMA",
+      "portrait_id": "alma_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "kap_rosing": {
+      "name_key": "UI-C6-CHAR-KAP_ROSING",
+      "portrait_id": "kap_rosing_portrait",
+      "expressions": [
+        "neutral"
+      ]
+    },
+    "lola_tindeng": {
+      "name_key": "UI-C4-CHAR-LOLA_TINDENG",
+      "portrait_id": "lola_tindeng_portrait",
       "expressions": [
         "neutral"
       ]
