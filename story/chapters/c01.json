@@ -4,744 +4,744 @@
   "protagonist": "mario",
   "start_node": "C1-S01",
   "nodes": [
-    {
-      "id": "C1-S01",
-      "type": "dialogue",
-      "stage": "magsino_house_dawn",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text_key": "C1-S01-L01"
-        },
-        {
-          "speaker": "luz",
-          "text_key": "C1-S01-L02",
-          "stage_direction_key": "C1-S01-L02-DIR"
-        },
-        {
-          "speaker": "mario",
-          "text_key": "C1-S01-L03"
-        },
-        {
-          "speaker": "luz",
-          "text_key": "C1-S01-L04"
-        },
-        {
-          "speaker": "narrator",
-          "text_key": "C1-S01-L05"
-        },
-        {
-          "speaker": "narrator",
-          "text_key": "C1-S01-L06"
-        },
-        {
-          "speaker": "anna",
-          "text_key": "C1-S01-L07"
-        },
-        {
-          "speaker": "migo",
-          "text_key": "C1-S01-L08"
-        },
-        {
-          "speaker": "mario",
-          "text_key": "C1-S01-L09"
-        },
-        {
-          "speaker": "migo",
-          "text_key": "C1-S01-L10"
-        },
-        {
-          "speaker": "narrator",
-          "text_key": "C1-S01-L11"
-        }
-      ],
-      "next": "C1-D1"
-    },
-    {
-      "id": "C1-D1",
-      "type": "decision",
-      "prompt_key": "C1-D1-PROMPT",
-      "timer_seconds": 20,
-      "default_option": "B",
-      "options": [
-        {
-          "id": "A",
-          "label_key": "C1-D1-A",
-          "next": "C1-S02A",
-          "effects": [
-            {
-              "set": "meds_choice",
-              "to": "anna_fee_lost"
-            },
-            {
-              "add": "m_trust",
-              "by": -1
-            }
-          ]
-        },
-        {
-          "id": "B",
-          "label_key": "C1-D1-B",
-          "next": "C1-S02B",
-          "effects": [
-            {
-              "set": "meds_choice",
-              "to": "half_dose"
-            }
-          ]
-        },
-        {
-          "id": "C",
-          "label_key": "C1-D1-C",
-          "next": "C1-S02C",
-          "effects": [
-            {
-              "set": "meds_choice",
-              "to": "loan_5_6"
-            },
-            {
-              "set": "m_debt",
-              "to": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "C1-S02A",
-      "type": "dialogue",
-      "stage": "magsino_house_dawn",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text_key": "C1-S02A-L01"
-        },
-        {
-          "speaker": "luz",
-          "text_key": "C1-S02A-L02"
-        },
-        {
-          "speaker": "mario",
-          "text_key": "C1-S02A-L03"
-        }
-      ],
-      "next": "C1-S03"
-    },
-    {
-      "id": "C1-S02B",
-      "type": "dialogue",
-      "stage": "magsino_house_dawn",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text_key": "C1-S02B-L01"
-        },
-        {
-          "speaker": "luz",
-          "text_key": "C1-S02B-L02"
-        },
-        {
-          "speaker": "mario",
-          "text_key": "C1-S02B-L03"
-        },
-        {
-          "speaker": "luz",
-          "text_key": "C1-S02B-L04"
-        },
-        {
-          "speaker": "narrator",
-          "text_key": "C1-S02B-L05"
-        }
-      ],
-      "next": "C1-S03"
-    },
-    {
-      "id": "C1-S02C",
-      "type": "dialogue",
-      "stage": "susan_store",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text_key": "C1-S02C-L01"
-        },
-        {
-          "speaker": "alingsusan",
-          "text_key": "C1-S02C-L02"
-        },
-        {
-          "speaker": "narrator",
-          "text_key": "C1-S02C-L03"
-        }
-      ],
-      "next": "C1-S03"
-    },
-    {
-      "id": "C1-S03",
-      "type": "dialogue",
-      "stage": "rider_lounge",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text_key": "C1-S03-L01"
-        },
-        {
-          "speaker": "tonyo",
-          "text_key": "C1-S03-L02",
-          "stage_direction_key": "C1-S03-L03"
-        },
-        {
-          "speaker": "mario",
-          "text_key": "C1-S03-L04"
-        },
-        {
-          "speaker": "dindo",
-          "text_key": "C1-S03-L05",
-          "stage_direction_key": "C1-S03-L05-DIR"
-        },
-        {
-          "speaker": "tonyo",
-          "text_key": "C1-S03-L06"
-        },
-        {
-          "speaker": "ramil",
-          "text_key": "C1-S03-L07",
-          "stage_direction_key": "C1-S03-L07-DIR"
-        },
-        {
-          "speaker": "narrator",
-          "text_key": "C1-S03-L08"
-        }
-      ],
-      "next": "C1-S04"
-    },
-    {
-      "id": "C1-S04",
-      "type": "dialogue",
-      "stage": "delivery_day",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text_key": "C1-S04-L01"
-        },
-        {
-          "speaker": "titalourdes",
-          "text_key": "C1-S04-L02"
-        }
-      ],
-      "next": "C1-S05"
-    },
-    {
-      "id": "C1-S05",
-      "type": "dialogue",
-      "stage": "canteen_day",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text_key": "C1-S05-L01"
-        },
-        {
-          "speaker": "ramil",
-          "text_key": "C1-S05-L02"
-        },
-        {
-          "speaker": "mario",
-          "text_key": "C1-S05-L03"
-        },
-        {
-          "speaker": "ramil",
-          "text_key": "C1-S05-L04"
-        },
-        {
-          "speaker": "mario",
-          "text_key": "C1-S05-L05"
-        },
-        {
-          "speaker": "ramil",
-          "text_key": "C1-S05-L06"
-        }
-      ],
-      "next": "C1-D2"
-    },
-    {
-      "id": "C1-D2",
-      "type": "decision",
-      "prompt_key": "C1-D2-PROMPT",
-      "timer_seconds": 0,
-      "default_option": "A",
-      "options": [
-        {
-          "id": "A",
-          "label_key": "C1-D2-A",
-          "next": "C1-S06A",
-          "effects": [
-            {
-              "set": "ramil_offer",
-              "to": "took"
-            },
-            {
-              "set": "m_tulay",
-              "to": 1
-            },
-            {
-              "set": "mk_met",
-              "to": true
-            }
-          ]
-        },
-        {
-          "id": "B",
-          "label_key": "C1-D2-B",
-          "next": "C1-S06B",
-          "effects": [
-            {
-              "set": "ramil_offer",
-              "to": "declined"
-            }
-          ]
-        },
-        {
-          "id": "C",
-          "label_key": "C1-D2-C",
-          "next": "C1-S06C",
-          "effects": [
-            {
-              "set": "saw_envelope",
-              "to": true
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "C1-S06A",
-      "type": "dialogue",
-      "stage": "bay4_delivery",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text_key": "C1-S06A-L01"
-        },
-        {
-          "speaker": "kaloy",
-          "text_key": "C1-S06A-L02",
-          "stage_direction_key": "C1-S06A-L03"
-        },
-        {
-          "speaker": "mario",
-          "text_key": "C1-S06A-L04"
-        },
-        {
-          "speaker": "kaloy",
-          "text_key": "C1-S06A-L05",
-          "stage_direction_key": "C1-S06A-L05-DIR"
-        },
-        {
-          "speaker": "narrator",
-          "text_key": "C1-S06A-L06"
-        },
-        {
-          "speaker": "narrator",
-          "text_key": "C1-S06A-L07"
-        },
-        {
-          "speaker": "ilagan",
-          "text_key": "C1-S06A-L08"
-        },
-        {
-          "speaker": "narrator",
-          "text_key": "C1-S06A-L09"
-        }
-      ],
-      "next": "C1-S07"
-    },
-    {
-      "id": "C1-S06B",
-      "type": "dialogue",
-      "stage": "bay4_day",
-      "next": "C1-S07",
-      "variants": [
-        {
-          "when": {
-            "flag": "saw_envelope"
-          },
-          "lines": [
-            {
-              "speaker": "narrator",
-              "text_key": "C1-S06B-L01"
-            },
-            {
-              "speaker": "tonyo",
-              "text_key": "C1-S06B-L02"
-            }
-          ],
-          "stage_direction_key": "C1-S06B-L03"
-        },
-        {
-          "when": {
-            "always": true
-          },
-          "lines": [
-            {
-              "speaker": "narrator",
-              "text_key": "C1-S06B-L01"
-            },
-            {
-              "speaker": "tonyo",
-              "text_key": "C1-S06B-L02"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "C1-S06C",
-      "type": "dialogue",
-      "stage": "canteen_day",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text_key": "C1-S06C-L01"
-        },
-        {
-          "speaker": "ramil",
-          "text_key": "C1-S06C-L02"
-        }
-      ],
-      "next": "C1-D2b"
-    },
-    {
-      "id": "C1-D2b",
-      "type": "decision",
-      "prompt_key": "C1-D2B-PROMPT",
-      "timer_seconds": 0,
-      "default_option": "A",
-      "options": [
-        {
-          "id": "A",
-          "label_key": "C1-D2B-A",
-          "next": "C1-S06A",
-          "effects": [
-            {
-              "set": "ramil_offer",
-              "to": "peeked_took"
-            },
-            {
-              "set": "m_tulay",
-              "to": 1
-            },
-            {
-              "set": "mk_met",
-              "to": true
-            }
-          ]
-        },
-        {
-          "id": "B",
-          "label_key": "C1-D2B-B",
-          "next": "C1-S06B",
-          "effects": [
-            {
-              "set": "ramil_offer",
-              "to": "peeked_declined"
-            }
-          ]
-        }
-      ],
-      "flowchart_lock": {
-        "decision_id": "C1-D2",
-        "option_id": "C",
-        "hint_key": "C1-D2B-LOCK-HINT"
-      }
-    },
-    {
-      "id": "C1-S07",
-      "type": "dialogue",
-      "stage": "magsino_house_night",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text_key": "C1-S07-L01"
-        }
-      ],
-      "next": "C1-D3"
-    },
-    {
-      "id": "C1-D3",
-      "type": "decision",
-      "prompt_key": "C1-D3-PROMPT",
-      "timer_seconds": 15,
-      "default_option": "C",
-      "options": [
-        {
-          "id": "A",
-          "label_key": "C1-D3-A",
-          "next": "C1-S07A",
-          "effects": [
-            {
-              "set": "caca_phone",
-              "to": "confronted"
-            },
-            {
-              "add": "m_trust",
-              "by": -1
-            }
-          ]
-        },
-        {
-          "id": "B",
-          "label_key": "C1-D3-B",
-          "next": "C1-S07B",
-          "effects": [
-            {
-              "set": "caca_phone",
-              "to": "calm"
-            },
-            {
-              "add": "m_trust",
-              "by": 1
-            }
-          ]
-        },
-        {
-          "id": "C",
-          "label_key": "C1-D3-C",
-          "next": "C1-S07C",
-          "effects": [
-            {
-              "set": "caca_phone",
-              "to": "ignored"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "C1-S07A",
-      "type": "dialogue",
-      "stage": "magsino_house_night",
-      "next": "C1-S08",
-      "variants": [
-        {
-          "when": {
-            "in": [
-              "ramil_offer",
-              [
-                "took",
+	{
+	  "id": "C1-S01",
+	  "type": "dialogue",
+	  "stage": "magsino_house_dawn",
+	  "lines": [
+		{
+		  "speaker": "narrator",
+		  "text_key": "C1-S01-L01"
+		},
+		{
+		  "speaker": "luz",
+		  "text_key": "C1-S01-L02",
+		  "stage_direction_key": "C1-S01-L02-DIR"
+		},
+		{
+		  "speaker": "mario",
+		  "text_key": "C1-S01-L03"
+		},
+		{
+		  "speaker": "luz",
+		  "text_key": "C1-S01-L04"
+		},
+		{
+		  "speaker": "narrator",
+		  "text_key": "C1-S01-L05"
+		},
+		{
+		  "speaker": "narrator",
+		  "text_key": "C1-S01-L06"
+		},
+		{
+		  "speaker": "anna",
+		  "text_key": "C1-S01-L07"
+		},
+		{
+		  "speaker": "migo",
+		  "text_key": "C1-S01-L08"
+		},
+		{
+		  "speaker": "mario",
+		  "text_key": "C1-S01-L09"
+		},
+		{
+		  "speaker": "migo",
+		  "text_key": "C1-S01-L10"
+		},
+		{
+		  "speaker": "narrator",
+		  "text_key": "C1-S01-L11"
+		}
+	  ],
+	  "next": "C1-D1"
+	},
+	{
+	  "id": "C1-D1",
+	  "type": "decision",
+	  "prompt_key": "C1-D1-PROMPT",
+	  "timer_seconds": 20,
+	  "default_option": "B",
+	  "options": [
+		{
+		  "id": "A",
+		  "label_key": "C1-D1-A",
+		  "next": "C1-S02A",
+		  "effects": [
+			{
+			  "set": "meds_choice",
+			  "to": "anna_fee_lost"
+			},
+			{
+			  "add": "m_trust",
+			  "by": -1
+			}
+		  ]
+		},
+		{
+		  "id": "B",
+		  "label_key": "C1-D1-B",
+		  "next": "C1-S02B",
+		  "effects": [
+			{
+			  "set": "meds_choice",
+			  "to": "half_dose"
+			}
+		  ]
+		},
+		{
+		  "id": "C",
+		  "label_key": "C1-D1-C",
+		  "next": "C1-S02C",
+		  "effects": [
+			{
+			  "set": "meds_choice",
+			  "to": "loan_5_6"
+			},
+			{
+			  "set": "m_debt",
+			  "to": 1
+			}
+		  ]
+		}
+	  ]
+	},
+	{
+	  "id": "C1-S02A",
+	  "type": "dialogue",
+	  "stage": "magsino_house_dawn",
+	  "lines": [
+		{
+		  "speaker": "narrator",
+		  "text_key": "C1-S02A-L01"
+		},
+		{
+		  "speaker": "luz",
+		  "text_key": "C1-S02A-L02"
+		},
+		{
+		  "speaker": "mario",
+		  "text_key": "C1-S02A-L03"
+		}
+	  ],
+	  "next": "C1-S03"
+	},
+	{
+	  "id": "C1-S02B",
+	  "type": "dialogue",
+	  "stage": "magsino_house_dawn",
+	  "lines": [
+		{
+		  "speaker": "narrator",
+		  "text_key": "C1-S02B-L01"
+		},
+		{
+		  "speaker": "luz",
+		  "text_key": "C1-S02B-L02"
+		},
+		{
+		  "speaker": "mario",
+		  "text_key": "C1-S02B-L03"
+		},
+		{
+		  "speaker": "luz",
+		  "text_key": "C1-S02B-L04"
+		},
+		{
+		  "speaker": "narrator",
+		  "text_key": "C1-S02B-L05"
+		}
+	  ],
+	  "next": "C1-S03"
+	},
+	{
+	  "id": "C1-S02C",
+	  "type": "dialogue",
+	  "stage": "susan_store",
+	  "lines": [
+		{
+		  "speaker": "narrator",
+		  "text_key": "C1-S02C-L01"
+		},
+		{
+		  "speaker": "alingsusan",
+		  "text_key": "C1-S02C-L02"
+		},
+		{
+		  "speaker": "narrator",
+		  "text_key": "C1-S02C-L03"
+		}
+	  ],
+	  "next": "C1-S03"
+	},
+	{
+	  "id": "C1-S03",
+	  "type": "dialogue",
+	  "stage": "rider_lounge",
+	  "lines": [
+		{
+		  "speaker": "narrator",
+		  "text_key": "C1-S03-L01"
+		},
+		{
+		  "speaker": "tonyo",
+		  "text_key": "C1-S03-L02",
+		  "stage_direction_key": "C1-S03-L03"
+		},
+		{
+		  "speaker": "mario",
+		  "text_key": "C1-S03-L04"
+		},
+		{
+		  "speaker": "dindo",
+		  "text_key": "C1-S03-L05",
+		  "stage_direction_key": "C1-S03-L05-DIR"
+		},
+		{
+		  "speaker": "tonyo",
+		  "text_key": "C1-S03-L06"
+		},
+		{
+		  "speaker": "ramil",
+		  "text_key": "C1-S03-L07",
+		  "stage_direction_key": "C1-S03-L07-DIR"
+		},
+		{
+		  "speaker": "narrator",
+		  "text_key": "C1-S03-L08"
+		}
+	  ],
+	  "next": "C1-S04"
+	},
+	{
+	  "id": "C1-S04",
+	  "type": "dialogue",
+	  "stage": "delivery_day",
+	  "lines": [
+		{
+		  "speaker": "narrator",
+		  "text_key": "C1-S04-L01"
+		},
+		{
+		  "speaker": "titalourdes",
+		  "text_key": "C1-S04-L02"
+		}
+	  ],
+	  "next": "C1-S05"
+	},
+	{
+	  "id": "C1-S05",
+	  "type": "dialogue",
+	  "stage": "canteen_day",
+	  "lines": [
+		{
+		  "speaker": "narrator",
+		  "text_key": "C1-S05-L01"
+		},
+		{
+		  "speaker": "ramil",
+		  "text_key": "C1-S05-L02"
+		},
+		{
+		  "speaker": "mario",
+		  "text_key": "C1-S05-L03"
+		},
+		{
+		  "speaker": "ramil",
+		  "text_key": "C1-S05-L04"
+		},
+		{
+		  "speaker": "mario",
+		  "text_key": "C1-S05-L05"
+		},
+		{
+		  "speaker": "ramil",
+		  "text_key": "C1-S05-L06"
+		}
+	  ],
+	  "next": "C1-D2"
+	},
+	{
+	  "id": "C1-D2",
+	  "type": "decision",
+	  "prompt_key": "C1-D2-PROMPT",
+	  "timer_seconds": 0,
+	  "default_option": "A",
+	  "options": [
+		{
+		  "id": "A",
+		  "label_key": "C1-D2-A",
+		  "next": "C1-S06A",
+		  "effects": [
+			{
+			  "set": "ramil_offer",
+			  "to": "took"
+			},
+			{
+			  "set": "m_tulay",
+			  "to": 1
+			},
+			{
+			  "set": "mk_met",
+			  "to": true
+			}
+		  ]
+		},
+		{
+		  "id": "B",
+		  "label_key": "C1-D2-B",
+		  "next": "C1-S06B",
+		  "effects": [
+			{
+			  "set": "ramil_offer",
+			  "to": "declined"
+			}
+		  ]
+		},
+		{
+		  "id": "C",
+		  "label_key": "C1-D2-C",
+		  "next": "C1-S06C",
+		  "effects": [
+			{
+			  "set": "saw_envelope",
+			  "to": true
+			}
+		  ]
+		}
+	  ]
+	},
+	{
+	  "id": "C1-S06A",
+	  "type": "dialogue",
+	  "stage": "bay4_delivery",
+	  "lines": [
+		{
+		  "speaker": "narrator",
+		  "text_key": "C1-S06A-L01"
+		},
+		{
+		  "speaker": "kaloy",
+		  "text_key": "C1-S06A-L02",
+		  "stage_direction_key": "C1-S06A-L03"
+		},
+		{
+		  "speaker": "mario",
+		  "text_key": "C1-S06A-L04"
+		},
+		{
+		  "speaker": "kaloy",
+		  "text_key": "C1-S06A-L05",
+		  "stage_direction_key": "C1-S06A-L05-DIR"
+		},
+		{
+		  "speaker": "narrator",
+		  "text_key": "C1-S06A-L06"
+		},
+		{
+		  "speaker": "narrator",
+		  "text_key": "C1-S06A-L07"
+		},
+		{
+		  "speaker": "ilagan",
+		  "text_key": "C1-S06A-L08"
+		},
+		{
+		  "speaker": "narrator",
+		  "text_key": "C1-S06A-L09"
+		}
+	  ],
+	  "next": "C1-S07"
+	},
+	{
+	  "id": "C1-S06B",
+	  "type": "dialogue",
+	  "stage": "bay4_day",
+	  "next": "C1-S07",
+	  "variants": [
+		{
+		  "when": {
+			"flag": "saw_envelope"
+		  },
+		  "lines": [
+			{
+			  "speaker": "narrator",
+			  "text_key": "C1-S06B-L01"
+			},
+			{
+			  "speaker": "tonyo",
+			  "text_key": "C1-S06B-L02"
+			}
+		  ],
+		  "stage_direction_key": "C1-S06B-L03"
+		},
+		{
+		  "when": {
+			"always": true
+		  },
+		  "lines": [
+			{
+			  "speaker": "narrator",
+			  "text_key": "C1-S06B-L01"
+			},
+			{
+			  "speaker": "tonyo",
+			  "text_key": "C1-S06B-L02"
+			}
+		  ]
+		}
+	  ]
+	},
+	{
+	  "id": "C1-S06C",
+	  "type": "dialogue",
+	  "stage": "canteen_day",
+	  "lines": [
+		{
+		  "speaker": "narrator",
+		  "text_key": "C1-S06C-L01"
+		},
+		{
+		  "speaker": "ramil",
+		  "text_key": "C1-S06C-L02"
+		}
+	  ],
+	  "next": "C1-D2b"
+	},
+	{
+	  "id": "C1-D2b",
+	  "type": "decision",
+	  "prompt_key": "C1-D2B-PROMPT",
+	  "timer_seconds": 0,
+	  "default_option": "A",
+	  "options": [
+		{
+		  "id": "A",
+		  "label_key": "C1-D2B-A",
+		  "next": "C1-S06A",
+		  "effects": [
+			{
+			  "set": "ramil_offer",
+			  "to": "peeked_took"
+			},
+			{
+			  "set": "m_tulay",
+			  "to": 1
+			},
+			{
+			  "set": "mk_met",
+			  "to": true
+			}
+		  ]
+		},
+		{
+		  "id": "B",
+		  "label_key": "C1-D2B-B",
+		  "next": "C1-S06B",
+		  "effects": [
+			{
+			  "set": "ramil_offer",
+			  "to": "peeked_declined"
+			}
+		  ]
+		}
+	  ],
+	  "flowchart_lock": {
+		"decision_id": "C1-D2",
+		"option_id": "C",
+		"hint_key": "C1-D2B-LOCK-HINT"
+	  }
+	},
+	{
+	  "id": "C1-S07",
+	  "type": "dialogue",
+	  "stage": "magsino_house_night",
+	  "lines": [
+		{
+		  "speaker": "narrator",
+		  "text_key": "C1-S07-L01"
+		}
+	  ],
+	  "next": "C1-D3"
+	},
+	{
+	  "id": "C1-D3",
+	  "type": "decision",
+	  "prompt_key": "C1-D3-PROMPT",
+	  "timer_seconds": 15,
+	  "default_option": "C",
+	  "options": [
+		{
+		  "id": "A",
+		  "label_key": "C1-D3-A",
+		  "next": "C1-S07A",
+		  "effects": [
+			{
+			  "set": "caca_phone",
+			  "to": "confronted"
+			},
+			{
+			  "add": "m_trust",
+			  "by": -1
+			}
+		  ]
+		},
+		{
+		  "id": "B",
+		  "label_key": "C1-D3-B",
+		  "next": "C1-S07B",
+		  "effects": [
+			{
+			  "set": "caca_phone",
+			  "to": "calm"
+			},
+			{
+			  "add": "m_trust",
+			  "by": 1
+			}
+		  ]
+		},
+		{
+		  "id": "C",
+		  "label_key": "C1-D3-C",
+		  "next": "C1-S07C",
+		  "effects": [
+			{
+			  "set": "caca_phone",
+			  "to": "ignored"
+			}
+		  ]
+		}
+	  ]
+	},
+	{
+	  "id": "C1-S07A",
+	  "type": "dialogue",
+	  "stage": "magsino_house_night",
+	  "next": "C1-S08",
+	  "variants": [
+		{
+		  "when": {
+			"in": [
+			  "ramil_offer",
+			  [
+				"took",
                 "peeked_took"
-              ]
-            ]
-          },
-          "lines": [
-            {
-              "speaker": "mario",
-              "text_key": "C1-S07A-L01"
-            },
-            {
-              "speaker": "caca",
-              "text_key": "C1-S07A-L02"
-            },
-            {
-              "speaker": "narrator",
-              "text_key": "C1-S07A-L03"
-            },
-            {
-              "speaker": "caca",
-              "text_key": "C1-S07A-L04"
-            },
-            {
-              "speaker": "narrator",
-              "text_key": "C1-S07A-L05"
-            }
-          ]
-        },
-        {
-          "when": {
-            "always": true
-          },
-          "lines": [
-            {
-              "speaker": "mario",
-              "text_key": "C1-S07A-L01"
-            },
-            {
-              "speaker": "caca",
-              "text_key": "C1-S07A-L02"
-            },
-            {
-              "speaker": "narrator",
-              "text_key": "C1-S07A-L03"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "C1-S07B",
-      "type": "dialogue",
-      "stage": "magsino_house_night",
-      "lines": [
-        {
-          "speaker": "mario",
-          "text_key": "C1-S07B-L01"
-        },
-        {
-          "speaker": "caca",
-          "text_key": "C1-S07B-L02"
-        },
-        {
-          "speaker": "mario",
-          "text_key": "C1-S07B-L03"
-        },
-        {
-          "speaker": "caca",
-          "text_key": "C1-S07B-L04"
-        },
-        {
-          "speaker": "narrator",
-          "text_key": "C1-S07B-L05"
-        }
-      ],
-      "next": "C1-S08"
-    },
-    {
-      "id": "C1-S07C",
-      "type": "dialogue",
-      "stage": "magsino_house_night",
-      "lines": [
-        {
-          "speaker": "narrator",
-          "text_key": "C1-S07C-L01"
-        }
-      ],
-      "next": "C1-S08"
-    },
-    {
-      "id": "C1-S08",
-      "type": "hub",
-      "stage": "magsino_house_night",
-      "variants": [
-        {
-          "when": {
-            "all": [
-              {
-                "in": [
-                  "ramil_offer",
-                  [
-                    "took",
+			  ]
+			]
+		  },
+		  "lines": [
+			{
+			  "speaker": "mario",
+			  "text_key": "C1-S07A-L01"
+			},
+			{
+			  "speaker": "caca",
+			  "text_key": "C1-S07A-L02"
+			},
+			{
+			  "speaker": "narrator",
+			  "text_key": "C1-S07A-L03"
+			},
+			{
+			  "speaker": "caca",
+			  "text_key": "C1-S07A-L04"
+			},
+			{
+			  "speaker": "narrator",
+			  "text_key": "C1-S07A-L05"
+			}
+		  ]
+		},
+		{
+		  "when": {
+			"always": true
+		  },
+		  "lines": [
+			{
+			  "speaker": "mario",
+			  "text_key": "C1-S07A-L01"
+			},
+			{
+			  "speaker": "caca",
+			  "text_key": "C1-S07A-L02"
+			},
+			{
+			  "speaker": "narrator",
+			  "text_key": "C1-S07A-L03"
+			}
+		  ]
+		}
+	  ]
+	},
+	{
+	  "id": "C1-S07B",
+	  "type": "dialogue",
+	  "stage": "magsino_house_night",
+	  "lines": [
+		{
+		  "speaker": "mario",
+		  "text_key": "C1-S07B-L01"
+		},
+		{
+		  "speaker": "caca",
+		  "text_key": "C1-S07B-L02"
+		},
+		{
+		  "speaker": "mario",
+		  "text_key": "C1-S07B-L03"
+		},
+		{
+		  "speaker": "caca",
+		  "text_key": "C1-S07B-L04"
+		},
+		{
+		  "speaker": "narrator",
+		  "text_key": "C1-S07B-L05"
+		}
+	  ],
+	  "next": "C1-S08"
+	},
+	{
+	  "id": "C1-S07C",
+	  "type": "dialogue",
+	  "stage": "magsino_house_night",
+	  "lines": [
+		{
+		  "speaker": "narrator",
+		  "text_key": "C1-S07C-L01"
+		}
+	  ],
+	  "next": "C1-S08"
+	},
+	{
+	  "id": "C1-S08",
+	  "type": "hub",
+	  "stage": "magsino_house_night",
+	  "variants": [
+		{
+		  "when": {
+			"all": [
+			  {
+				"in": [
+				  "ramil_offer",
+				  [
+					"took",
                     "peeked_took"
-                  ]
-                ]
-              },
-              {
-                "eq": [
-                  "meds_choice",
+				  ]
+				]
+			  },
+			  {
+				"eq": [
+				  "meds_choice",
                   "loan_5_6"
-                ]
-              }
-            ]
-          },
-          "lines": [
-            {
-              "speaker": "luz",
-              "text_key": "C1-S08-H1-L01"
-            },
-            {
-              "speaker": "mario",
-              "text_key": "C1-S08-H1-L02"
-            },
-            {
-              "speaker": "narrator",
-              "text_key": "C1-S08-H1-L03"
-            },
-            {
-              "speaker": "narrator",
-              "text_key": "C1-S08-H1-L04"
-            }
-          ]
-        },
-        {
-          "when": {
-            "in": [
-              "ramil_offer",
-              [
-                "took",
+				]
+			  }
+			]
+		  },
+		  "lines": [
+			{
+			  "speaker": "luz",
+			  "text_key": "C1-S08-H1-L01"
+			},
+			{
+			  "speaker": "mario",
+			  "text_key": "C1-S08-H1-L02"
+			},
+			{
+			  "speaker": "narrator",
+			  "text_key": "C1-S08-H1-L03"
+			},
+			{
+			  "speaker": "narrator",
+			  "text_key": "C1-S08-H1-L04"
+			}
+		  ]
+		},
+		{
+		  "when": {
+			"in": [
+			  "ramil_offer",
+			  [
+				"took",
                 "peeked_took"
-              ]
-            ]
-          },
-          "lines": [
-            {
-              "speaker": "luz",
-              "text_key": "C1-S08-H2-L01"
-            },
-            {
-              "speaker": "mario",
-              "text_key": "C1-S08-H2-L02"
-            },
-            {
-              "speaker": "narrator",
-              "text_key": "C1-S08-H2-L03"
-            },
-            {
-              "speaker": "narrator",
-              "text_key": "C1-S08-H2-L04"
-            }
-          ]
-        },
-        {
-          "when": {
-            "eq": [
-              "meds_choice",
+			  ]
+			]
+		  },
+		  "lines": [
+			{
+			  "speaker": "luz",
+			  "text_key": "C1-S08-H2-L01"
+			},
+			{
+			  "speaker": "mario",
+			  "text_key": "C1-S08-H2-L02"
+			},
+			{
+			  "speaker": "narrator",
+			  "text_key": "C1-S08-H2-L03"
+			},
+			{
+			  "speaker": "narrator",
+			  "text_key": "C1-S08-H2-L04"
+			}
+		  ]
+		},
+		{
+		  "when": {
+			"eq": [
+			  "meds_choice",
               "loan_5_6"
-            ]
-          },
-          "lines": [
-            {
-              "speaker": "luz",
-              "text_key": "C1-S08-H3-L01"
-            },
-            {
-              "speaker": "mario",
-              "text_key": "C1-S08-H3-L02"
-            },
-            {
-              "speaker": "narrator",
-              "text_key": "C1-S08-H3-L03"
-            }
-          ]
-        },
-        {
-          "when": {
-            "in": [
-              "ramil_offer",
-              [
-                "declined",
+			]
+		  },
+		  "lines": [
+			{
+			  "speaker": "luz",
+			  "text_key": "C1-S08-H3-L01"
+			},
+			{
+			  "speaker": "mario",
+			  "text_key": "C1-S08-H3-L02"
+			},
+			{
+			  "speaker": "narrator",
+			  "text_key": "C1-S08-H3-L03"
+			}
+		  ]
+		},
+		{
+		  "when": {
+			"in": [
+			  "ramil_offer",
+			  [
+				"declined",
                 "peeked_declined"
-              ]
-            ]
-          },
-          "lines": [
-            {
-              "speaker": "luz",
-              "text_key": "C1-S08-H4-L01"
-            },
-            {
-              "speaker": "mario",
-              "text_key": "C1-S08-H4-L02"
-            },
-            {
-              "speaker": "narrator",
-              "text_key": "C1-S08-H4-L03"
-            }
-          ]
-        }
-      ],
-      "next": "FLOW-C1"
-    },
-    {
-      "id": "FLOW-C1",
-      "type": "flowchart",
-      "next": "C2-S01"
-    }
+			  ]
+			]
+		  },
+		  "lines": [
+			{
+			  "speaker": "luz",
+			  "text_key": "C1-S08-H4-L01"
+			},
+			{
+			  "speaker": "mario",
+			  "text_key": "C1-S08-H4-L02"
+			},
+			{
+			  "speaker": "narrator",
+			  "text_key": "C1-S08-H4-L03"
+			}
+		  ]
+		}
+	  ],
+	  "next": "FLOW-C1"
+	},
+	{
+	  "id": "FLOW-C1",
+	  "type": "flowchart",
+	  "next": "C2-S01"
+	}
   ]
 }
